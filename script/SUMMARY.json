@@ -1,0 +1,853 @@
+[
+  {
+    "input": "I:\\PAL4\\projects\\pal4_script_parser\\.test_tmp\\all_decompiled\\pal4-structured\\M01.structured.cs",
+    "output": "I:\\PAL4\\projects\\pal4_script_parser\\.test_tmp\\all_decompiled\\pal4-structured-gbk\\M01.cs",
+    "encoding": "gbk",
+    "module_name": "M01",
+    "resolved_thresholds": {
+      "talk_helper_threshold": 1000000000,
+      "talk_helper_max_bytes": 1000000000,
+      "extract_gitalk_threshold": 1000000000
+    },
+    "rewrite_stats": {
+      "bool_compare_negated_rewrites": 0,
+      "bool_compare_rewrites": 0,
+      "compare_negated_rewrites": 0,
+      "negated_cmp_bool_literal_rewrites": 0,
+      "bool_expr_eq_literal_rewrites": 0,
+      "bool_expr_ne_literal_rewrites": 0,
+      "expr_eq_bool_literal_rewrites": 0,
+      "expr_ne_bool_literal_rewrites": 0,
+      "script_bool_condition_rewrites": 0
+    },
+    "helper_split_functions": {}
+  },
+  {
+    "input": "I:\\PAL4\\projects\\pal4_script_parser\\.test_tmp\\all_decompiled\\pal4-structured\\M02.structured.cs",
+    "output": "I:\\PAL4\\projects\\pal4_script_parser\\.test_tmp\\all_decompiled\\pal4-structured-gbk\\M02.cs",
+    "encoding": "gbk",
+    "module_name": "M02",
+    "resolved_thresholds": {
+      "talk_helper_threshold": 1000000000,
+      "talk_helper_max_bytes": 1000000000,
+      "extract_gitalk_threshold": 1000000000
+    },
+    "rewrite_stats": {
+      "bool_compare_negated_rewrites": 0,
+      "bool_compare_rewrites": 0,
+      "compare_negated_rewrites": 0,
+      "negated_cmp_bool_literal_rewrites": 0,
+      "bool_expr_eq_literal_rewrites": 0,
+      "bool_expr_ne_literal_rewrites": 0,
+      "expr_eq_bool_literal_rewrites": 0,
+      "expr_ne_bool_literal_rewrites": 0,
+      "script_bool_condition_rewrites": 0
+    },
+    "helper_split_functions": {}
+  },
+  {
+    "input": "I:\\PAL4\\projects\\pal4_script_parser\\.test_tmp\\all_decompiled\\pal4-structured\\M03.structured.cs",
+    "output": "I:\\PAL4\\projects\\pal4_script_parser\\.test_tmp\\all_decompiled\\pal4-structured-gbk\\M03.cs",
+    "encoding": "gbk",
+    "module_name": "M03",
+    "resolved_thresholds": {
+      "talk_helper_threshold": 1000000000,
+      "talk_helper_max_bytes": 1000000000,
+      "extract_gitalk_threshold": 1000000000
+    },
+    "rewrite_stats": {
+      "bool_compare_negated_rewrites": 0,
+      "bool_compare_rewrites": 0,
+      "compare_negated_rewrites": 0,
+      "negated_cmp_bool_literal_rewrites": 0,
+      "bool_expr_eq_literal_rewrites": 0,
+      "bool_expr_ne_literal_rewrites": 0,
+      "expr_eq_bool_literal_rewrites": 0,
+      "expr_ne_bool_literal_rewrites": 0,
+      "script_bool_condition_rewrites": 0
+    },
+    "helper_split_functions": {}
+  },
+  {
+    "input": "I:\\PAL4\\projects\\pal4_script_parser\\.test_tmp\\all_decompiled\\pal4-structured\\M04.structured.cs",
+    "output": "I:\\PAL4\\projects\\pal4_script_parser\\.test_tmp\\all_decompiled\\pal4-structured-gbk\\M04.cs",
+    "encoding": "gbk",
+    "module_name": "M04",
+    "resolved_thresholds": {
+      "talk_helper_threshold": 1000000000,
+      "talk_helper_max_bytes": 1000000000,
+      "extract_gitalk_threshold": 1000000000
+    },
+    "rewrite_stats": {
+      "bool_compare_negated_rewrites": 0,
+      "bool_compare_rewrites": 0,
+      "compare_negated_rewrites": 0,
+      "negated_cmp_bool_literal_rewrites": 0,
+      "bool_expr_eq_literal_rewrites": 0,
+      "bool_expr_ne_literal_rewrites": 0,
+      "expr_eq_bool_literal_rewrites": 0,
+      "expr_ne_bool_literal_rewrites": 0,
+      "script_bool_condition_rewrites": 0
+    },
+    "helper_split_functions": {}
+  },
+  {
+    "input": "I:\\PAL4\\projects\\pal4_script_parser\\.test_tmp\\all_decompiled\\pal4-structured\\M05.structured.cs",
+    "output": "I:\\PAL4\\projects\\pal4_script_parser\\.test_tmp\\all_decompiled\\pal4-structured-gbk\\M05.cs",
+    "encoding": "gbk",
+    "module_name": "M05",
+    "resolved_thresholds": {
+      "talk_helper_threshold": 1000000000,
+      "talk_helper_max_bytes": 1000000000,
+      "extract_gitalk_threshold": 1000000000
+    },
+    "rewrite_stats": {
+      "bool_compare_negated_rewrites": 0,
+      "bool_compare_rewrites": 0,
+      "compare_negated_rewrites": 0,
+      "negated_cmp_bool_literal_rewrites": 0,
+      "bool_expr_eq_literal_rewrites": 0,
+      "bool_expr_ne_literal_rewrites": 0,
+      "expr_eq_bool_literal_rewrites": 0,
+      "expr_ne_bool_literal_rewrites": 0,
+      "script_bool_condition_rewrites": 0
+    },
+    "helper_split_functions": {}
+  },
+  {
+    "input": "I:\\PAL4\\projects\\pal4_script_parser\\.test_tmp\\all_decompiled\\pal4-structured\\M06.structured.cs",
+    "output": "I:\\PAL4\\projects\\pal4_script_parser\\.test_tmp\\all_decompiled\\pal4-structured-gbk\\M06.cs",
+    "encoding": "gbk",
+    "module_name": "M06",
+    "resolved_thresholds": {
+      "talk_helper_threshold": 1000000000,
+      "talk_helper_max_bytes": 1000000000,
+      "extract_gitalk_threshold": 1000000000
+    },
+    "rewrite_stats": {
+      "bool_compare_negated_rewrites": 0,
+      "bool_compare_rewrites": 0,
+      "compare_negated_rewrites": 0,
+      "negated_cmp_bool_literal_rewrites": 0,
+      "bool_expr_eq_literal_rewrites": 0,
+      "bool_expr_ne_literal_rewrites": 0,
+      "expr_eq_bool_literal_rewrites": 0,
+      "expr_ne_bool_literal_rewrites": 0,
+      "script_bool_condition_rewrites": 0
+    },
+    "helper_split_functions": {}
+  },
+  {
+    "input": "I:\\PAL4\\projects\\pal4_script_parser\\.test_tmp\\all_decompiled\\pal4-structured\\M07.structured.cs",
+    "output": "I:\\PAL4\\projects\\pal4_script_parser\\.test_tmp\\all_decompiled\\pal4-structured-gbk\\M07.cs",
+    "encoding": "gbk",
+    "module_name": "M07",
+    "resolved_thresholds": {
+      "talk_helper_threshold": 1000000000,
+      "talk_helper_max_bytes": 1000000000,
+      "extract_gitalk_threshold": 1000000000
+    },
+    "rewrite_stats": {
+      "bool_compare_negated_rewrites": 0,
+      "bool_compare_rewrites": 0,
+      "compare_negated_rewrites": 0,
+      "negated_cmp_bool_literal_rewrites": 0,
+      "bool_expr_eq_literal_rewrites": 0,
+      "bool_expr_ne_literal_rewrites": 0,
+      "expr_eq_bool_literal_rewrites": 0,
+      "expr_ne_bool_literal_rewrites": 0,
+      "script_bool_condition_rewrites": 0
+    },
+    "helper_split_functions": {}
+  },
+  {
+    "input": "I:\\PAL4\\projects\\pal4_script_parser\\.test_tmp\\all_decompiled\\pal4-structured\\M08.structured.cs",
+    "output": "I:\\PAL4\\projects\\pal4_script_parser\\.test_tmp\\all_decompiled\\pal4-structured-gbk\\M08.cs",
+    "encoding": "gbk",
+    "module_name": "M08",
+    "resolved_thresholds": {
+      "talk_helper_threshold": 1000000000,
+      "talk_helper_max_bytes": 1000000000,
+      "extract_gitalk_threshold": 1000000000
+    },
+    "rewrite_stats": {
+      "bool_compare_negated_rewrites": 0,
+      "bool_compare_rewrites": 0,
+      "compare_negated_rewrites": 0,
+      "negated_cmp_bool_literal_rewrites": 0,
+      "bool_expr_eq_literal_rewrites": 0,
+      "bool_expr_ne_literal_rewrites": 0,
+      "expr_eq_bool_literal_rewrites": 0,
+      "expr_ne_bool_literal_rewrites": 0,
+      "script_bool_condition_rewrites": 0
+    },
+    "helper_split_functions": {}
+  },
+  {
+    "input": "I:\\PAL4\\projects\\pal4_script_parser\\.test_tmp\\all_decompiled\\pal4-structured\\M09.structured.cs",
+    "output": "I:\\PAL4\\projects\\pal4_script_parser\\.test_tmp\\all_decompiled\\pal4-structured-gbk\\M09.cs",
+    "encoding": "gbk",
+    "module_name": "M09",
+    "resolved_thresholds": {
+      "talk_helper_threshold": 1000000000,
+      "talk_helper_max_bytes": 1000000000,
+      "extract_gitalk_threshold": 1000000000
+    },
+    "rewrite_stats": {
+      "bool_compare_negated_rewrites": 0,
+      "bool_compare_rewrites": 0,
+      "compare_negated_rewrites": 0,
+      "negated_cmp_bool_literal_rewrites": 0,
+      "bool_expr_eq_literal_rewrites": 0,
+      "bool_expr_ne_literal_rewrites": 0,
+      "expr_eq_bool_literal_rewrites": 0,
+      "expr_ne_bool_literal_rewrites": 0,
+      "script_bool_condition_rewrites": 0
+    },
+    "helper_split_functions": {}
+  },
+  {
+    "input": "I:\\PAL4\\projects\\pal4_script_parser\\.test_tmp\\all_decompiled\\pal4-structured\\M10.structured.cs",
+    "output": "I:\\PAL4\\projects\\pal4_script_parser\\.test_tmp\\all_decompiled\\pal4-structured-gbk\\M10.cs",
+    "encoding": "gbk",
+    "module_name": "M10",
+    "resolved_thresholds": {
+      "talk_helper_threshold": 1000000000,
+      "talk_helper_max_bytes": 1000000000,
+      "extract_gitalk_threshold": 1000000000
+    },
+    "rewrite_stats": {
+      "bool_compare_negated_rewrites": 0,
+      "bool_compare_rewrites": 0,
+      "compare_negated_rewrites": 0,
+      "negated_cmp_bool_literal_rewrites": 0,
+      "bool_expr_eq_literal_rewrites": 0,
+      "bool_expr_ne_literal_rewrites": 0,
+      "expr_eq_bool_literal_rewrites": 0,
+      "expr_ne_bool_literal_rewrites": 0,
+      "script_bool_condition_rewrites": 0
+    },
+    "helper_split_functions": {}
+  },
+  {
+    "input": "I:\\PAL4\\projects\\pal4_script_parser\\.test_tmp\\all_decompiled\\pal4-structured\\M11.structured.cs",
+    "output": "I:\\PAL4\\projects\\pal4_script_parser\\.test_tmp\\all_decompiled\\pal4-structured-gbk\\M11.cs",
+    "encoding": "gbk",
+    "module_name": "M11",
+    "resolved_thresholds": {
+      "talk_helper_threshold": 1000000000,
+      "talk_helper_max_bytes": 1000000000,
+      "extract_gitalk_threshold": 1000000000
+    },
+    "rewrite_stats": {
+      "bool_compare_negated_rewrites": 0,
+      "bool_compare_rewrites": 0,
+      "compare_negated_rewrites": 0,
+      "negated_cmp_bool_literal_rewrites": 0,
+      "bool_expr_eq_literal_rewrites": 0,
+      "bool_expr_ne_literal_rewrites": 0,
+      "expr_eq_bool_literal_rewrites": 0,
+      "expr_ne_bool_literal_rewrites": 0,
+      "script_bool_condition_rewrites": 0
+    },
+    "helper_split_functions": {}
+  },
+  {
+    "input": "I:\\PAL4\\projects\\pal4_script_parser\\.test_tmp\\all_decompiled\\pal4-structured\\M12.structured.cs",
+    "output": "I:\\PAL4\\projects\\pal4_script_parser\\.test_tmp\\all_decompiled\\pal4-structured-gbk\\M12.cs",
+    "encoding": "gbk",
+    "module_name": "M12",
+    "resolved_thresholds": {
+      "talk_helper_threshold": 1000000000,
+      "talk_helper_max_bytes": 1000000000,
+      "extract_gitalk_threshold": 1000000000
+    },
+    "rewrite_stats": {
+      "bool_compare_negated_rewrites": 0,
+      "bool_compare_rewrites": 0,
+      "compare_negated_rewrites": 0,
+      "negated_cmp_bool_literal_rewrites": 0,
+      "bool_expr_eq_literal_rewrites": 0,
+      "bool_expr_ne_literal_rewrites": 0,
+      "expr_eq_bool_literal_rewrites": 0,
+      "expr_ne_bool_literal_rewrites": 0,
+      "script_bool_condition_rewrites": 0
+    },
+    "helper_split_functions": {}
+  },
+  {
+    "input": "I:\\PAL4\\projects\\pal4_script_parser\\.test_tmp\\all_decompiled\\pal4-structured\\M13.structured.cs",
+    "output": "I:\\PAL4\\projects\\pal4_script_parser\\.test_tmp\\all_decompiled\\pal4-structured-gbk\\M13.cs",
+    "encoding": "gbk",
+    "module_name": "M13",
+    "resolved_thresholds": {
+      "talk_helper_threshold": 1000000000,
+      "talk_helper_max_bytes": 1000000000,
+      "extract_gitalk_threshold": 1000000000
+    },
+    "rewrite_stats": {
+      "bool_compare_negated_rewrites": 0,
+      "bool_compare_rewrites": 0,
+      "compare_negated_rewrites": 0,
+      "negated_cmp_bool_literal_rewrites": 0,
+      "bool_expr_eq_literal_rewrites": 0,
+      "bool_expr_ne_literal_rewrites": 0,
+      "expr_eq_bool_literal_rewrites": 0,
+      "expr_ne_bool_literal_rewrites": 0,
+      "script_bool_condition_rewrites": 0
+    },
+    "helper_split_functions": {}
+  },
+  {
+    "input": "I:\\PAL4\\projects\\pal4_script_parser\\.test_tmp\\all_decompiled\\pal4-structured\\M14.structured.cs",
+    "output": "I:\\PAL4\\projects\\pal4_script_parser\\.test_tmp\\all_decompiled\\pal4-structured-gbk\\M14.cs",
+    "encoding": "gbk",
+    "module_name": "M14",
+    "resolved_thresholds": {
+      "talk_helper_threshold": 1000000000,
+      "talk_helper_max_bytes": 1000000000,
+      "extract_gitalk_threshold": 1000000000
+    },
+    "rewrite_stats": {
+      "bool_compare_negated_rewrites": 0,
+      "bool_compare_rewrites": 0,
+      "compare_negated_rewrites": 0,
+      "negated_cmp_bool_literal_rewrites": 0,
+      "bool_expr_eq_literal_rewrites": 0,
+      "bool_expr_ne_literal_rewrites": 0,
+      "expr_eq_bool_literal_rewrites": 0,
+      "expr_ne_bool_literal_rewrites": 0,
+      "script_bool_condition_rewrites": 0
+    },
+    "helper_split_functions": {}
+  },
+  {
+    "input": "I:\\PAL4\\projects\\pal4_script_parser\\.test_tmp\\all_decompiled\\pal4-structured\\M15.structured.cs",
+    "output": "I:\\PAL4\\projects\\pal4_script_parser\\.test_tmp\\all_decompiled\\pal4-structured-gbk\\M15.cs",
+    "encoding": "gbk",
+    "module_name": "M15",
+    "resolved_thresholds": {
+      "talk_helper_threshold": 1000000000,
+      "talk_helper_max_bytes": 1000000000,
+      "extract_gitalk_threshold": 1000000000
+    },
+    "rewrite_stats": {
+      "bool_compare_negated_rewrites": 0,
+      "bool_compare_rewrites": 0,
+      "compare_negated_rewrites": 0,
+      "negated_cmp_bool_literal_rewrites": 0,
+      "bool_expr_eq_literal_rewrites": 0,
+      "bool_expr_ne_literal_rewrites": 0,
+      "expr_eq_bool_literal_rewrites": 0,
+      "expr_ne_bool_literal_rewrites": 0,
+      "script_bool_condition_rewrites": 0
+    },
+    "helper_split_functions": {}
+  },
+  {
+    "input": "I:\\PAL4\\projects\\pal4_script_parser\\.test_tmp\\all_decompiled\\pal4-structured\\M16.structured.cs",
+    "output": "I:\\PAL4\\projects\\pal4_script_parser\\.test_tmp\\all_decompiled\\pal4-structured-gbk\\M16.cs",
+    "encoding": "gbk",
+    "module_name": "M16",
+    "resolved_thresholds": {
+      "talk_helper_threshold": 1000000000,
+      "talk_helper_max_bytes": 1000000000,
+      "extract_gitalk_threshold": 1000000000
+    },
+    "rewrite_stats": {
+      "bool_compare_negated_rewrites": 0,
+      "bool_compare_rewrites": 0,
+      "compare_negated_rewrites": 0,
+      "negated_cmp_bool_literal_rewrites": 0,
+      "bool_expr_eq_literal_rewrites": 0,
+      "bool_expr_ne_literal_rewrites": 0,
+      "expr_eq_bool_literal_rewrites": 0,
+      "expr_ne_bool_literal_rewrites": 0,
+      "script_bool_condition_rewrites": 0
+    },
+    "helper_split_functions": {}
+  },
+  {
+    "input": "I:\\PAL4\\projects\\pal4_script_parser\\.test_tmp\\all_decompiled\\pal4-structured\\M17.structured.cs",
+    "output": "I:\\PAL4\\projects\\pal4_script_parser\\.test_tmp\\all_decompiled\\pal4-structured-gbk\\M17.cs",
+    "encoding": "gbk",
+    "module_name": "M17",
+    "resolved_thresholds": {
+      "talk_helper_threshold": 1000000000,
+      "talk_helper_max_bytes": 1000000000,
+      "extract_gitalk_threshold": 1000000000
+    },
+    "rewrite_stats": {
+      "bool_compare_negated_rewrites": 0,
+      "bool_compare_rewrites": 0,
+      "compare_negated_rewrites": 0,
+      "negated_cmp_bool_literal_rewrites": 0,
+      "bool_expr_eq_literal_rewrites": 0,
+      "bool_expr_ne_literal_rewrites": 0,
+      "expr_eq_bool_literal_rewrites": 0,
+      "expr_ne_bool_literal_rewrites": 0,
+      "script_bool_condition_rewrites": 0
+    },
+    "helper_split_functions": {}
+  },
+  {
+    "input": "I:\\PAL4\\projects\\pal4_script_parser\\.test_tmp\\all_decompiled\\pal4-structured\\M18.structured.cs",
+    "output": "I:\\PAL4\\projects\\pal4_script_parser\\.test_tmp\\all_decompiled\\pal4-structured-gbk\\M18.cs",
+    "encoding": "gbk",
+    "module_name": "M18",
+    "resolved_thresholds": {
+      "talk_helper_threshold": 1000000000,
+      "talk_helper_max_bytes": 1000000000,
+      "extract_gitalk_threshold": 1000000000
+    },
+    "rewrite_stats": {
+      "bool_compare_negated_rewrites": 0,
+      "bool_compare_rewrites": 0,
+      "compare_negated_rewrites": 0,
+      "negated_cmp_bool_literal_rewrites": 0,
+      "bool_expr_eq_literal_rewrites": 0,
+      "bool_expr_ne_literal_rewrites": 0,
+      "expr_eq_bool_literal_rewrites": 0,
+      "expr_ne_bool_literal_rewrites": 0,
+      "script_bool_condition_rewrites": 0
+    },
+    "helper_split_functions": {}
+  },
+  {
+    "input": "I:\\PAL4\\projects\\pal4_script_parser\\.test_tmp\\all_decompiled\\pal4-structured\\M19.structured.cs",
+    "output": "I:\\PAL4\\projects\\pal4_script_parser\\.test_tmp\\all_decompiled\\pal4-structured-gbk\\M19.cs",
+    "encoding": "gbk",
+    "module_name": "M19",
+    "resolved_thresholds": {
+      "talk_helper_threshold": 1000000000,
+      "talk_helper_max_bytes": 1000000000,
+      "extract_gitalk_threshold": 1000000000
+    },
+    "rewrite_stats": {
+      "bool_compare_negated_rewrites": 0,
+      "bool_compare_rewrites": 0,
+      "compare_negated_rewrites": 0,
+      "negated_cmp_bool_literal_rewrites": 0,
+      "bool_expr_eq_literal_rewrites": 0,
+      "bool_expr_ne_literal_rewrites": 0,
+      "expr_eq_bool_literal_rewrites": 0,
+      "expr_ne_bool_literal_rewrites": 0,
+      "script_bool_condition_rewrites": 0
+    },
+    "helper_split_functions": {}
+  },
+  {
+    "input": "I:\\PAL4\\projects\\pal4_script_parser\\.test_tmp\\all_decompiled\\pal4-structured\\M20.structured.cs",
+    "output": "I:\\PAL4\\projects\\pal4_script_parser\\.test_tmp\\all_decompiled\\pal4-structured-gbk\\M20.cs",
+    "encoding": "gbk",
+    "module_name": "M20",
+    "resolved_thresholds": {
+      "talk_helper_threshold": 1000000000,
+      "talk_helper_max_bytes": 1000000000,
+      "extract_gitalk_threshold": 1000000000
+    },
+    "rewrite_stats": {
+      "bool_compare_negated_rewrites": 0,
+      "bool_compare_rewrites": 0,
+      "compare_negated_rewrites": 0,
+      "negated_cmp_bool_literal_rewrites": 0,
+      "bool_expr_eq_literal_rewrites": 0,
+      "bool_expr_ne_literal_rewrites": 0,
+      "expr_eq_bool_literal_rewrites": 0,
+      "expr_ne_bool_literal_rewrites": 0,
+      "script_bool_condition_rewrites": 0
+    },
+    "helper_split_functions": {}
+  },
+  {
+    "input": "I:\\PAL4\\projects\\pal4_script_parser\\.test_tmp\\all_decompiled\\pal4-structured\\Music.structured.cs",
+    "output": "I:\\PAL4\\projects\\pal4_script_parser\\.test_tmp\\all_decompiled\\pal4-structured-gbk\\Music.cs",
+    "encoding": "gbk",
+    "module_name": "Music",
+    "resolved_thresholds": {
+      "talk_helper_threshold": 1000000000,
+      "talk_helper_max_bytes": 1000000000,
+      "extract_gitalk_threshold": 1000000000
+    },
+    "rewrite_stats": {
+      "bool_compare_negated_rewrites": 0,
+      "bool_compare_rewrites": 0,
+      "compare_negated_rewrites": 0,
+      "negated_cmp_bool_literal_rewrites": 0,
+      "bool_expr_eq_literal_rewrites": 0,
+      "bool_expr_ne_literal_rewrites": 0,
+      "expr_eq_bool_literal_rewrites": 0,
+      "expr_ne_bool_literal_rewrites": 0,
+      "script_bool_condition_rewrites": 0
+    },
+    "helper_split_functions": {}
+  },
+  {
+    "input": "I:\\PAL4\\projects\\pal4_script_parser\\.test_tmp\\all_decompiled\\pal4-structured\\Q01.structured.cs",
+    "output": "I:\\PAL4\\projects\\pal4_script_parser\\.test_tmp\\all_decompiled\\pal4-structured-gbk\\Q01.cs",
+    "encoding": "gbk",
+    "module_name": "Q01",
+    "resolved_thresholds": {
+      "talk_helper_threshold": 1000000000,
+      "talk_helper_max_bytes": 1000000000,
+      "extract_gitalk_threshold": 1000000000
+    },
+    "rewrite_stats": {
+      "bool_compare_negated_rewrites": 0,
+      "bool_compare_rewrites": 0,
+      "compare_negated_rewrites": 0,
+      "negated_cmp_bool_literal_rewrites": 0,
+      "bool_expr_eq_literal_rewrites": 0,
+      "bool_expr_ne_literal_rewrites": 0,
+      "expr_eq_bool_literal_rewrites": 0,
+      "expr_ne_bool_literal_rewrites": 0,
+      "script_bool_condition_rewrites": 0
+    },
+    "helper_split_functions": {}
+  },
+  {
+    "input": "I:\\PAL4\\projects\\pal4_script_parser\\.test_tmp\\all_decompiled\\pal4-structured\\Q02.structured.cs",
+    "output": "I:\\PAL4\\projects\\pal4_script_parser\\.test_tmp\\all_decompiled\\pal4-structured-gbk\\Q02.cs",
+    "encoding": "gbk",
+    "module_name": "Q02",
+    "resolved_thresholds": {
+      "talk_helper_threshold": 1000000000,
+      "talk_helper_max_bytes": 1000000000,
+      "extract_gitalk_threshold": 1000000000
+    },
+    "rewrite_stats": {
+      "bool_compare_negated_rewrites": 0,
+      "bool_compare_rewrites": 0,
+      "compare_negated_rewrites": 0,
+      "negated_cmp_bool_literal_rewrites": 0,
+      "bool_expr_eq_literal_rewrites": 0,
+      "bool_expr_ne_literal_rewrites": 0,
+      "expr_eq_bool_literal_rewrites": 0,
+      "expr_ne_bool_literal_rewrites": 0,
+      "script_bool_condition_rewrites": 0
+    },
+    "helper_split_functions": {}
+  },
+  {
+    "input": "I:\\PAL4\\projects\\pal4_script_parser\\.test_tmp\\all_decompiled\\pal4-structured\\Q03.structured.cs",
+    "output": "I:\\PAL4\\projects\\pal4_script_parser\\.test_tmp\\all_decompiled\\pal4-structured-gbk\\Q03.cs",
+    "encoding": "gbk",
+    "module_name": "Q03",
+    "resolved_thresholds": {
+      "talk_helper_threshold": 1000000000,
+      "talk_helper_max_bytes": 1000000000,
+      "extract_gitalk_threshold": 1000000000
+    },
+    "rewrite_stats": {
+      "bool_compare_negated_rewrites": 0,
+      "bool_compare_rewrites": 0,
+      "compare_negated_rewrites": 0,
+      "negated_cmp_bool_literal_rewrites": 0,
+      "bool_expr_eq_literal_rewrites": 0,
+      "bool_expr_ne_literal_rewrites": 0,
+      "expr_eq_bool_literal_rewrites": 0,
+      "expr_ne_bool_literal_rewrites": 0,
+      "script_bool_condition_rewrites": 0
+    },
+    "helper_split_functions": {}
+  },
+  {
+    "input": "I:\\PAL4\\projects\\pal4_script_parser\\.test_tmp\\all_decompiled\\pal4-structured\\Q04.structured.cs",
+    "output": "I:\\PAL4\\projects\\pal4_script_parser\\.test_tmp\\all_decompiled\\pal4-structured-gbk\\Q04.cs",
+    "encoding": "gbk",
+    "module_name": "Q04",
+    "resolved_thresholds": {
+      "talk_helper_threshold": 1000000000,
+      "talk_helper_max_bytes": 1000000000,
+      "extract_gitalk_threshold": 1000000000
+    },
+    "rewrite_stats": {
+      "bool_compare_negated_rewrites": 0,
+      "bool_compare_rewrites": 0,
+      "compare_negated_rewrites": 0,
+      "negated_cmp_bool_literal_rewrites": 0,
+      "bool_expr_eq_literal_rewrites": 0,
+      "bool_expr_ne_literal_rewrites": 0,
+      "expr_eq_bool_literal_rewrites": 0,
+      "expr_ne_bool_literal_rewrites": 0,
+      "script_bool_condition_rewrites": 0
+    },
+    "helper_split_functions": {}
+  },
+  {
+    "input": "I:\\PAL4\\projects\\pal4_script_parser\\.test_tmp\\all_decompiled\\pal4-structured\\Q05.structured.cs",
+    "output": "I:\\PAL4\\projects\\pal4_script_parser\\.test_tmp\\all_decompiled\\pal4-structured-gbk\\Q05.cs",
+    "encoding": "gbk",
+    "module_name": "Q05",
+    "resolved_thresholds": {
+      "talk_helper_threshold": 1000000000,
+      "talk_helper_max_bytes": 1000000000,
+      "extract_gitalk_threshold": 1000000000
+    },
+    "rewrite_stats": {
+      "bool_compare_negated_rewrites": 0,
+      "bool_compare_rewrites": 0,
+      "compare_negated_rewrites": 0,
+      "negated_cmp_bool_literal_rewrites": 0,
+      "bool_expr_eq_literal_rewrites": 0,
+      "bool_expr_ne_literal_rewrites": 0,
+      "expr_eq_bool_literal_rewrites": 0,
+      "expr_ne_bool_literal_rewrites": 0,
+      "script_bool_condition_rewrites": 0
+    },
+    "helper_split_functions": {}
+  },
+  {
+    "input": "I:\\PAL4\\projects\\pal4_script_parser\\.test_tmp\\all_decompiled\\pal4-structured\\Q06.structured.cs",
+    "output": "I:\\PAL4\\projects\\pal4_script_parser\\.test_tmp\\all_decompiled\\pal4-structured-gbk\\Q06.cs",
+    "encoding": "gbk",
+    "module_name": "Q06",
+    "resolved_thresholds": {
+      "talk_helper_threshold": 1000000000,
+      "talk_helper_max_bytes": 1000000000,
+      "extract_gitalk_threshold": 1000000000
+    },
+    "rewrite_stats": {
+      "bool_compare_negated_rewrites": 0,
+      "bool_compare_rewrites": 0,
+      "compare_negated_rewrites": 0,
+      "negated_cmp_bool_literal_rewrites": 0,
+      "bool_expr_eq_literal_rewrites": 0,
+      "bool_expr_ne_literal_rewrites": 0,
+      "expr_eq_bool_literal_rewrites": 0,
+      "expr_ne_bool_literal_rewrites": 0,
+      "script_bool_condition_rewrites": 0
+    },
+    "helper_split_functions": {}
+  },
+  {
+    "input": "I:\\PAL4\\projects\\pal4_script_parser\\.test_tmp\\all_decompiled\\pal4-structured\\Q07.structured.cs",
+    "output": "I:\\PAL4\\projects\\pal4_script_parser\\.test_tmp\\all_decompiled\\pal4-structured-gbk\\Q07.cs",
+    "encoding": "gbk",
+    "module_name": "Q07",
+    "resolved_thresholds": {
+      "talk_helper_threshold": 1000000000,
+      "talk_helper_max_bytes": 1000000000,
+      "extract_gitalk_threshold": 1000000000
+    },
+    "rewrite_stats": {
+      "bool_compare_negated_rewrites": 0,
+      "bool_compare_rewrites": 0,
+      "compare_negated_rewrites": 0,
+      "negated_cmp_bool_literal_rewrites": 0,
+      "bool_expr_eq_literal_rewrites": 0,
+      "bool_expr_ne_literal_rewrites": 0,
+      "expr_eq_bool_literal_rewrites": 0,
+      "expr_ne_bool_literal_rewrites": 0,
+      "script_bool_condition_rewrites": 0
+    },
+    "helper_split_functions": {}
+  },
+  {
+    "input": "I:\\PAL4\\projects\\pal4_script_parser\\.test_tmp\\all_decompiled\\pal4-structured\\Q08.structured.cs",
+    "output": "I:\\PAL4\\projects\\pal4_script_parser\\.test_tmp\\all_decompiled\\pal4-structured-gbk\\Q08.cs",
+    "encoding": "gbk",
+    "module_name": "Q08",
+    "resolved_thresholds": {
+      "talk_helper_threshold": 1000000000,
+      "talk_helper_max_bytes": 1000000000,
+      "extract_gitalk_threshold": 1000000000
+    },
+    "rewrite_stats": {
+      "bool_compare_negated_rewrites": 0,
+      "bool_compare_rewrites": 0,
+      "compare_negated_rewrites": 0,
+      "negated_cmp_bool_literal_rewrites": 0,
+      "bool_expr_eq_literal_rewrites": 0,
+      "bool_expr_ne_literal_rewrites": 0,
+      "expr_eq_bool_literal_rewrites": 0,
+      "expr_ne_bool_literal_rewrites": 0,
+      "script_bool_condition_rewrites": 0
+    },
+    "helper_split_functions": {}
+  },
+  {
+    "input": "I:\\PAL4\\projects\\pal4_script_parser\\.test_tmp\\all_decompiled\\pal4-structured\\Q09.structured.cs",
+    "output": "I:\\PAL4\\projects\\pal4_script_parser\\.test_tmp\\all_decompiled\\pal4-structured-gbk\\Q09.cs",
+    "encoding": "gbk",
+    "module_name": "Q09",
+    "resolved_thresholds": {
+      "talk_helper_threshold": 1000000000,
+      "talk_helper_max_bytes": 1000000000,
+      "extract_gitalk_threshold": 1000000000
+    },
+    "rewrite_stats": {
+      "bool_compare_negated_rewrites": 0,
+      "bool_compare_rewrites": 0,
+      "compare_negated_rewrites": 0,
+      "negated_cmp_bool_literal_rewrites": 0,
+      "bool_expr_eq_literal_rewrites": 0,
+      "bool_expr_ne_literal_rewrites": 0,
+      "expr_eq_bool_literal_rewrites": 0,
+      "expr_ne_bool_literal_rewrites": 0,
+      "script_bool_condition_rewrites": 0
+    },
+    "helper_split_functions": {}
+  },
+  {
+    "input": "I:\\PAL4\\projects\\pal4_script_parser\\.test_tmp\\all_decompiled\\pal4-structured\\Q10.structured.cs",
+    "output": "I:\\PAL4\\projects\\pal4_script_parser\\.test_tmp\\all_decompiled\\pal4-structured-gbk\\Q10.cs",
+    "encoding": "gbk",
+    "module_name": "Q10",
+    "resolved_thresholds": {
+      "talk_helper_threshold": 1000000000,
+      "talk_helper_max_bytes": 1000000000,
+      "extract_gitalk_threshold": 1000000000
+    },
+    "rewrite_stats": {
+      "bool_compare_negated_rewrites": 0,
+      "bool_compare_rewrites": 0,
+      "compare_negated_rewrites": 0,
+      "negated_cmp_bool_literal_rewrites": 0,
+      "bool_expr_eq_literal_rewrites": 0,
+      "bool_expr_ne_literal_rewrites": 0,
+      "expr_eq_bool_literal_rewrites": 0,
+      "expr_ne_bool_literal_rewrites": 0,
+      "script_bool_condition_rewrites": 0
+    },
+    "helper_split_functions": {}
+  },
+  {
+    "input": "I:\\PAL4\\projects\\pal4_script_parser\\.test_tmp\\all_decompiled\\pal4-structured\\Q11.structured.cs",
+    "output": "I:\\PAL4\\projects\\pal4_script_parser\\.test_tmp\\all_decompiled\\pal4-structured-gbk\\Q11.cs",
+    "encoding": "gbk",
+    "module_name": "Q11",
+    "resolved_thresholds": {
+      "talk_helper_threshold": 1000000000,
+      "talk_helper_max_bytes": 1000000000,
+      "extract_gitalk_threshold": 1000000000
+    },
+    "rewrite_stats": {
+      "bool_compare_negated_rewrites": 0,
+      "bool_compare_rewrites": 0,
+      "compare_negated_rewrites": 0,
+      "negated_cmp_bool_literal_rewrites": 0,
+      "bool_expr_eq_literal_rewrites": 0,
+      "bool_expr_ne_literal_rewrites": 0,
+      "expr_eq_bool_literal_rewrites": 0,
+      "expr_ne_bool_literal_rewrites": 0,
+      "script_bool_condition_rewrites": 0
+    },
+    "helper_split_functions": {}
+  },
+  {
+    "input": "I:\\PAL4\\projects\\pal4_script_parser\\.test_tmp\\all_decompiled\\pal4-structured\\Q12.structured.cs",
+    "output": "I:\\PAL4\\projects\\pal4_script_parser\\.test_tmp\\all_decompiled\\pal4-structured-gbk\\Q12.cs",
+    "encoding": "gbk",
+    "module_name": "Q12",
+    "resolved_thresholds": {
+      "talk_helper_threshold": 1000000000,
+      "talk_helper_max_bytes": 1000000000,
+      "extract_gitalk_threshold": 1000000000
+    },
+    "rewrite_stats": {
+      "bool_compare_negated_rewrites": 0,
+      "bool_compare_rewrites": 0,
+      "compare_negated_rewrites": 0,
+      "negated_cmp_bool_literal_rewrites": 0,
+      "bool_expr_eq_literal_rewrites": 0,
+      "bool_expr_ne_literal_rewrites": 0,
+      "expr_eq_bool_literal_rewrites": 0,
+      "expr_ne_bool_literal_rewrites": 0,
+      "script_bool_condition_rewrites": 0
+    },
+    "helper_split_functions": {}
+  },
+  {
+    "input": "I:\\PAL4\\projects\\pal4_script_parser\\.test_tmp\\all_decompiled\\pal4-structured\\Q13.structured.cs",
+    "output": "I:\\PAL4\\projects\\pal4_script_parser\\.test_tmp\\all_decompiled\\pal4-structured-gbk\\Q13.cs",
+    "encoding": "gbk",
+    "module_name": "Q13",
+    "resolved_thresholds": {
+      "talk_helper_threshold": 1000000000,
+      "talk_helper_max_bytes": 1000000000,
+      "extract_gitalk_threshold": 1000000000
+    },
+    "rewrite_stats": {
+      "bool_compare_negated_rewrites": 0,
+      "bool_compare_rewrites": 0,
+      "compare_negated_rewrites": 0,
+      "negated_cmp_bool_literal_rewrites": 0,
+      "bool_expr_eq_literal_rewrites": 0,
+      "bool_expr_ne_literal_rewrites": 0,
+      "expr_eq_bool_literal_rewrites": 0,
+      "expr_ne_bool_literal_rewrites": 0,
+      "script_bool_condition_rewrites": 0
+    },
+    "helper_split_functions": {}
+  },
+  {
+    "input": "I:\\PAL4\\projects\\pal4_script_parser\\.test_tmp\\all_decompiled\\pal4-structured\\Q14.structured.cs",
+    "output": "I:\\PAL4\\projects\\pal4_script_parser\\.test_tmp\\all_decompiled\\pal4-structured-gbk\\Q14.cs",
+    "encoding": "gbk",
+    "module_name": "Q14",
+    "resolved_thresholds": {
+      "talk_helper_threshold": 1000000000,
+      "talk_helper_max_bytes": 1000000000,
+      "extract_gitalk_threshold": 1000000000
+    },
+    "rewrite_stats": {
+      "bool_compare_negated_rewrites": 0,
+      "bool_compare_rewrites": 0,
+      "compare_negated_rewrites": 0,
+      "negated_cmp_bool_literal_rewrites": 0,
+      "bool_expr_eq_literal_rewrites": 0,
+      "bool_expr_ne_literal_rewrites": 0,
+      "expr_eq_bool_literal_rewrites": 0,
+      "expr_ne_bool_literal_rewrites": 0,
+      "script_bool_condition_rewrites": 0
+    },
+    "helper_split_functions": {}
+  },
+  {
+    "input": "I:\\PAL4\\projects\\pal4_script_parser\\.test_tmp\\all_decompiled\\pal4-structured\\script.structured.cs",
+    "output": "I:\\PAL4\\projects\\pal4_script_parser\\.test_tmp\\all_decompiled\\pal4-structured-gbk\\script.cs",
+    "encoding": "gbk",
+    "module_name": "script",
+    "resolved_thresholds": {
+      "talk_helper_threshold": 1000000000,
+      "talk_helper_max_bytes": 1000000000,
+      "extract_gitalk_threshold": 1000000000
+    },
+    "rewrite_stats": {
+      "bool_compare_negated_rewrites": 0,
+      "bool_compare_rewrites": 0,
+      "compare_negated_rewrites": 0,
+      "negated_cmp_bool_literal_rewrites": 0,
+      "bool_expr_eq_literal_rewrites": 0,
+      "bool_expr_ne_literal_rewrites": 0,
+      "expr_eq_bool_literal_rewrites": 0,
+      "expr_ne_bool_literal_rewrites": 0,
+      "script_bool_condition_rewrites": 0
+    },
+    "helper_split_functions": {}
+  },
+  {
+    "input": "I:\\PAL4\\projects\\pal4_script_parser\\.test_tmp\\all_decompiled\\pal4-structured\\worldMap.structured.cs",
+    "output": "I:\\PAL4\\projects\\pal4_script_parser\\.test_tmp\\all_decompiled\\pal4-structured-gbk\\worldMap.cs",
+    "encoding": "gbk",
+    "module_name": "worldMap",
+    "resolved_thresholds": {
+      "talk_helper_threshold": 1000000000,
+      "talk_helper_max_bytes": 1000000000,
+      "extract_gitalk_threshold": 1000000000
+    },
+    "rewrite_stats": {
+      "bool_compare_negated_rewrites": 0,
+      "bool_compare_rewrites": 0,
+      "compare_negated_rewrites": 0,
+      "negated_cmp_bool_literal_rewrites": 0,
+      "bool_expr_eq_literal_rewrites": 0,
+      "bool_expr_ne_literal_rewrites": 0,
+      "expr_eq_bool_literal_rewrites": 0,
+      "expr_ne_bool_literal_rewrites": 0,
+      "script_bool_condition_rewrites": 0
+    },
+    "helper_split_functions": {}
+  }
+]
