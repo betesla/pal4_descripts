@@ -61,7 +61,7 @@ void LL_001(int arg0)
 void func1001()
 {
     giArenaLoad("Q10", "N01", "", true);
-    giPlayerCurrentSetPos(-0.093052, 0.0, 291.71033);
+    giPlayerCurrentSetPos(-0.1, 0.0, 291.7);
     giPlayerCurrentSetAng(180.0);
     giCameraSetMode(4, true);
     giArenaReady();
@@ -70,7 +70,7 @@ void func1001()
 void func1002()
 {
     giArenaLoad("Q10", "Q10", "", true);
-    giPlayerCurrentSetPos(1809.2058, 77.660065, -987.4253);
+    giPlayerCurrentSetPos(1809.2, 77.7, -987.4);
     giPlayerCurrentSetAng(358.0);
     giCameraSetMode(0, true);
     giArenaReady();
@@ -79,7 +79,7 @@ void func1002()
 void func1003()
 {
     giArenaLoad("Q10", "n02", "", true);
-    giPlayerCurrentSetPos(2.486373, 0.0, 290.50336);
+    giPlayerCurrentSetPos(2.5, 0.0, 290.5);
     giPlayerCurrentSetAng(180.0);
     giCameraSetMode(4, true);
     giArenaReady();
@@ -88,7 +88,7 @@ void func1003()
 void func1004()
 {
     giArenaLoad("Q10", "Q10", "", true);
-    giPlayerCurrentSetPos(-1563.9717, 80.55892, -1143.108);
+    giPlayerCurrentSetPos(-1564.0, 80.6, -1143.1);
     giPlayerCurrentSetAng(14.0);
     giCameraSetMode(0, true);
     giArenaReady();
@@ -97,7 +97,7 @@ void func1004()
 void func1005()
 {
     giArenaLoad("Q10", "N03", "", true);
-    giPlayerCurrentSetPos(0.949671, 0.609144, 237.43675);
+    giPlayerCurrentSetPos(0.9, 0.6, 237.4);
     giPlayerCurrentSetAng(180.0);
     giCameraSetMode(4, true);
     giArenaReady();
@@ -106,7 +106,7 @@ void func1005()
 void func1006()
 {
     giArenaLoad("Q10", "Q10", "", true);
-    giPlayerCurrentSetPos(1618.4366, 80.10167, 1719.8729);
+    giPlayerCurrentSetPos(1618.4, 80.1, 1719.9);
     giPlayerCurrentSetAng(317.0);
     giCameraSetMode(0, true);
     giArenaReady();
@@ -115,7 +115,7 @@ void func1006()
 void func1007()
 {
     giArenaLoad("Q10", "N04", "", true);
-    giPlayerCurrentSetPos(-2.880177, 0.500015, 248.98428);
+    giPlayerCurrentSetPos(-2.9, 0.5, 249.0);
     giPlayerCurrentSetAng(180.0);
     giCameraSetMode(4, true);
     giArenaReady();
@@ -133,7 +133,7 @@ void func1008()
 void func1009()
 {
     giArenaLoad("Q10", "N05", "", true);
-    giPlayerCurrentSetPos(383.43948, 89.999985, -285.06888);
+    giPlayerCurrentSetPos(383.4, 90.0, -285.1);
     giPlayerCurrentSetAng(314.0);
     giCameraSetMode(2, true);
     giArenaReady();
@@ -142,7 +142,7 @@ void func1009()
 void func1010()
 {
     giArenaLoad("Q10", "Q10", "", true);
-    giPlayerCurrentSetPos(842.5205, -23.449966, 28.870562);
+    giPlayerCurrentSetPos(842.5, -23.4, 28.9);
     giPlayerCurrentSetAng(87.0);
     giCameraSetMode(0, true);
     giArenaReady();
@@ -151,7 +151,7 @@ void func1010()
 void func1011()
 {
     giArenaLoad("Q10", "N06", "N06a", true);
-    giPlayerCurrentSetPos(-1.008449, 0.023521, 221.42221);
+    giPlayerCurrentSetPos(-1.0, 0.0, 221.4);
     giPlayerCurrentSetAng(179.0);
     giCameraSetMode(4, true);
     giArenaReady();
@@ -169,7 +169,7 @@ void func1012()
 void func1013()
 {
     giArenaLoad("Q10", "N06", "N06b", true);
-    giPlayerCurrentSetPos(-1.008449, 0.023521, 221.42221);
+    giPlayerCurrentSetPos(-1.0, 0.0, 221.4);
     giPlayerCurrentSetAng(179.0);
     giCameraSetMode(4, true);
     giArenaReady();
@@ -178,7 +178,7 @@ void func1013()
 void func1014()
 {
     giArenaLoad("Q10", "Q10", "", true);
-    giPlayerCurrentSetPos(1398.6686, -70.66512, 1338.4547);
+    giPlayerCurrentSetPos(1398.7, -70.7, 1338.5);
     giPlayerCurrentSetAng(246.0);
     giCameraSetMode(0, true);
     giArenaReady();
@@ -187,7 +187,7 @@ void func1014()
 void func1015()
 {
     giArenaLoad("Q10", "N06", "N06c", true);
-    giPlayerCurrentSetPos(-1.008449, 0.023521, 221.42221);
+    giPlayerCurrentSetPos(-1.0, 0.0, 221.4);
     giPlayerCurrentSetAng(179.0);
     giCameraSetMode(4, true);
     giArenaReady();
@@ -196,7 +196,7 @@ void func1015()
 void func1016()
 {
     giArenaLoad("Q10", "Q10", "", true);
-    giPlayerCurrentSetPos(2094.105, -71.36399, 1238.6108);
+    giPlayerCurrentSetPos(2094.1, -71.4, 1238.6);
     giPlayerCurrentSetAng(135.0);
     giCameraSetMode(0, true);
     giArenaReady();
@@ -205,7 +205,7 @@ void func1016()
 void func1017()
 {
     giArenaLoad("Q10", "N06", "N06d", true);
-    giPlayerCurrentSetPos(-1.008449, 0.023521, 221.42221);
+    giPlayerCurrentSetPos(-1.0, 0.0, 221.4);
     giPlayerCurrentSetAng(179.0);
     giCameraSetMode(4, true);
     giArenaReady();
@@ -214,7 +214,7 @@ void func1017()
 void func1018()
 {
     giArenaLoad("Q10", "Q10", "", true);
-    giPlayerCurrentSetPos(-1252.2257, -70.36805, -1284.5269);
+    giPlayerCurrentSetPos(-1252.2, -70.4, -1284.5);
     giPlayerCurrentSetAng(73.0);
     giCameraSetMode(0, true);
     giArenaReady();
@@ -223,7 +223,7 @@ void func1018()
 void func1019()
 {
     giArenaLoad("Q10", "N07", "N07a", true);
-    giPlayerCurrentSetPos(-2.219969, 0.181396, 190.23311);
+    giPlayerCurrentSetPos(-2.2, 0.2, 190.2);
     giPlayerCurrentSetAng(180.0);
     giCameraSetMode(4, true);
     giArenaReady();
@@ -232,7 +232,7 @@ void func1019()
 void func1020()
 {
     giArenaLoad("Q10", "Q10", "", true);
-    giPlayerCurrentSetPos(2211.8137, -89.06906, -997.84265);
+    giPlayerCurrentSetPos(2211.8, -89.1, -997.8);
     giPlayerCurrentSetAng(59.0);
     giCameraSetMode(0, true);
     giArenaReady();
@@ -241,7 +241,7 @@ void func1020()
 void func1021()
 {
     giArenaLoad("Q10", "N07", "N07b", true);
-    giPlayerCurrentSetPos(-2.219969, 0.181396, 190.23311);
+    giPlayerCurrentSetPos(-2.2, 0.2, 190.2);
     giPlayerCurrentSetAng(180.0);
     giCameraSetMode(4, true);
     giArenaReady();
@@ -250,7 +250,7 @@ void func1021()
 void func1022()
 {
     giArenaLoad("Q10", "Q10", "", true);
-    giPlayerCurrentSetPos(1410.0487, -89.080475, -979.8973);
+    giPlayerCurrentSetPos(1410.0, -89.1, -979.9);
     giPlayerCurrentSetAng(300.0);
     giCameraSetMode(0, true);
     giArenaReady();
@@ -259,7 +259,7 @@ void func1022()
 void func1023()
 {
     giArenaLoad("Q10", "N07", "N07c", true);
-    giPlayerCurrentSetPos(-2.219969, 0.181396, 190.23311);
+    giPlayerCurrentSetPos(-2.2, 0.2, 190.2);
     giPlayerCurrentSetAng(180.0);
     giCameraSetMode(4, true);
     giArenaReady();
@@ -268,7 +268,7 @@ void func1023()
 void func1024()
 {
     giArenaLoad("Q10", "Q10", "", true);
-    giPlayerCurrentSetPos(1644.408, -88.842575, -1745.0);
+    giPlayerCurrentSetPos(1644.4, -88.8, -1745.0);
     giPlayerCurrentSetAng(196.0);
     giCameraSetMode(0, true);
     giArenaReady();
@@ -277,7 +277,7 @@ void func1024()
 void func1025()
 {
     giArenaLoad("Q10", "N07", "N07d", true);
-    giPlayerCurrentSetPos(-2.219969, 0.181396, 190.23311);
+    giPlayerCurrentSetPos(-2.2, 0.2, 190.2);
     giPlayerCurrentSetAng(180.0);
     giCameraSetMode(4, true);
     giArenaReady();
@@ -295,7 +295,7 @@ void func1026()
 void func1027()
 {
     giArenaLoad("Q10", "N07", "N07e", true);
-    giPlayerCurrentSetPos(-2.219969, 0.181396, 190.23311);
+    giPlayerCurrentSetPos(-2.2, 0.2, 190.2);
     giPlayerCurrentSetAng(180.0);
     giCameraSetMode(4, true);
     giArenaReady();
@@ -304,7 +304,7 @@ void func1027()
 void func1028()
 {
     giArenaLoad("Q10", "Q10", "", true);
-    giPlayerCurrentSetPos(-1774.9841, -70.36805, -1831.2878);
+    giPlayerCurrentSetPos(-1775.0, -70.4, -1831.3);
     giPlayerCurrentSetAng(180.0);
     giCameraSetMode(0, true);
     giArenaReady();
@@ -313,7 +313,7 @@ void func1028()
 void func1029()
 {
     giArenaLoad("Q10", "N05", "", true);
-    giPlayerCurrentSetPos(293.14188, 90.26678, 390.80383);
+    giPlayerCurrentSetPos(293.1, 90.3, 390.8);
     giPlayerCurrentSetAng(224.0);
     giCameraSetMode(2, true);
     giArenaReady();
@@ -322,7 +322,7 @@ void func1029()
 void func1030()
 {
     giArenaLoad("Q10", "Q10", "", true);
-    giPlayerCurrentSetPos(-134.68448, -23.023523, 721.7225);
+    giPlayerCurrentSetPos(-134.7, -23.0, 721.7);
     giPlayerCurrentSetAng(340.0);
     giCameraSetMode(0, true);
     giArenaReady();
@@ -331,7 +331,7 @@ void func1030()
 void func1031()
 {
     giArenaLoad("Q10", "N05", "", true);
-    giPlayerCurrentSetPos(-291.17404, 90.27646, 389.6055);
+    giPlayerCurrentSetPos(-291.2, 90.3, 389.6);
     giPlayerCurrentSetAng(134.0);
     giCameraSetMode(2, true);
     giArenaReady();
@@ -340,7 +340,7 @@ void func1031()
 void func1032()
 {
     giArenaLoad("Q10", "Q10", "", true);
-    giPlayerCurrentSetPos(-659.79694, -23.506598, -5.619572);
+    giPlayerCurrentSetPos(-659.8, -23.5, -5.6);
     giPlayerCurrentSetAng(265.1);
     giCameraSetMode(0, true);
     giArenaReady();
@@ -349,7 +349,7 @@ void func1032()
 void func1033()
 {
     giArenaLoad("Q10", "N05", "", true);
-    giPlayerCurrentSetPos(-375.20697, 90.26676, -281.61432);
+    giPlayerCurrentSetPos(-375.2, 90.3, -281.6);
     giPlayerCurrentSetAng(45.0);
     giCameraSetMode(2, true);
     giArenaReady();
@@ -358,7 +358,7 @@ void func1033()
 void func1034()
 {
     giArenaLoad("Q10", "Q10", "", true);
-    giPlayerCurrentSetPos(95.50151, -23.889103, -735.4809);
+    giPlayerCurrentSetPos(95.5, -23.9, -735.5);
     giPlayerCurrentSetAng(178.1);
     giCameraSetMode(0, true);
     giArenaReady();
@@ -376,7 +376,7 @@ void func1035()
     giNpcResetDir("4020");
     giNpcResumeBeh("4020");
     leader_player_id = giPlayerGetLeader();
-    giPlayerWalkTo(leader_player_id, -1549.469, -71.5628, 1305.638, true);
+    giPlayerWalkTo(leader_player_id, -1549.5, -71.6, 1305.6, true);
     giPlayerSetDir(leader_player_id, 135.0, true);
     giCameraAutoSeek(true);
     giCameraSetMode(0, true);
@@ -391,7 +391,7 @@ void func1036()
     if (global_mvar < 120100 /* 第二章 / 7-2-3.相争难休 / 送寒器回琼华 */)
     {
         giArenaLoad("M03", "3", "", true);
-        giPlayerCurrentSetPos(798.0918, 37.066, -1942.8013);
+        giPlayerCurrentSetPos(798.1, 37.1, -1942.8);
         giPlayerCurrentSetAng(260.1);
         giCameraSetMode(5, true);
         giArenaReady();
@@ -410,7 +410,7 @@ void func1036()
             if (select_dialog_last_select != 1)
             {
                 leader_player_id = giPlayerGetLeader();
-                giPlayerWalkTo(leader_player_id, -902.24, -23.23, -29.54, true);
+                giPlayerWalkTo(leader_player_id, -902.2, -23.2, -29.5, true);
                 giPlayerSetDir(leader_player_id, 85.0, true);
                 giCameraAutoSeek(true);
                 giCameraSetMode(0, true);
@@ -424,7 +424,7 @@ void func1036()
         else
         {
             giArenaLoad("M03", "3", "", true);
-            giPlayerCurrentSetPos(798.0918, 37.066, -1942.8013);
+            giPlayerCurrentSetPos(798.1, 37.1, -1942.8);
             giPlayerCurrentSetAng(260.1);
             giCameraSetMode(5, true);
             giArenaReady();
@@ -456,19 +456,19 @@ void func1037()
                 gi2DSoundPlay("wc005", 1);
                 local_3 = giPlayerGetLeader();
                 giPlayerBlendOut(local_3, 0.5, false);
-                giWait(0.30000001192092896);
+                giWait(0.3);
                 giFlashOutBlack(0.65, true, true);
                 giWait(0.5);
-                giPlayerCurrentSetPos(2082.5986, -70.65549, 1996.7915);
+                giPlayerCurrentSetPos(2082.6, -70.7, 1996.8);
                 giPlayerCurrentSetAng(210.0);
                 giArenaReady();
                 giCameraSetMode(0, true);
                 giFlushTailYAngle();
                 giFlashInBlack(0.65, false);
-                giWait(0.15000000596046448);
+                giWait(0.15);
                 giEffectPlayWithCurrentPlayer("H_122", 1);
                 gi2DSoundPlay("wc006", 1);
-                giWait(0.30000001192092896);
+                giWait(0.3);
                 giPlayerBlendIn(local_3, 0.5, false);
                 giPlayerUnLock();
                 break;
@@ -477,19 +477,19 @@ void func1037()
                 gi2DSoundPlay("wc005", 1);
                 local_3 = giPlayerGetLeader();
                 giPlayerBlendOut(local_3, 0.5, false);
-                giWait(0.30000001192092896);
+                giWait(0.3);
                 giFlashOutBlack(0.65, true, true);
                 giWait(0.5);
-                giPlayerCurrentSetPos(-1910.5986, -70.65549, -1898.7915);
+                giPlayerCurrentSetPos(-1910.6, -70.7, -1898.8);
                 giPlayerCurrentSetAng(30.0);
                 giArenaReady();
                 giCameraSetMode(0, true);
                 giFlushTailYAngle();
                 giFlashInBlack(0.65, false);
-                giWait(0.15000000596046448);
+                giWait(0.15);
                 giEffectPlayWithCurrentPlayer("H_122", 1);
                 gi2DSoundPlay("wc006", 1);
-                giWait(0.30000001192092896);
+                giWait(0.3);
                 giPlayerBlendIn(local_3, 0.5, false);
                 giPlayerUnLock();
                 break;
@@ -498,25 +498,25 @@ void func1037()
                 gi2DSoundPlay("wc005", 1);
                 local_3 = giPlayerGetLeader();
                 giPlayerBlendOut(local_3, 0.5, false);
-                giWait(0.30000001192092896);
+                giWait(0.3);
                 giFlashOutBlack(0.65, true, true);
                 giWait(0.5);
-                giPlayerCurrentSetPos(-1428.5986, -71.65549, 1207.7915);
+                giPlayerCurrentSetPos(-1428.6, -71.7, 1207.8);
                 giPlayerCurrentSetAng(310.0);
                 giArenaReady();
                 giCameraSetMode(0, true);
                 giFlushTailYAngle();
                 giFlashInBlack(0.65, false);
-                giWait(0.15000000596046448);
+                giWait(0.15);
                 giEffectPlayWithCurrentPlayer("H_122", 1);
                 gi2DSoundPlay("wc006", 1);
-                giWait(0.30000001192092896);
+                giWait(0.3);
                 giPlayerBlendIn(local_3, 0.5, false);
                 giPlayerUnLock();
                 break;
             default:
                 local_3 = giPlayerGetLeader();
-                giPlayerWalkTo(local_3, 491.3452, 264.63718, -284.11523, true);
+                giPlayerWalkTo(local_3, 491.3, 264.6, -284.1, true);
                 giPlayerSetDir(local_3, 300.0, true);
                 giCameraAutoSeek(true);
                 giCameraSetMode(0, true);
@@ -530,19 +530,19 @@ void func1037()
         gi2DSoundPlay("wc005", 1);
         local_3 = giPlayerGetLeader();
         giPlayerBlendOut(local_3, 0.5, false);
-        giWait(0.30000001192092896);
+        giWait(0.3);
         giFlashOutBlack(0.65, true, true);
         giWait(0.5);
-        giPlayerCurrentSetPos(2058.5986, -89.65549, -1833.7915);
+        giPlayerCurrentSetPos(2058.6, -89.7, -1833.8);
         giPlayerCurrentSetAng(335.0);
         giArenaReady();
         giCameraSetMode(0, true);
         giFlushTailYAngle();
         giFlashInBlack(0.65, false);
-        giWait(0.15000000596046448);
+        giWait(0.15);
         giEffectPlayWithCurrentPlayer("H_122", 1);
         gi2DSoundPlay("wc006", 1);
-        giWait(0.30000001192092896);
+        giWait(0.3);
         giPlayerBlendIn(local_3, 0.5, false);
         giPlayerUnLock();
     }
@@ -571,19 +571,19 @@ void func1038()
                 gi2DSoundPlay("wc005", 1);
                 local_3 = giPlayerGetLeader();
                 giPlayerBlendOut(local_3, 0.5, false);
-                giWait(0.30000001192092896);
+                giWait(0.3);
                 giFlashOutBlack(0.65, true, true);
                 giWait(0.5);
-                giPlayerCurrentSetPos(2082.5986, -70.65549, 1996.7915);
+                giPlayerCurrentSetPos(2082.6, -70.7, 1996.8);
                 giPlayerCurrentSetAng(210.0);
                 giArenaReady();
                 giCameraSetMode(0, true);
                 giFlushTailYAngle();
                 giFlashInBlack(0.65, false);
-                giWait(0.15000000596046448);
+                giWait(0.15);
                 giEffectPlayWithCurrentPlayer("H_122", 1);
                 gi2DSoundPlay("wc006", 1);
-                giWait(0.30000001192092896);
+                giWait(0.3);
                 giPlayerBlendIn(local_3, 0.5, false);
                 giPlayerUnLock();
                 break;
@@ -592,19 +592,19 @@ void func1038()
                 gi2DSoundPlay("wc005", 1);
                 local_3 = giPlayerGetLeader();
                 giPlayerBlendOut(local_3, 0.5, false);
-                giWait(0.30000001192092896);
+                giWait(0.3);
                 giFlashOutBlack(0.65, true, true);
                 giWait(0.5);
-                giPlayerCurrentSetPos(-1910.5986, -70.65549, -1898.7915);
+                giPlayerCurrentSetPos(-1910.6, -70.7, -1898.8);
                 giPlayerCurrentSetAng(30.0);
                 giArenaReady();
                 giCameraSetMode(0, true);
                 giFlushTailYAngle();
                 giFlashInBlack(0.65, false);
-                giWait(0.15000000596046448);
+                giWait(0.15);
                 giEffectPlayWithCurrentPlayer("H_122", 1);
                 gi2DSoundPlay("wc006", 1);
-                giWait(0.30000001192092896);
+                giWait(0.3);
                 giPlayerBlendIn(local_3, 0.5, false);
                 giPlayerUnLock();
                 break;
@@ -613,25 +613,25 @@ void func1038()
                 gi2DSoundPlay("wc005", 1);
                 local_3 = giPlayerGetLeader();
                 giPlayerBlendOut(local_3, 0.5, false);
-                giWait(0.30000001192092896);
+                giWait(0.3);
                 giFlashOutBlack(0.65, true, true);
                 giWait(0.5);
-                giPlayerCurrentSetPos(-1428.5986, -71.65549, 1207.7915);
+                giPlayerCurrentSetPos(-1428.6, -71.7, 1207.8);
                 giPlayerCurrentSetAng(310.0);
                 giArenaReady();
                 giCameraSetMode(0, true);
                 giFlushTailYAngle();
                 giFlashInBlack(0.65, false);
-                giWait(0.15000000596046448);
+                giWait(0.15);
                 giEffectPlayWithCurrentPlayer("H_122", 1);
                 gi2DSoundPlay("wc006", 1);
-                giWait(0.30000001192092896);
+                giWait(0.3);
                 giPlayerBlendIn(local_3, 0.5, false);
                 giPlayerUnLock();
                 break;
             default:
                 local_3 = giPlayerGetLeader();
-                giPlayerWalkTo(local_3, 2058.5986, -89.65549, -1833.7915, true);
+                giPlayerWalkTo(local_3, 2058.6, -89.7, -1833.8, true);
                 giPlayerSetDir(local_3, 335.0, true);
                 giCameraAutoSeek(true);
                 giCameraSetMode(0, true);
@@ -645,19 +645,19 @@ void func1038()
         gi2DSoundPlay("wc005", 1);
         local_3 = giPlayerGetLeader();
         giPlayerBlendOut(local_3, 0.5, false);
-        giWait(0.30000001192092896);
+        giWait(0.3);
         giFlashOutBlack(0.65, true, true);
         giWait(0.5);
-        giPlayerCurrentSetPos(491.3452, 264.63718, -284.11523);
+        giPlayerCurrentSetPos(491.3, 264.6, -284.1);
         giPlayerCurrentSetAng(300.0);
         giArenaReady();
         giCameraSetMode(0, true);
         giFlushTailYAngle();
         giFlashInBlack(0.65, false);
-        giWait(0.15000000596046448);
+        giWait(0.15);
         giEffectPlayWithCurrentPlayer("H_122", 1);
         gi2DSoundPlay("wc006", 1);
-        giWait(0.30000001192092896);
+        giWait(0.3);
         giPlayerBlendIn(local_3, 0.5, false);
         giPlayerUnLock();
     }
@@ -686,19 +686,19 @@ void func1039()
                 gi2DSoundPlay("wc005", 1);
                 local_3 = giPlayerGetLeader();
                 giPlayerBlendOut(local_3, 0.5, false);
-                giWait(0.30000001192092896);
+                giWait(0.3);
                 giFlashOutBlack(0.65, true, true);
                 giWait(0.5);
-                giPlayerCurrentSetPos(2058.5986, -89.65549, -1833.7915);
+                giPlayerCurrentSetPos(2058.6, -89.7, -1833.8);
                 giPlayerCurrentSetAng(335.0);
                 giArenaReady();
                 giCameraSetMode(0, true);
                 giFlushTailYAngle();
                 giFlashInBlack(0.65, false);
-                giWait(0.15000000596046448);
+                giWait(0.15);
                 giEffectPlayWithCurrentPlayer("H_122", 1);
                 gi2DSoundPlay("wc006", 1);
-                giWait(0.30000001192092896);
+                giWait(0.3);
                 giPlayerBlendIn(local_3, 0.5, false);
                 giPlayerUnLock();
                 break;
@@ -707,19 +707,19 @@ void func1039()
                 gi2DSoundPlay("wc005", 1);
                 local_3 = giPlayerGetLeader();
                 giPlayerBlendOut(local_3, 0.5, false);
-                giWait(0.30000001192092896);
+                giWait(0.3);
                 giFlashOutBlack(0.65, true, true);
                 giWait(0.5);
-                giPlayerCurrentSetPos(-1910.5986, -70.65549, -1898.7915);
+                giPlayerCurrentSetPos(-1910.6, -70.7, -1898.8);
                 giPlayerCurrentSetAng(30.0);
                 giArenaReady();
                 giCameraSetMode(0, true);
                 giFlushTailYAngle();
                 giFlashInBlack(0.65, false);
-                giWait(0.15000000596046448);
+                giWait(0.15);
                 giEffectPlayWithCurrentPlayer("H_122", 1);
                 gi2DSoundPlay("wc006", 1);
-                giWait(0.30000001192092896);
+                giWait(0.3);
                 giPlayerBlendIn(local_3, 0.5, false);
                 giPlayerUnLock();
                 break;
@@ -728,25 +728,25 @@ void func1039()
                 gi2DSoundPlay("wc005", 1);
                 local_3 = giPlayerGetLeader();
                 giPlayerBlendOut(local_3, 0.5, false);
-                giWait(0.30000001192092896);
+                giWait(0.3);
                 giFlashOutBlack(0.65, true, true);
                 giWait(0.5);
-                giPlayerCurrentSetPos(-1428.5986, -71.65549, 1207.7915);
+                giPlayerCurrentSetPos(-1428.6, -71.7, 1207.8);
                 giPlayerCurrentSetAng(310.0);
                 giArenaReady();
                 giCameraSetMode(0, true);
                 giFlushTailYAngle();
                 giFlashInBlack(0.65, false);
-                giWait(0.15000000596046448);
+                giWait(0.15);
                 giEffectPlayWithCurrentPlayer("H_122", 1);
                 gi2DSoundPlay("wc006", 1);
-                giWait(0.30000001192092896);
+                giWait(0.3);
                 giPlayerBlendIn(local_3, 0.5, false);
                 giPlayerUnLock();
                 break;
             default:
                 local_3 = giPlayerGetLeader();
-                giPlayerWalkTo(local_3, 2082.5986, -70.65549, 1996.7915, true);
+                giPlayerWalkTo(local_3, 2082.6, -70.7, 1996.8, true);
                 giPlayerSetDir(local_3, 210.0, true);
                 giCameraAutoSeek(true);
                 giCameraSetMode(0, true);
@@ -760,19 +760,19 @@ void func1039()
         gi2DSoundPlay("wc005", 1);
         local_3 = giPlayerGetLeader();
         giPlayerBlendOut(local_3, 0.5, false);
-        giWait(0.30000001192092896);
+        giWait(0.3);
         giFlashOutBlack(0.65, true, true);
         giWait(0.5);
-        giPlayerCurrentSetPos(491.3452, 264.63718, -284.11523);
+        giPlayerCurrentSetPos(491.3, 264.6, -284.1);
         giPlayerCurrentSetAng(300.0);
         giArenaReady();
         giCameraSetMode(0, true);
         giFlushTailYAngle();
         giFlashInBlack(0.65, false);
-        giWait(0.15000000596046448);
+        giWait(0.15);
         giEffectPlayWithCurrentPlayer("H_122", 1);
         gi2DSoundPlay("wc006", 1);
-        giWait(0.30000001192092896);
+        giWait(0.3);
         giPlayerBlendIn(local_3, 0.5, false);
         giPlayerUnLock();
     }
@@ -801,19 +801,19 @@ void func1040()
                 gi2DSoundPlay("wc005", 1);
                 local_3 = giPlayerGetLeader();
                 giPlayerBlendOut(local_3, 0.5, false);
-                giWait(0.30000001192092896);
+                giWait(0.3);
                 giFlashOutBlack(0.65, true, true);
                 giWait(0.5);
-                giPlayerCurrentSetPos(2058.5986, -89.65549, -1833.7915);
+                giPlayerCurrentSetPos(2058.6, -89.7, -1833.8);
                 giPlayerCurrentSetAng(335.0);
                 giArenaReady();
                 giCameraSetMode(0, true);
                 giFlushTailYAngle();
                 giFlashInBlack(0.65, false);
-                giWait(0.15000000596046448);
+                giWait(0.15);
                 giEffectPlayWithCurrentPlayer("H_122", 1);
                 gi2DSoundPlay("wc006", 1);
-                giWait(0.30000001192092896);
+                giWait(0.3);
                 giPlayerBlendIn(local_3, 0.5, false);
                 giPlayerUnLock();
                 break;
@@ -822,19 +822,19 @@ void func1040()
                 gi2DSoundPlay("wc005", 1);
                 local_3 = giPlayerGetLeader();
                 giPlayerBlendOut(local_3, 0.5, false);
-                giWait(0.30000001192092896);
+                giWait(0.3);
                 giFlashOutBlack(0.65, true, true);
                 giWait(0.5);
-                giPlayerCurrentSetPos(2082.5986, -70.65549, 1996.7915);
+                giPlayerCurrentSetPos(2082.6, -70.7, 1996.8);
                 giPlayerCurrentSetAng(210.0);
                 giArenaReady();
                 giCameraSetMode(0, true);
                 giFlushTailYAngle();
                 giFlashInBlack(0.65, false);
-                giWait(0.15000000596046448);
+                giWait(0.15);
                 giEffectPlayWithCurrentPlayer("H_122", 1);
                 gi2DSoundPlay("wc006", 1);
-                giWait(0.30000001192092896);
+                giWait(0.3);
                 giPlayerBlendIn(local_3, 0.5, false);
                 giPlayerUnLock();
                 break;
@@ -843,25 +843,25 @@ void func1040()
                 gi2DSoundPlay("wc005", 1);
                 local_3 = giPlayerGetLeader();
                 giPlayerBlendOut(local_3, 0.5, false);
-                giWait(0.30000001192092896);
+                giWait(0.3);
                 giFlashOutBlack(0.65, true, true);
                 giWait(0.5);
-                giPlayerCurrentSetPos(-1428.5986, -71.65549, 1207.7915);
+                giPlayerCurrentSetPos(-1428.6, -71.7, 1207.8);
                 giPlayerCurrentSetAng(310.0);
                 giArenaReady();
                 giCameraSetMode(0, true);
                 giFlushTailYAngle();
                 giFlashInBlack(0.65, false);
-                giWait(0.15000000596046448);
+                giWait(0.15);
                 giEffectPlayWithCurrentPlayer("H_122", 1);
                 gi2DSoundPlay("wc006", 1);
-                giWait(0.30000001192092896);
+                giWait(0.3);
                 giPlayerBlendIn(local_3, 0.5, false);
                 giPlayerUnLock();
                 break;
             default:
                 local_3 = giPlayerGetLeader();
-                giPlayerWalkTo(local_3, -1910.5986, -70.65549, -1898.7915, true);
+                giPlayerWalkTo(local_3, -1910.6, -70.7, -1898.8, true);
                 giPlayerSetDir(local_3, 30.0, true);
                 giCameraAutoSeek(true);
                 giCameraSetMode(0, true);
@@ -875,19 +875,19 @@ void func1040()
         gi2DSoundPlay("wc005", 1);
         local_3 = giPlayerGetLeader();
         giPlayerBlendOut(local_3, 0.5, false);
-        giWait(0.30000001192092896);
+        giWait(0.3);
         giFlashOutBlack(0.65, true, true);
         giWait(0.5);
-        giPlayerCurrentSetPos(491.3452, 264.63718, -284.11523);
+        giPlayerCurrentSetPos(491.3, 264.6, -284.1);
         giPlayerCurrentSetAng(300.0);
         giArenaReady();
         giCameraSetMode(0, true);
         giFlushTailYAngle();
         giFlashInBlack(0.65, false);
-        giWait(0.15000000596046448);
+        giWait(0.15);
         giEffectPlayWithCurrentPlayer("H_122", 1);
         gi2DSoundPlay("wc006", 1);
-        giWait(0.30000001192092896);
+        giWait(0.3);
         giPlayerBlendIn(local_3, 0.5, false);
         giPlayerUnLock();
     }
@@ -916,19 +916,19 @@ void func1041()
                 gi2DSoundPlay("wc005", 1);
                 local_3 = giPlayerGetLeader();
                 giPlayerBlendOut(local_3, 0.5, false);
-                giWait(0.30000001192092896);
+                giWait(0.3);
                 giFlashOutBlack(0.65, true, true);
                 giWait(0.5);
-                giPlayerCurrentSetPos(2058.5986, -89.65549, -1833.7915);
+                giPlayerCurrentSetPos(2058.6, -89.7, -1833.8);
                 giPlayerCurrentSetAng(335.0);
                 giArenaReady();
                 giCameraSetMode(0, true);
                 giFlushTailYAngle();
                 giFlashInBlack(0.65, false);
-                giWait(0.15000000596046448);
+                giWait(0.15);
                 giEffectPlayWithCurrentPlayer("H_122", 1);
                 gi2DSoundPlay("wc006", 1);
-                giWait(0.30000001192092896);
+                giWait(0.3);
                 giPlayerBlendIn(local_3, 0.5, false);
                 giPlayerUnLock();
                 break;
@@ -937,19 +937,19 @@ void func1041()
                 gi2DSoundPlay("wc005", 1);
                 local_3 = giPlayerGetLeader();
                 giPlayerBlendOut(local_3, 0.5, false);
-                giWait(0.30000001192092896);
+                giWait(0.3);
                 giFlashOutBlack(0.65, true, true);
                 giWait(0.5);
-                giPlayerCurrentSetPos(2082.5986, -70.65549, 1996.7915);
+                giPlayerCurrentSetPos(2082.6, -70.7, 1996.8);
                 giPlayerCurrentSetAng(210.0);
                 giArenaReady();
                 giCameraSetMode(0, true);
                 giFlushTailYAngle();
                 giFlashInBlack(0.65, false);
-                giWait(0.15000000596046448);
+                giWait(0.15);
                 giEffectPlayWithCurrentPlayer("H_122", 1);
                 gi2DSoundPlay("wc006", 1);
-                giWait(0.30000001192092896);
+                giWait(0.3);
                 giPlayerBlendIn(local_3, 0.5, false);
                 giPlayerUnLock();
                 break;
@@ -958,25 +958,25 @@ void func1041()
                 gi2DSoundPlay("wc005", 1);
                 local_3 = giPlayerGetLeader();
                 giPlayerBlendOut(local_3, 0.5, false);
-                giWait(0.30000001192092896);
+                giWait(0.3);
                 giFlashOutBlack(0.65, true, true);
                 giWait(0.5);
-                giPlayerCurrentSetPos(-1910.5986, -70.65549, -1898.7915);
+                giPlayerCurrentSetPos(-1910.6, -70.7, -1898.8);
                 giPlayerCurrentSetAng(30.0);
                 giArenaReady();
                 giCameraSetMode(0, true);
                 giFlushTailYAngle();
                 giFlashInBlack(0.65, false);
-                giWait(0.15000000596046448);
+                giWait(0.15);
                 giEffectPlayWithCurrentPlayer("H_122", 1);
                 gi2DSoundPlay("wc006", 1);
-                giWait(0.30000001192092896);
+                giWait(0.3);
                 giPlayerBlendIn(local_3, 0.5, false);
                 giPlayerUnLock();
                 break;
             default:
                 local_3 = giPlayerGetLeader();
-                giPlayerWalkTo(local_3, -1428.5986, -71.65549, 1207.7915, true);
+                giPlayerWalkTo(local_3, -1428.6, -71.7, 1207.8, true);
                 giPlayerSetDir(local_3, 310.0, true);
                 giCameraAutoSeek(true);
                 giCameraSetMode(0, true);
@@ -990,19 +990,19 @@ void func1041()
         gi2DSoundPlay("wc005", 1);
         local_3 = giPlayerGetLeader();
         giPlayerBlendOut(local_3, 0.5, false);
-        giWait(0.30000001192092896);
+        giWait(0.3);
         giFlashOutBlack(0.65, true, true);
         giWait(0.5);
-        giPlayerCurrentSetPos(491.3452, 264.63718, -284.11523);
+        giPlayerCurrentSetPos(491.3, 264.6, -284.1);
         giPlayerCurrentSetAng(300.0);
         giArenaReady();
         giCameraSetMode(0, true);
         giFlushTailYAngle();
         giFlashInBlack(0.65, false);
-        giWait(0.15000000596046448);
+        giWait(0.15);
         giEffectPlayWithCurrentPlayer("H_122", 1);
         gi2DSoundPlay("wc006", 1);
-        giWait(0.30000001192092896);
+        giWait(0.3);
         giPlayerBlendIn(local_3, 0.5, false);
         giPlayerUnLock();
     }
@@ -1018,13 +1018,13 @@ void func2001()
         giCameraSetCollide(false);
         giCameraAutoSeek(false);
         giPlayerCurrentSetVisible(false);
-        giPlayerSetPos(0, -1148.1266, -39.6084, -23.0769);
+        giPlayerSetPos(0, -1148.1, -39.6, -23.1);
         giPlayerSetAng(0, 49.0);
-        giPlayerSetPos(1, -1055.6653, -38.5762, -29.1357);
+        giPlayerSetPos(1, -1055.7, -38.6, -29.1);
         giPlayerSetAng(1, 73.0);
-        giPlayerSetPos(2, -1132.5874, -39.8184, 28.9186);
+        giPlayerSetPos(2, -1132.6, -39.8, 28.9);
         giPlayerSetAng(2, 73.0);
-        giPlayerSetPos(3, -1116.4216, -38.4687, -82.2077);
+        giPlayerSetPos(3, -1116.4, -38.5, -82.2);
         giPlayerSetAng(3, 70.0);
         giPlayerSetVisible(0, true);
         giPlayerSetVisible(1, true);
@@ -1038,18 +1038,18 @@ void func2001()
         giFlashInBlack(2.0, false);
         giArenaReady();
         giCameraRunSingle("003", true);
-        giWait(0.800000011920929);
+        giWait(0.8);
         giSetPortrait("104D", true);
         giTalk("韩菱纱：这些是！……", "44166");
         giCameraRunSingle("002", true);
         giWait(1.0);
-        giPlayerSetPos(0, -775.2188, -23.2396, 149.1147);
+        giPlayerSetPos(0, -775.2, -23.2, 149.1);
         giPlayerSetAng(0, 347.0);
-        giPlayerSetPos(1, -726.9637, -23.2397, 94.0877);
+        giPlayerSetPos(1, -727.0, -23.2, 94.1);
         giPlayerSetAng(1, 68.0);
-        giPlayerSetPos(2, -839.778, -23.2397, 107.8235);
+        giPlayerSetPos(2, -839.8, -23.2, 107.8);
         giPlayerSetAng(2, 92.0);
-        giPlayerSetPos(3, -798.8182, -23.2397, 54.5128);
+        giPlayerSetPos(3, -798.8, -23.2, 54.5);
         giPlayerSetAng(3, 71.0);
         giCameraRunSingle("006", false);
         giWait(1.5);
@@ -1101,7 +1101,7 @@ void func2001()
         giPlayerSetDir(3, 13.0, true);
         giSetPortrait("105D", true);
         giTalk("慕容紫英：寿阳女萝岩？你曾去过那里？", "44173");
-        giPlayerWalkTo(1, -757.9064, -23.2397, 76.4068, false);
+        giPlayerWalkTo(1, -757.9, -23.2, 76.4, false);
         giCameraRunSingle("011", false);
         giWait(0.5);
         giSetPortrait("104E", true);
@@ -1171,13 +1171,13 @@ void func2002()
         giCameraSetCollide(false);
         giCameraAutoSeek(false);
         giPlayerCurrentSetVisible(false);
-        giPlayerSetPos(0, 158.5856, -23.2397, 907.5616);
+        giPlayerSetPos(0, 158.6, -23.2, 907.6);
         giPlayerSetAng(0, 80.0);
-        giPlayerSetPos(1, 151.0559, -23.2397, 989.3309);
+        giPlayerSetPos(1, 151.1, -23.2, 989.3);
         giPlayerSetAng(1, 111.0);
-        giPlayerSetPos(2, 160.8992, -23.2397, 1029.6482);
+        giPlayerSetPos(2, 160.9, -23.2, 1029.6);
         giPlayerSetAng(2, 120.0);
-        giPlayerSetPos(3, 110.9483, -23.2397, 933.0226);
+        giPlayerSetPos(3, 110.9, -23.2, 933.0);
         giPlayerSetAng(3, 88.0);
         giPlayerSetVisible(0, true);
         giPlayerSetVisible(1, true);
@@ -1205,11 +1205,11 @@ void func2002()
         giPlayerUnHoldAct(1);
         giPlayerEndAction(1);
         giCameraRunSingle("004", false);
-        giNpcWalkTo("MN002", 249.8293, -23.2396, 977.3583, false);
-        giNpcWalkTo("MN005", 263.9647, -23.2397, 923.1479, false);
-        giNpcWalkTo("MN001", 317.9468, -23.2397, 950.0634, false);
-        giNpcWalkTo("MN003", 280.2879, -23.2396, 901.6661, false);
-        giNpcWalkTo("MN004", 310.573, -23.2397, 917.3267, false);
+        giNpcWalkTo("MN002", 249.8, -23.2, 977.4, false);
+        giNpcWalkTo("MN005", 264.0, -23.2, 923.1, false);
+        giNpcWalkTo("MN001", 317.9, -23.2, 950.1, false);
+        giNpcWalkTo("MN003", 280.3, -23.2, 901.7, false);
+        giNpcWalkTo("MN004", 310.6, -23.2, 917.3, false);
         giNpcEndMove("MN005");
         giNpcSetDir("MN005", 311.0, true);
         giNpcEndMove("MN001");
@@ -1248,17 +1248,17 @@ void func2002()
         giSetPortrait("208B", true);
         giTalk("槐枝：对！是他，就是他！把爹和娘都害死了！", "44190");
         giIMMBegin();
-        giPlayerSetPos(0, 173.7754, -23.2397, 917.0107);
-        giPlayerSetPos(1, 152.4826, -23.2397, 997.929);
-        giPlayerSetPos(2, 196.0055, -23.2397, 1033.9182);
+        giPlayerSetPos(0, 173.8, -23.2, 917.0);
+        giPlayerSetPos(1, 152.5, -23.2, 997.9);
+        giPlayerSetPos(2, 196.0, -23.2, 1033.9);
         giPlayerSetAng(0, 300.0);
         giPlayerSetAng(1, 217.0);
         giPlayerSetAng(2, 209.0);
-        giNpcSetPos("MN001", 282.4263, -23.2397, 976.0644);
-        giNpcSetPos("MN002", 240.4005, -23.2397, 987.8947);
-        giNpcSetPos("MN003", 251.3761, -23.2397, 932.7255);
-        giNpcSetPos("MN004", 288.0689, -23.2397, 947.8329);
-        giNpcSetPos("MN005", 230.8, -23.2397, 957.0392);
+        giNpcSetPos("MN001", 282.4, -23.2, 976.1);
+        giNpcSetPos("MN002", 240.4, -23.2, 987.9);
+        giNpcSetPos("MN003", 251.4, -23.2, 932.7);
+        giNpcSetPos("MN004", 288.1, -23.2, 947.8);
+        giNpcSetPos("MN005", 230.8, -23.2, 957.0);
         giNpcSetAng("MN001", 260.0);
         giNpcSetAng("MN002", 242.0);
         giNpcSetAng("MN003", 294.0);
@@ -1351,13 +1351,13 @@ void func2002()
         giPlayerEndAction(0);
         giSetPortrait("105F", true);
         giTalk("慕容紫英：你！！", "44212");
-        giPlayerSetPos(2, 180.2735, -23.2397, 997.0955);
+        giPlayerSetPos(2, 180.3, -23.2, 997.1);
         giPlayerSetAng(2, 227.0);
         giSetPortrait("104F", true);
         giTalk("韩菱纱：紫英，你冷静一下！", "44213");
         giPlayerSetDir(3, 35.0, false);
         giIMMBegin();
-        giPlayerSetPos(1, 141.6121, -23.2397, 970.3624);
+        giPlayerSetPos(1, 141.6, -23.2, 970.4);
         giPlayerSetAng(1, 228.0);
         giCameraRunSingle("016", true);
         giIMMEnd();
@@ -1373,7 +1373,7 @@ void func2002()
         giWait(1.0);
         giPlayerSetDir(3, 61.0, true);
         giWait(0.5);
-        giPlayerWalkTo(2, 185.5124, -23.2397, 974.1346, true);
+        giPlayerWalkTo(2, 185.5, -23.2, 974.1, true);
         giPlayerSetDir(2, 240.0, true);
         giWait(0.5);
         giSetPortrait("105D", true);
@@ -1388,7 +1388,7 @@ void func2002()
         giTalk("慕容紫英：看来只有我一人最是奇怪！道不同不相为谋，今日你们在此，我不必硬来，就此别过！", "44219");
         giPlayerUnHoldAct(3);
         giPlayerEndAction(3);
-        giPlayerWalkTo(3, -16.3052, -23.2396, 995.7963, false);
+        giPlayerWalkTo(3, -16.3, -23.2, 995.8, false);
         giWait(1.5);
         giPlayerSetDir(0, 302.0, false);
         giPlayerSetDir(1, 303.0, false);
@@ -1411,8 +1411,8 @@ void func2002()
         giTalk("槐米：喵！", "44222");
         giCameraRunSingle("020", false);
         giPlayerSetDir(2, 97.0, false);
-        giPlayerWalkTo(0, 220.111, -23.2397, 883.4877, false);
-        giPlayerWalkTo(1, 182.2587, -23.2397, 922.0876, false);
+        giPlayerWalkTo(0, 220.1, -23.2, 883.5, false);
+        giPlayerWalkTo(1, 182.3, -23.2, 922.1, false);
         giPlayerEndMove(0);
         giPlayerSetDir(0, 19.0, false);
         giPlayerEndMove(1);
@@ -1477,11 +1477,11 @@ void func2002()
         giSetPortrait("207A", true);
         gi2DSoundPlay("WJ019", 1);
         giTalk("槐米：跟我来！喵！", "44237");
-        giNpcWalkTo("MN002", 282.8506, -23.2396, 950.4028, false);
-        giNpcWalkTo("MN005", 263.9647, -23.2397, 923.1479, false);
-        giNpcWalkTo("MN003", 280.2879, -23.2396, 901.6661, false);
-        giNpcWalkTo("MN004", 310.573, -23.2397, 917.3267, false);
-        giNpcWalkTo("MN001", 317.9468, -23.2397, 950.0634, false);
+        giNpcWalkTo("MN002", 282.9, -23.2, 950.4, false);
+        giNpcWalkTo("MN005", 264.0, -23.2, 923.1, false);
+        giNpcWalkTo("MN003", 280.3, -23.2, 901.7, false);
+        giNpcWalkTo("MN004", 310.6, -23.2, 917.3, false);
+        giNpcWalkTo("MN001", 317.9, -23.2, 950.1, false);
         giCameraRunSingle("022", false);
         giWait(1.0);
         giPlayerSetDir(0, 48.0, false);
@@ -1500,11 +1500,11 @@ void func2002()
         giTalk("槐米：喵！我说了，朋友是朋友，仇人是仇人，朋友有困难，一定要帮！", "44240");
         giSetPortrait("207A", true);
         giTalk("槐米：快来！我带弟弟先去<colour red=255 green=187 blue=0 alpha=255>长老家</colour><dc0>了，</dc0><colour red=255 green=187 blue=0 alpha=255>在这层平台的最上层</colour><dc0>，你们一会儿就过来，我会告诉其他妖，你们不是敌人！喵～</dc0>", "44241");
-        giNpcWalkTo("MN005", 350.8419, -23.2397, 921.0679, false);
-        giNpcWalkTo("MN002", 354.9425, -23.2397, 951.9946, false);
-        giNpcWalkTo("MN004", 389.6746, -23.2397, 921.4142, false);
-        giNpcWalkTo("MN001", 389.7277, -23.2397, 955.0984, false);
-        giNpcWalkTo("MN003", 355.0172, -23.2397, 895.436, false);
+        giNpcWalkTo("MN005", 350.8, -23.2, 921.1, false);
+        giNpcWalkTo("MN002", 354.9, -23.2, 952.0, false);
+        giNpcWalkTo("MN004", 389.7, -23.2, 921.4, false);
+        giNpcWalkTo("MN001", 389.7, -23.2, 955.1, false);
+        giNpcWalkTo("MN003", 355.0, -23.2, 895.4, false);
         giWait(1.0);
         giCameraRunSingle("023", true);
         giPlayerSetDir(0, 61.0, false);
@@ -1532,7 +1532,7 @@ void func2002()
         giPlayerSetVisible(2, false);
         giSetNpcVisible("4001", true);
         giSetNpcVisible("4003", true);
-        giPlayerCurrentSetPos(42.4877, -23.2396, 789.2406);
+        giPlayerCurrentSetPos(42.5, -23.2, 789.2);
         giPlayerCurrentSetAng(106.0);
         giPlayerCurrentSetVisible(true);
         giIMMEnd();
@@ -1556,11 +1556,11 @@ void func2003()
         giCameraSetCollide(false);
         giCameraAutoSeek(false);
         giPlayerCurrentSetVisible(false);
-        giPlayerSetPos(0, 169.1609, 434.3184, 238.2312);
+        giPlayerSetPos(0, 169.2, 434.3, 238.2);
         giPlayerSetAng(0, 259.0);
-        giPlayerSetPos(1, 125.9393, 434.3184, 275.9218);
+        giPlayerSetPos(1, 125.9, 434.3, 275.9);
         giPlayerSetAng(1, 207.0);
-        giPlayerSetPos(2, 62.6448, 434.3184, 232.6373);
+        giPlayerSetPos(2, 62.6, 434.3, 232.6);
         giPlayerSetAng(2, 105.0);
         giPlayerSetVisible(0, true);
         giPlayerSetVisible(1, true);
@@ -1571,7 +1571,7 @@ void func2003()
         giCameraRunSingle("001", true);
         giFlashInBlack(1.5, false);
         giCameraRunSingle("002", false);
-        giNpcWalkTo("MN006", 93.4618, 434.3184, 186.7377, false);
+        giNpcWalkTo("MN006", 93.5, 434.3, 186.7, false);
         giSetPortrait("207A", false);
         giTalk("槐米：……", "44245");
         giSetPortrait("104C", true);
@@ -1624,7 +1624,7 @@ void func2003()
         giTalk("槐米：……他说和你们一起来的那个人太危险了，喵，所以他也不欢迎你们留下，请你们快点离开居巢国……", "44256");
         giWait(0.7);
         giCameraRunSingle("007", true);
-        giPlayerWalkTo(2, 72.7665, 434.3184, 225.5882, true);
+        giPlayerWalkTo(2, 72.8, 434.3, 225.6, true);
         giPlayerDoAction(2, "J03", -1, false);
         giSetPortrait("107B", true);
         giTalk("柳梦璃：槐米……你是在替我们难过吗？", "44257");
@@ -1732,7 +1732,7 @@ void func2003()
         giSetNpcVisible("MN001", false);
         giIMMEnd();
         giPlayerCurrentSetVisible(true);
-        giPlayerCurrentSetPos(137.312, 434.318, 274.937);
+        giPlayerCurrentSetPos(137.3, 434.3, 274.9);
         giPlayerCurrentSetAng(230.76);
         giCameraSetMode(0, true);
         global_mvar = 110701; // 0x0001B06D, 第二章 / 7-2-2.相争难休 / 离开居巢国 / 水下居巢

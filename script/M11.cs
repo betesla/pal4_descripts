@@ -34,7 +34,7 @@ void EarthBall()
 {
     giPlayerLock();
     giFlashOutBlack(1.0, true, true);
-    giPlayerCurrentSetPos(1567.7776, -95.17909, 4422.158);
+    giPlayerCurrentSetPos(1567.8, -95.2, 4422.2);
     giPlayerCurrentSetAng(170.0);
     giCameraSetMode(5, true);
     giFlashInBlack(1.0, true);
@@ -52,7 +52,7 @@ void func1001()
         if (global_mvar != 70700 /* 荒漠深处 */)
         {
             giArenaLoad("Q07", "Q07", "", true);
-            giPlayerCurrentSetPos(-1839.8639, -91.1017, 629.13367);
+            giPlayerCurrentSetPos(-1839.9, -91.1, 629.1);
             giPlayerCurrentSetAng(122.0);
             giCameraSetMode(0, true);
             giArenaReady();
@@ -78,7 +78,7 @@ void func1001()
             if (select_dialog_last_select != 1)
             {
                 leader_player_id = giPlayerGetLeader();
-                giPlayerWalkTo(leader_player_id, 2925.9087, -95.6444, -4626.729, true);
+                giPlayerWalkTo(leader_player_id, 2925.9, -95.6, -4626.7, true);
                 giPlayerSetDir(leader_player_id, 325.0, true);
                 giCameraAutoSeek(true);
                 giCameraSetMode(5, true);
@@ -92,7 +92,7 @@ void func1001()
         else
         {
             giArenaLoad("Q07", "Q07", "", true);
-            giPlayerCurrentSetPos(-1839.8639, -91.1017, 629.13367);
+            giPlayerCurrentSetPos(-1839.9, -91.1, 629.1);
             giPlayerCurrentSetAng(122.0);
             giCameraSetMode(0, true);
             giArenaReady();
@@ -119,7 +119,7 @@ void func1002()
     if (select_dialog_last_select != 0)
     {
         leader_player_id = giPlayerGetLeader();
-        giPlayerWalkTo(leader_player_id, 1567.7776, -95.17909, 4422.158, true);
+        giPlayerWalkTo(leader_player_id, 1567.8, -95.2, 4422.2, true);
         giPlayerSetDir(leader_player_id, 170.0, true);
         giCameraAutoSeek(true);
         giCameraSetMode(5, true);
@@ -144,11 +144,11 @@ void func2001()
         giCameraSetCollide(false);
         giCameraAutoSeek(false);
         giPlayerCurrentSetVisible(false);
-        giPlayerSetPos(0, 1652.7021, -95.854, 4105.502);
+        giPlayerSetPos(0, 1652.7, -95.9, 4105.5);
         giPlayerSetAng(0, 198.0);
-        giPlayerSetPos(1, 1594.8752, -95.8525, 4060.184);
+        giPlayerSetPos(1, 1594.9, -95.9, 4060.2);
         giPlayerSetAng(1, 192.0);
-        giPlayerSetPos(2, 1677.3412, -95.8592, 4054.8408);
+        giPlayerSetPos(2, 1677.3, -95.9, 4054.8);
         giPlayerSetAng(2, 222.0);
         giPlayerSetVisible(0, true);
         giPlayerSetVisible(1, true);
@@ -238,11 +238,11 @@ void func2001()
         giSetPortrait("102K", false);
         giTalk("云天河：哈哈，太好了！", "42861");
         giPlayerEndAction(0);
-        giPlayerRunTo(0, 1606.5328, -95.848, 3805.5466, false);
+        giPlayerRunTo(0, 1606.5, -95.8, 3805.5, false);
         giWait(1.8);
         giCameraRunSingle("006", false);
         giWait(0.5);
-        giPlayerWalkTo(1, 1639.8466, -95.8524, 4055.233, true);
+        giPlayerWalkTo(1, 1639.8, -95.9, 4055.2, true);
         giPlayerDoAction(1, "J14", -1, false);
         giSetPortrait("104J", true);
         giTalk("韩菱纱：梦璃，你未免对那个傻瓜太好了吧？", "42862");
@@ -275,7 +275,7 @@ void func2001()
         giSetObjectVisible("save1", true);
         giIMMEnd();
         global_mvar = 70700; // 0x0001142C, 荒漠深处
-        giPlayerCurrentSetPos(1616.0814, -95.848, 3886.164);
+        giPlayerCurrentSetPos(1616.1, -95.8, 3886.2);
         giPlayerCurrentSetAng(200.0);
         giCameraSetMode(5, true);
         giTimeScript(180.0, "func9001");
@@ -342,6 +342,7 @@ void func9001()
             local_5 = "item" + "20" + "2";
             giSetObjectVisible("item" + "20" + "2", true);
         }
+        local_3 = local_3 + 1;
     }
     giIMMEnd();
 }

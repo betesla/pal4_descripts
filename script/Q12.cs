@@ -22,9 +22,9 @@ void func2001()
         giCameraAutoSeek(false);
         giIMMBegin();
         giPlayerCurrentSetVisible(false);
-        giPlayerSetPos(0, -26.0717, -0.8881, -7.9787);
-        giPlayerSetPos(1, -7.2098, 3.4533, -46.0046);
-        giPlayerSetPos(3, 14.6663, 3.4445, 23.608);
+        giPlayerSetPos(0, -26.1, -0.9, -8.0);
+        giPlayerSetPos(1, -7.2, 3.5, -46.0);
+        giPlayerSetPos(3, 14.7, 3.4, 23.6);
         giPlayerSetAng(0, 268.0);
         giPlayerSetAng(1, 275.0);
         giPlayerSetAng(3, 322.0);
@@ -69,9 +69,9 @@ void func2001()
         giPlayerUnHoldAct(1);
         giPlayerEndAction(1);
         giIMMBegin();
-        giPlayerSetPos(1, -0.6488, 0.6432, -33.0301);
+        giPlayerSetPos(1, -0.6, 0.6, -33.0);
         giPlayerSetAng(1, 19.0);
-        giPlayerSetPos(3, 26.7749, 3.5469, 24.0807);
+        giPlayerSetPos(3, 26.8, 3.5, 24.1);
         giPlayerSetAng(3, 322.0);
         giCameraRunSingle("005", true);
         giIMMEnd();
@@ -144,7 +144,7 @@ void func2001()
         giWait(0.5);
         giCameraRunSingle("008", true);
         giWait(0.8);
-        giPlayerWalkTo(1, 35.0699, 0.6432, -28.5737, true);
+        giPlayerWalkTo(1, 35.1, 0.6, -28.6, true);
         giWait(0.3);
         giSetPortrait("103C", false);
         giTalk("韩菱纱：你……把头抬起来，让我看一看好吗？", "45101");
@@ -251,8 +251,8 @@ void func2001()
         giTalk("韩菱纱：……", "45128");
         giWait(0.5);
         giIMMBegin();
-        giPlayerSetPos(0, -20.1825, -0.8881, -2.2642);
-        giPlayerSetPos(1, 20.3163, 1.3686, -36.3791);
+        giPlayerSetPos(0, -20.2, -0.9, -2.3);
+        giPlayerSetPos(1, 20.3, 1.4, -36.4);
         giCameraRunSingle("016", true);
         giIMMEnd();
         giSetPortrait("228A", true);

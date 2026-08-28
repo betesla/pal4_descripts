@@ -92,7 +92,7 @@ void EarthBall()
 {
     giPlayerLock();
     giFlashOutBlack(1.0, true, true);
-    giPlayerCurrentSetPos(-638.56793, 40.05522, 2595.762);
+    giPlayerCurrentSetPos(-638.6, 40.1, 2595.8);
     giPlayerCurrentSetAng(126.0);
     giCameraSetMode(5, true);
     giFlashInBlack(1.0, true);
@@ -114,7 +114,7 @@ void func1002()
     if (global_mvar > 20000)
     {
         giArenaLoad("M01", "3", "", true);
-        giPlayerCurrentSetPos(-524.94293, -124.330315, -1106.487);
+        giPlayerCurrentSetPos(-524.9, -124.3, -1106.5);
         giPlayerCurrentSetAng(60.0);
         giCameraSetMode(5, true);
         giArenaReady();
@@ -122,7 +122,7 @@ void func1002()
     else
     {
         giArenaLoad("M01", "1", "", true);
-        giPlayerCurrentSetPos(-524.94293, -124.330315, -1106.487);
+        giPlayerCurrentSetPos(-524.9, -124.3, -1106.5);
         giPlayerCurrentSetAng(60.0);
         giCameraSetMode(5, true);
         giArenaReady();
@@ -2062,6 +2062,7 @@ void func9001()
             local_5 = "item" + "20" + "2";
             giSetObjectVisible("item" + "20" + "2", true);
         }
+        local_3 = local_3 + 1;
     }
     giIMMEnd();
 }

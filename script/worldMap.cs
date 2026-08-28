@@ -293,7 +293,7 @@ void Q01()
     if (global_mvar != 160400 /* 第四章 / 9-4-1.步虚词终 / 重回青鸾峰 */)
     {
         giArenaLoad("Q01", "Q01", "", true);
-        giPlayerCurrentSetPos(-3178.161, -407.63074, 349.00125);
+        giPlayerCurrentSetPos(-3178.2, -407.6, 349.0);
         giPlayerCurrentSetAng(45.0);
         giCameraSetMode(0, true);
         giPlayerUnLock();
@@ -309,7 +309,7 @@ void Q01()
 void Q02()
 {
     giArenaLoad("Q02", "Q02", "", true);
-    giPlayerCurrentSetPos(-411.3458, 221.3821, 1477.6482);
+    giPlayerCurrentSetPos(-411.3, 221.4, 1477.6);
     giPlayerCurrentSetAng(165.0);
     giCameraSetMode(0, true);
     giPlayerUnLock();
@@ -319,7 +319,7 @@ void Q02()
 void Q03()
 {
     giArenaLoad("Q03", "Q03S", "", true);
-    giPlayerCurrentSetPos(-1.55481, -13.55481, 2784.555);
+    giPlayerCurrentSetPos(-1.6, -13.6, 2784.6);
     giPlayerCurrentSetAng(180.0);
     giCameraSetMode(0, true);
     giPlayerUnLock();
@@ -329,7 +329,7 @@ void Q03()
 void Q04()
 {
     giArenaLoad("Q04", "Q04C", "", true);
-    giPlayerCurrentSetPos(-1439.1438, 65.634094, 2732.9912);
+    giPlayerCurrentSetPos(-1439.1, 65.6, 2733.0);
     giPlayerCurrentSetAng(180.0);
     giCameraSetMode(0, true);
     giPlayerUnLock();
@@ -341,7 +341,7 @@ void Q05()
     if (global_mvar < 161000 /* 第四章 / 9-6-2.死生悠茫 / 再往播仙镇 / 宗炼手记 */)
     {
         giArenaLoad("Q05", "Q05", "", true);
-        giPlayerCurrentSetPos(2221.1438, 145.6341, 799.9912);
+        giPlayerCurrentSetPos(2221.1, 145.6, 800.0);
         giPlayerCurrentSetAng(275.0);
         giCameraSetMode(0, true);
         giPlayerUnLock();
@@ -350,7 +350,7 @@ void Q05()
     else if (global_mvar != 161000 /* 第四章 / 9-6-2.死生悠茫 / 再往播仙镇 / 宗炼手记 */)
     {
         giArenaLoad("Q05", "Q05P", "", true);
-        giPlayerCurrentSetPos(2221.1438, 145.6341, 799.9912);
+        giPlayerCurrentSetPos(2221.1, 145.6, 800.0);
         giPlayerCurrentSetAng(275.0);
         giCameraSetMode(0, true);
         giPlayerUnLock();
@@ -381,7 +381,7 @@ void Q06()
             break;
         default:
             giArenaLoad("Q06", "Q06Q", "", true);
-            giPlayerCurrentSetPos(12676.761, -2022.7461, -15857.931);
+            giPlayerCurrentSetPos(12676.8, -2022.7, -15857.9);
             giPlayerCurrentSetAng(352.0);
             giCameraSetMode(0, true);
             giPlayerUnLock();
@@ -393,7 +393,7 @@ void Q06()
 void Q07()
 {
     giArenaLoad("Q07", "Q07", "", true);
-    giPlayerCurrentSetPos(-1839.8639, -91.1017, 629.13367);
+    giPlayerCurrentSetPos(-1839.9, -91.1, 629.1);
     giPlayerCurrentSetAng(122.0);
     giCameraSetMode(0, true);
     giPlayerUnLock();
@@ -403,7 +403,7 @@ void Q07()
 void Q08()
 {
     giArenaLoad("Q08", "Q08", "", true);
-    giPlayerCurrentSetPos(487.51642, -516.4262, 1706.742);
+    giPlayerCurrentSetPos(487.5, -516.4, 1706.7);
     giPlayerCurrentSetAng(136.0);
     giCameraSetMode(0, true);
     giPlayerUnLock();
@@ -415,7 +415,7 @@ void Q09()
     if (global_mvar != 90100 /* 第二章 / 5-3-3.三寒器 / 前往即墨 / 三件寒器 */)
     {
         giArenaLoad("Q09", "Q09", "", true);
-        giPlayerCurrentSetPos(-3543.5164, 219.42624, -2397.742);
+        giPlayerCurrentSetPos(-3543.5, 219.4, -2397.7);
         giPlayerCurrentSetAng(65.0);
         giCameraSetMode(0, true);
         giPlayerUnLock();
@@ -431,7 +431,7 @@ void Q09()
 void Q10()
 {
     giArenaLoad("Q10", "Q10", "", true);
-    giPlayerCurrentSetPos(-940.667, -23.239662, -32.909233);
+    giPlayerCurrentSetPos(-940.7, -23.2, -32.9);
     giPlayerCurrentSetAng(85.0);
     giCameraSetMode(0, true);
     giPlayerUnLock();
@@ -441,7 +441,7 @@ void Q10()
 void Q13()
 {
     giArenaLoad("Q13", "Q13", "", true);
-    giPlayerCurrentSetPos(1817.667, -182.23965, 3399.9092);
+    giPlayerCurrentSetPos(1817.7, -182.2, 3399.9);
     giPlayerCurrentSetAng(180.0);
     giCameraSetMode(0, true);
     giPlayerUnLock();
@@ -451,7 +451,7 @@ void Q13()
 void M02()
 {
     giArenaLoad("M02", "1", "", true);
-    giPlayerCurrentSetPos(-49.54868, -131.68823, 217.37811);
+    giPlayerCurrentSetPos(-49.5, -131.7, 217.4);
     giPlayerCurrentSetAng(170.0);
     giCameraSetMode(0, true);
     giPlayerUnLock();
@@ -463,7 +463,7 @@ void M03()
     if (global_mvar != 110200 /* 第二章 / 6-5-2.非愿 / 前往巢湖 / 月夜惜别 */)
     {
         giArenaLoad("M03", "1", "", true);
-        giPlayerCurrentSetPos(-1631.8359, -33.835938, -1961.8359);
+        giPlayerCurrentSetPos(-1631.8, -33.8, -1961.8);
         giPlayerCurrentSetAng(80.0);
         giCameraSetMode(5, true);
         giPlayerUnLock();
@@ -479,7 +479,7 @@ void M03()
 void M05()
 {
     giArenaLoad("M05", "1", "", true);
-    giPlayerCurrentSetPos(1525.2577, -281.50745, 1837.627);
+    giPlayerCurrentSetPos(1525.3, -281.5, 1837.6);
     giPlayerCurrentSetAng(192.0);
     giCameraSetMode(0, true);
     giPlayerUnLock();
@@ -489,7 +489,7 @@ void M05()
 void M09()
 {
     giArenaLoad("M09", "1", "", true);
-    giPlayerCurrentSetPos(-3450.7776, -226.1791, -1768.1584);
+    giPlayerCurrentSetPos(-3450.8, -226.2, -1768.2);
     giPlayerCurrentSetAng(30.0);
     giCameraSetMode(0, true);
     giPlayerUnLock();
@@ -501,7 +501,7 @@ void M11()
     if (global_mvar != 70500 /* 第二章 / 4-3-4.御剑逍遥 / 东南荒漠 / 修仙习剑 */)
     {
         giArenaLoad("M11", "1", "", true);
-        giPlayerCurrentSetPos(1567.7776, -95.17909, 4422.158);
+        giPlayerCurrentSetPos(1567.8, -95.2, 4422.2);
         giPlayerCurrentSetAng(170.0);
         giCameraSetMode(5, true);
         giPlayerUnLock();
@@ -573,7 +573,7 @@ void M19()
     if (global_mvar != 161100 /* 第四章 / 9-7-1.终局 / 飞上琼华 */)
     {
         giArenaLoad("M19", "1", "", true);
-        giPlayerCurrentSetPos(12676.761, -2022.7461, -15857.931);
+        giPlayerCurrentSetPos(12676.8, -2022.7, -15857.9);
         giPlayerCurrentSetAng(352.0);
         giCameraSetMode(5, true);
         giPlayerUnLock();

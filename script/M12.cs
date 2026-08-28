@@ -29,7 +29,7 @@ void EarthBall()
 {
     giPlayerLock();
     giFlashOutBlack(1.0, true, true);
-    giPlayerCurrentSetPos(3402.6694, 284.04095, 1569.3074);
+    giPlayerCurrentSetPos(3402.7, 284.0, 1569.3);
     giPlayerCurrentSetAng(298.0);
     giCameraSetMode(5, true);
     giFlashInBlack(1.0, true);
@@ -40,7 +40,7 @@ void EarthBall()
 void func1001()
 {
     giArenaLoad("Q08", "Q08", "", true);
-    giPlayerCurrentSetPos(487.51642, -516.4262, 1706.742);
+    giPlayerCurrentSetPos(487.5, -516.4, 1706.7);
     giPlayerCurrentSetAng(136.0);
     giCameraSetMode(0, true);
     giArenaReady();
@@ -69,7 +69,7 @@ void func1002()
                     if (global_mvar < 160200 /* 第四章 / 9-3-2.君莫思归 / 再访长老 / 生离之痛 */)
                     {
                         giArenaLoad("Q06", "Q06Q", "", true);
-                        giPlayerCurrentSetPos(19971.604, -1084.9795, -1784.5197);
+                        giPlayerCurrentSetPos(19971.6, -1085.0, -1784.5);
                         giPlayerCurrentSetAng(144.0);
                         giCameraSetMode(0, true);
                         giArenaReady();
@@ -78,7 +78,7 @@ void func1002()
                     {
                         giPlayerLock();
                         giPlayerSetLeader(0);
-                        giPlayerWalkTo(0, 3397.1924, 284.0496, 1584.1384, true);
+                        giPlayerWalkTo(0, 3397.2, 284.0, 1584.1, true);
                         giPlayerSetDir(0, 292.0, true);
                         giCameraAutoSeek(true);
                         giCameraSetMode(5, true);
@@ -91,7 +91,7 @@ void func1002()
                 {
                     giPlayerLock();
                     giPlayerSetLeader(0);
-                    giPlayerWalkTo(0, 3397.1924, 284.0496, 1584.1384, true);
+                    giPlayerWalkTo(0, 3397.2, 284.0, 1584.1, true);
                     giPlayerSetDir(0, 292.0, true);
                     giCameraAutoSeek(true);
                     giCameraSetMode(5, true);
@@ -104,7 +104,7 @@ void func1002()
             {
                 giPlayerLock();
                 giPlayerSetLeader(0);
-                giPlayerWalkTo(0, 3397.1924, 284.0496, 1584.1384, true);
+                giPlayerWalkTo(0, 3397.2, 284.0, 1584.1, true);
                 giPlayerSetDir(0, 292.0, true);
                 giCameraAutoSeek(true);
                 giCameraSetMode(5, true);
@@ -141,7 +141,7 @@ void func2001()
         giCameraRunSingle("001", false);
         giFlashInWhite(2.0, true);
         giWait(3.0);
-        giNpcWalkTo("MN002", -424.5569, 3.2184, -1887.6111, true);
+        giNpcWalkTo("MN002", -424.6, 3.2, -1887.6, true);
         giWait(1.0);
         giSetPortrait("231B", false);
         giTalk("玄霄：夙玉，你果然在此。", "45622");
@@ -166,10 +166,10 @@ void func2001()
         giWait(0.5);
         giSetPortrait("232D", true);
         giTalk("夙玉：……那首歌自然是很哀伤的……", "45627");
-        giWait(0.699999988079071);
+        giWait(0.7);
         giSetPortrait("232D", true);
         giTalk("夙玉：杳杳灵凤，绵绵长归。悠悠我思，永与愿违。万劫无期，何时来飞？", "45628");
-        giWait(0.699999988079071);
+        giWait(0.7);
         giSetPortrait("231A", false);
         giTalk("玄霄：……万劫无期，何时来飞？", "45629");
         giWait(0.5);
@@ -194,7 +194,7 @@ void func2001()
         giWait(0.5);
         giSetPortrait("232A", false);
         giTalk("夙玉：那以后许多年，王女一直郁郁寡欢，某日天降大雪，王女因为思忆灵凤，来到长林丘中，唱起歌来，或许是歌声太过悲戚，感动了天地，灵凤竟死而复生，带着王女一同飞入云端……", "45636");
-        giWait(0.699999988079071);
+        giWait(0.7);
         giSetPortrait("232A", false);
         giTalk("夙玉：好在这个故事总算善始善终，也不负这对有情人了。", "45637");
         giWait(1.0);
@@ -204,7 +204,7 @@ void func2001()
         giTalk("玄霄：……莫非，在夙玉的心中，也是思念着谁？", "45638");
         giSetPortrait("232C", true);
         giTalk("夙玉：……！", "45639");
-        giWait(0.699999988079071);
+        giWait(0.7);
         giSetPortrait("232D", true);
         giTalk("夙玉：哪里……我不过是见这些凤凰花开得绚丽，便想到了那个关于凤凰的传说。", "45640");
         giSetPortrait("232D", true);
@@ -254,7 +254,7 @@ void func3001()
         giCameraSetCollide(false);
         giCameraAutoSeek(false);
         giPlayerCurrentSetVisible(false);
-        giPlayerSetPos(0, 2038.3612, 284.2759, 1740.1299);
+        giPlayerSetPos(0, 2038.4, 284.3, 1740.1);
         giPlayerSetAng(0, 270.0);
         giPlayerSetVisible(0, true);
         giHideGASkillObject();
@@ -344,7 +344,7 @@ void func3001()
         giSetObjectVisible("item101", true);
         giPlayerSetVisible(0, false);
         giPlayerCurrentSetVisible(true);
-        giPlayerCurrentSetPos(2196.9028, 284.2754, 1725.7632);
+        giPlayerCurrentSetPos(2196.9, 284.3, 1725.8);
         giPlayerCurrentSetAng(122.0);
         npc_d = 2;
         giShowSignpost();
@@ -373,7 +373,7 @@ void func7001()
         giMSTBlendIn("m12-07-02", 0.6, true);
         giWait(1.0);
         giMSTBlendIn("m12-07-01", 1.0, true);
-        giWait(1.2000000476837158);
+        giWait(1.2);
         giCameraSetMode(5, true);
         giCameraAutoSeek(true);
         giCameraSeekToPlayer();
@@ -412,6 +412,7 @@ void func9001()
             local_5 = "item" + "20" + "2";
             giSetObjectVisible("item" + "20" + "2", true);
         }
+        local_3 = local_3 + 1;
     }
     giIMMEnd();
 }

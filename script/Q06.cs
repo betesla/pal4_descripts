@@ -7,10 +7,10 @@ void Q06_Q06Q_init()
     LL_001(global_mvar);
     if (global_mvar < 101400 && npc_b == 1 /* 第二章 / 6-4-5.神农仆众 / 回昆仑琼华派 / 梭罗树仙 */)
     {
-        giNpcSetPos("SN001", 7672.334, -1387.8984, -8071.2734);
+        giNpcSetPos("SN001", 7672.3, -1387.9, -8071.3);
         giNpcSetAng("SN001", 74.0);
         giSetNpcVisible("SN001", true);
-        giNpcSetPos("SN002", 7734.1895, -1387.8984, -8051.8174);
+        giNpcSetPos("SN002", 7734.2, -1387.9, -8051.8);
         giNpcSetAng("SN002", 266.0);
         giSetNpcVisible("SN002", true);
         giSetObjectVisible("Jsound050", true);
@@ -70,13 +70,13 @@ void Q06_Q06Q_init()
         giSetNpcVisible("4050", false);
         giSetNpcVisible("4052", false);
         giSetNpcVisible("4019", false);
-        giPlayerSetPos(1, 6921.5576, -1388.3837, -6258.458);
+        giPlayerSetPos(1, 6921.6, -1388.4, -6258.5);
         giPlayerSetAng(1, 5.0);
         giPlayerSetVisible(1, true);
-        giPlayerSetPos(2, 6964.288, -1388.3838, -6226.155);
+        giPlayerSetPos(2, 6964.3, -1388.4, -6226.2);
         giPlayerSetAng(2, 313.0);
         giPlayerSetVisible(2, true);
-        giPlayerSetPos(3, 6927.8286, -1388.3838, -6187.823);
+        giPlayerSetPos(3, 6927.8, -1388.4, -6187.8);
         giPlayerSetAng(3, 191.8477);
         giPlayerSetVisible(3, true);
         giIMMEnd();
@@ -131,7 +131,7 @@ void Q06_Q06QY_init()
     }
     else
     {
-        giNpcSetPos("SN001", 13335.574, -1088.2423, -5375.1333);
+        giNpcSetPos("SN001", 13335.6, -1088.2, -5375.1);
         giNpcSetAng("SN001", 100.0);
         giSetNpcVisible("SN001", true);
         giArenaReadyRestore();
@@ -235,7 +235,7 @@ void LL_001(int arg0)
 void func1001()
 {
     giArenaLoad("Q06", "QN01", "", true);
-    giPlayerCurrentSetPos(-35.750633, 0.901304, 222.5838);
+    giPlayerCurrentSetPos(-35.8, 0.9, 222.6);
     giPlayerCurrentSetAng(180.0);
     giCameraSetMode(3, true);
     giArenaReady();
@@ -244,7 +244,7 @@ void func1001()
 void func1002()
 {
     giArenaLoad("Q06", "Q06Q", "", true);
-    giPlayerCurrentSetPos(13752.157, -1826.8779, -11814.634);
+    giPlayerCurrentSetPos(13752.2, -1826.9, -11814.6);
     giPlayerCurrentSetAng(245.0);
     giCameraSetMode(0, true);
     giArenaReady();
@@ -253,7 +253,7 @@ void func1002()
 void func1003()
 {
     giArenaLoad("Q06", "QN02", "", true);
-    giPlayerCurrentSetPos(-22.80092, 1.774332, 232.88431);
+    giPlayerCurrentSetPos(-22.8, 1.8, 232.9);
     giPlayerCurrentSetAng(180.0);
     giCameraSetMode(3, true);
     giArenaReady();
@@ -262,7 +262,7 @@ void func1003()
 void func1004()
 {
     giArenaLoad("Q06", "Q06Q", "", true);
-    giPlayerCurrentSetPos(10537.806, -1835.408, -12316.29);
+    giPlayerCurrentSetPos(10537.8, -1835.4, -12316.3);
     giPlayerCurrentSetAng(100.0);
     giCameraSetMode(0, true);
     giArenaReady();
@@ -271,7 +271,7 @@ void func1004()
 void func1005()
 {
     giArenaLoad("Q06", "QN03", "", true);
-    giPlayerCurrentSetPos(-0.171639, -69.504, 532.49274);
+    giPlayerCurrentSetPos(-0.2, -69.5, 532.5);
     giPlayerCurrentSetAng(180.0);
     giCameraSetMode(2, true);
     giArenaReady();
@@ -282,7 +282,7 @@ void func1006()
     if (global_mvar != 60901 /* 第二章 / 4-1-5.寻仙昆仑 / 入门考验 */)
     {
         giArenaLoad("Q06", "Q06Q", "", true);
-        giPlayerCurrentSetPos(11908.707, -1669.7406, -10743.211);
+        giPlayerCurrentSetPos(11908.7, -1669.7, -10743.2);
         giPlayerCurrentSetAng(170.0);
         giCameraSetMode(0, true);
         giArenaReady();
@@ -302,7 +302,7 @@ void func1006()
 void func1007()
 {
     giArenaLoad("Q06", "QN04", "", true);
-    giPlayerCurrentSetPos(16.41736, 0.429636, 91.91204);
+    giPlayerCurrentSetPos(16.4, 0.4, 91.9);
     giPlayerCurrentSetAng(180.0);
     giCameraSetMode(3, true);
     giArenaReady();
@@ -311,7 +311,7 @@ void func1007()
 void func1008()
 {
     giArenaLoad("Q06", "Q06Q", "", true);
-    giPlayerCurrentSetPos(5530.644, -1383.2518, -5928.025);
+    giPlayerCurrentSetPos(5530.6, -1383.3, -5928.0);
     giPlayerCurrentSetAng(115.0);
     giCameraSetMode(0, true);
     giArenaReady();
@@ -322,7 +322,7 @@ void func1009()
     if (global_mvar < 70500 || global_mvar >= 101400 || npc_c != 2 /* 第二章 / 4-3-4.御剑逍遥 / 东南荒漠 / 修仙习剑 */)
     {
         giArenaLoad("Q06", "QN05", "", true);
-        giPlayerCurrentSetPos(-56.20562, 0.26162, 108.90097);
+        giPlayerCurrentSetPos(-56.2, 0.3, 108.9);
         giPlayerCurrentSetAng(180.0);
         giCameraSetMode(3, true);
         giArenaReady();
@@ -342,7 +342,7 @@ void func1010()
         if (global_mvar != 120500 /* 第三章 / 7-4-4.仙妖乱 / 寻找梦璃 */)
         {
             giArenaLoad("Q06", "Q06Q", "", true);
-            giPlayerCurrentSetPos(5673.268, -1383.2518, -5515.5864);
+            giPlayerCurrentSetPos(5673.3, -1383.3, -5515.6);
             giPlayerCurrentSetAng(115.0);
             giCameraSetMode(0, true);
             giArenaReady();
@@ -363,7 +363,7 @@ void func1010()
 void func1011()
 {
     giArenaLoad("Q06", "QN06", "", true);
-    giPlayerCurrentSetPos(1.152691, 4.61465, 116.415344);
+    giPlayerCurrentSetPos(1.2, 4.6, 116.4);
     giPlayerCurrentSetAng(180.0);
     giCameraSetMode(2, true);
     giArenaReady();
@@ -372,7 +372,7 @@ void func1011()
 void func1012()
 {
     giArenaLoad("Q06", "Q06Q", "", true);
-    giPlayerCurrentSetPos(6111.8164, -1383.2518, -4731.6978);
+    giPlayerCurrentSetPos(6111.8, -1383.3, -4731.7);
     giPlayerCurrentSetAng(115.0);
     giCameraSetMode(0, true);
     giArenaReady();
@@ -381,7 +381,7 @@ void func1012()
 void func1013()
 {
     giArenaLoad("Q06", "QN07", "QN07a", true);
-    giPlayerCurrentSetPos(-1.604777, 0.572409, 120.5642);
+    giPlayerCurrentSetPos(-1.6, 0.6, 120.6);
     giPlayerCurrentSetAng(180.0);
     giCameraSetMode(2, true);
     giArenaReady();
@@ -390,7 +390,7 @@ void func1013()
 void func1014()
 {
     giArenaLoad("Q06", "Q06Q", "", true);
-    giPlayerCurrentSetPos(6820.9336, -1358.1772, -4758.014);
+    giPlayerCurrentSetPos(6820.9, -1358.2, -4758.0);
     giPlayerCurrentSetAng(204.0);
     giCameraSetMode(0, true);
     giArenaReady();
@@ -399,7 +399,7 @@ void func1014()
 void func1015()
 {
     giArenaLoad("Q06", "QN07", "QN07b", true);
-    giPlayerCurrentSetPos(-1.604777, 0.572409, 120.5642);
+    giPlayerCurrentSetPos(-1.6, 0.6, 120.6);
     giPlayerCurrentSetAng(180.0);
     giCameraSetMode(2, true);
     giArenaReady();
@@ -408,7 +408,7 @@ void func1015()
 void func1016()
 {
     giArenaLoad("Q06", "Q06Q", "", true);
-    giPlayerCurrentSetPos(8236.961, -1360.5596, -5441.0244);
+    giPlayerCurrentSetPos(8237.0, -1360.6, -5441.0);
     giPlayerCurrentSetAng(204.0);
     giCameraSetMode(0, true);
     giArenaReady();
@@ -417,7 +417,7 @@ void func1016()
 void func1017()
 {
     giArenaLoad("Q06", "QN08", "QN08a", true);
-    giPlayerCurrentSetPos(-19.136395, 0.618519, 93.72157);
+    giPlayerCurrentSetPos(-19.1, 0.6, 93.7);
     giPlayerCurrentSetAng(180.0);
     giCameraSetMode(3, true);
     giArenaReady();
@@ -426,7 +426,7 @@ void func1017()
 void func1018()
 {
     giArenaLoad("Q06", "Q06Q", "", true);
-    giPlayerCurrentSetPos(5678.347, -1383.5996, -7183.7983);
+    giPlayerCurrentSetPos(5678.3, -1383.6, -7183.8);
     giPlayerCurrentSetAng(25.0);
     giCameraSetMode(0, true);
     giArenaReady();
@@ -435,7 +435,7 @@ void func1018()
 void func1019()
 {
     giArenaLoad("Q06", "QN08", "QN08b", true);
-    giPlayerCurrentSetPos(-19.136395, 0.618519, 93.72157);
+    giPlayerCurrentSetPos(-19.1, 0.6, 93.7);
     giPlayerCurrentSetAng(180.0);
     giCameraSetMode(3, true);
     giArenaReady();
@@ -444,7 +444,7 @@ void func1019()
 void func1020()
 {
     giArenaLoad("Q06", "Q06Q", "", true);
-    giPlayerCurrentSetPos(7812.4336, -1383.252, -7794.9277);
+    giPlayerCurrentSetPos(7812.4, -1383.3, -7794.9);
     giPlayerCurrentSetAng(295.0);
     giCameraSetMode(0, true);
     giArenaReady();
@@ -453,7 +453,7 @@ void func1020()
 void func1021()
 {
     giArenaLoad("Q06", "QN08", "QN08c", true);
-    giPlayerCurrentSetPos(-19.136395, 0.618519, 93.72157);
+    giPlayerCurrentSetPos(-19.1, 0.6, 93.7);
     giPlayerCurrentSetAng(180.0);
     giCameraSetMode(3, true);
     giArenaReady();
@@ -462,7 +462,7 @@ void func1021()
 void func1022()
 {
     giArenaLoad("Q06", "Q06Q", "", true);
-    giPlayerCurrentSetPos(7982.951, -1383.2518, -7426.748);
+    giPlayerCurrentSetPos(7983.0, -1383.3, -7426.7);
     giPlayerCurrentSetAng(294.0);
     giCameraSetMode(0, true);
     giArenaReady();
@@ -471,7 +471,7 @@ void func1022()
 void func1023()
 {
     giArenaLoad("Q06", "QN09", "QN09a", true);
-    giPlayerCurrentSetPos(1.399756, 0.519552, 116.139404);
+    giPlayerCurrentSetPos(1.4, 0.5, 116.1);
     giPlayerCurrentSetAng(180.0);
     giCameraSetMode(2, true);
     giArenaReady();
@@ -480,7 +480,7 @@ void func1023()
 void func1024()
 {
     giArenaLoad("Q06", "Q06Q", "", true);
-    giPlayerCurrentSetPos(8401.683, -1383.2518, -6557.0947);
+    giPlayerCurrentSetPos(8401.7, -1383.3, -6557.1);
     giPlayerCurrentSetAng(292.0);
     giCameraSetMode(0, true);
     giArenaReady();
@@ -489,7 +489,7 @@ void func1024()
 void func1025()
 {
     giArenaLoad("Q06", "QN09", "QN09b", true);
-    giPlayerCurrentSetPos(1.399756, 0.519552, 116.139404);
+    giPlayerCurrentSetPos(1.4, 0.5, 116.1);
     giPlayerCurrentSetAng(180.0);
     giCameraSetMode(2, true);
     giArenaReady();
@@ -498,7 +498,7 @@ void func1025()
 void func1026()
 {
     giArenaLoad("Q06", "Q06Q", "", true);
-    giPlayerCurrentSetPos(8700.296, -1383.252, -5967.8745);
+    giPlayerCurrentSetPos(8700.3, -1383.3, -5967.9);
     giPlayerCurrentSetAng(293.0);
     giCameraSetMode(0, true);
     giArenaReady();
@@ -507,7 +507,7 @@ void func1026()
 void func1027()
 {
     giArenaLoad("Q06", "QN10", "", true);
-    giPlayerCurrentSetPos(-5.793197, -0.000002, 79.72771);
+    giPlayerCurrentSetPos(-5.8, 0.0, 79.7);
     giPlayerCurrentSetAng(180.0);
     giCameraSetMode(3, true);
     giArenaReady();
@@ -516,7 +516,7 @@ void func1027()
 void func1028()
 {
     giArenaLoad("Q06", "Q06Q", "", true);
-    giPlayerCurrentSetPos(7377.085, -1383.2518, -8001.4585);
+    giPlayerCurrentSetPos(7377.1, -1383.3, -8001.5);
     giPlayerCurrentSetAng(25.0);
     giCameraSetMode(0, true);
     giArenaReady();
@@ -525,7 +525,7 @@ void func1028()
 void func1029()
 {
     giArenaLoad("Q06", "QN11", "", true);
-    giPlayerCurrentSetPos(1.396003, 0.684311, 129.19258);
+    giPlayerCurrentSetPos(1.4, 0.7, 129.2);
     giPlayerCurrentSetAng(180.0);
     giCameraSetMode(2, true);
     giArenaReady();
@@ -534,7 +534,7 @@ void func1029()
 void func1030()
 {
     giArenaLoad("Q06", "Q06Q", "", true);
-    giPlayerCurrentSetPos(5233.743, -1387.5995, -6968.9375);
+    giPlayerCurrentSetPos(5233.7, -1387.6, -6968.9);
     giPlayerCurrentSetAng(25.0);
     giCameraSetMode(0, true);
     giArenaReady();
@@ -543,7 +543,7 @@ void func1030()
 void func1031()
 {
     giArenaLoad("Q06", "QN12", "", true);
-    giPlayerCurrentSetPos(158.15134, 0.039553, 28.879179);
+    giPlayerCurrentSetPos(158.2, 0.0, 28.9);
     giPlayerCurrentSetAng(270.0);
     giCameraSetMode(2, true);
     giArenaReady();
@@ -552,7 +552,7 @@ void func1031()
 void func1032()
 {
     giArenaLoad("Q06", "Q06Q", "", true);
-    giPlayerCurrentSetPos(7015.621, -1383.2518, -7848.716);
+    giPlayerCurrentSetPos(7015.6, -1383.3, -7848.7);
     giPlayerCurrentSetAng(25.0);
     giCameraSetMode(0, true);
     giArenaReady();
@@ -561,7 +561,7 @@ void func1032()
 void func1033()
 {
     giArenaLoad("Q06", "QN13", "", true);
-    giPlayerCurrentSetPos(-146.77313, 0.514154, 120.96792);
+    giPlayerCurrentSetPos(-146.8, 0.5, 121.0);
     giPlayerCurrentSetAng(180.0);
     giCameraSetMode(3, true);
     giArenaReady();
@@ -570,7 +570,7 @@ void func1033()
 void func1034()
 {
     giArenaLoad("Q06", "Q06Q", "", true);
-    giPlayerCurrentSetPos(13708.55, -1025.9082, -5989.9634);
+    giPlayerCurrentSetPos(13708.5, -1025.9, -5990.0);
     giPlayerCurrentSetAng(53.0);
     giCameraSetMode(0, true);
     giArenaReady();
@@ -579,7 +579,7 @@ void func1034()
 void func1035()
 {
     giArenaLoad("Q06", "QN13", "", true);
-    giPlayerCurrentSetPos(120.23787, 0.514156, 122.11681);
+    giPlayerCurrentSetPos(120.2, 0.5, 122.1);
     giPlayerCurrentSetAng(180.0);
     giCameraSetMode(3, true);
     giArenaReady();
@@ -588,7 +588,7 @@ void func1035()
 void func1036()
 {
     giArenaLoad("Q06", "Q06Q", "", true);
-    giPlayerCurrentSetPos(13922.828, -1025.9082, -6311.8623);
+    giPlayerCurrentSetPos(13922.8, -1025.9, -6311.9);
     giPlayerCurrentSetAng(55.0);
     giCameraSetMode(0, true);
     giArenaReady();
@@ -597,7 +597,7 @@ void func1036()
 void func1037()
 {
     giArenaLoad("Q06", "QN14", "", true);
-    giPlayerCurrentSetPos(-146.77313, 0.514154, 120.96792);
+    giPlayerCurrentSetPos(-146.8, 0.5, 121.0);
     giPlayerCurrentSetAng(180.0);
     giCameraSetMode(3, true);
     giArenaReady();
@@ -606,7 +606,7 @@ void func1037()
 void func1038()
 {
     giArenaLoad("Q06", "Q06Q", "", true);
-    giPlayerCurrentSetPos(15962.068, -1025.9081, -7090.984);
+    giPlayerCurrentSetPos(15962.1, -1025.9, -7091.0);
     giPlayerCurrentSetAng(345.0);
     giCameraSetMode(0, true);
     giArenaReady();
@@ -615,7 +615,7 @@ void func1038()
 void func1039()
 {
     giArenaLoad("Q06", "QN14", "", true);
-    giPlayerCurrentSetPos(120.23787, 0.514156, 122.11681);
+    giPlayerCurrentSetPos(120.2, 0.5, 122.1);
     giPlayerCurrentSetAng(180.0);
     giCameraSetMode(3, true);
     giArenaReady();
@@ -624,7 +624,7 @@ void func1039()
 void func1040()
 {
     giArenaLoad("Q06", "Q06Q", "", true);
-    giPlayerCurrentSetPos(16324.835, -1025.9082, -6985.9062);
+    giPlayerCurrentSetPos(16324.8, -1025.9, -6985.9);
     giPlayerCurrentSetAng(345.0);
     giCameraSetMode(0, true);
     giArenaReady();
@@ -633,7 +633,7 @@ void func1040()
 void func1041()
 {
     giArenaLoad("Q06", "QN15", "", true);
-    giPlayerCurrentSetPos(-146.77313, 0.514154, 120.96792);
+    giPlayerCurrentSetPos(-146.8, 0.5, 121.0);
     giPlayerCurrentSetAng(180.0);
     giCameraSetMode(3, true);
     giArenaReady();
@@ -642,7 +642,7 @@ void func1041()
 void func1042()
 {
     giArenaLoad("Q06", "Q06Q", "", true);
-    giPlayerCurrentSetPos(17593.412, -1025.9082, -5495.1743);
+    giPlayerCurrentSetPos(17593.4, -1025.9, -5495.2);
     giPlayerCurrentSetAng(270.0);
     giCameraSetMode(0, true);
     giArenaReady();
@@ -651,7 +651,7 @@ void func1042()
 void func1043()
 {
     giArenaLoad("Q06", "QN15", "", true);
-    giPlayerCurrentSetPos(120.23787, 0.514156, 122.11681);
+    giPlayerCurrentSetPos(120.2, 0.5, 122.1);
     giPlayerCurrentSetAng(180.0);
     giCameraSetMode(3, true);
     giArenaReady();
@@ -660,7 +660,7 @@ void func1043()
 void func1044()
 {
     giArenaLoad("Q06", "Q06Q", "", true);
-    giPlayerCurrentSetPos(17596.611, -1025.9082, -5117.2593);
+    giPlayerCurrentSetPos(17596.6, -1025.9, -5117.3);
     giPlayerCurrentSetAng(270.0);
     giCameraSetMode(0, true);
     giArenaReady();
@@ -669,7 +669,7 @@ void func1044()
 void func1045()
 {
     giArenaLoad("Q06", "QN16", "", true);
-    giPlayerCurrentSetPos(-146.77313, 0.514154, 120.96792);
+    giPlayerCurrentSetPos(-146.8, 0.5, 121.0);
     giPlayerCurrentSetAng(180.0);
     giCameraSetMode(3, true);
     giArenaReady();
@@ -678,7 +678,7 @@ void func1045()
 void func1046()
 {
     giArenaLoad("Q06", "Q06Q", "", true);
-    giPlayerCurrentSetPos(16475.33, -1025.9081, -3265.5132);
+    giPlayerCurrentSetPos(16475.3, -1025.9, -3265.5);
     giPlayerCurrentSetAng(263.0);
     giCameraSetMode(0, true);
     giArenaReady();
@@ -687,7 +687,7 @@ void func1046()
 void func1047()
 {
     giArenaLoad("Q06", "QN16", "", true);
-    giPlayerCurrentSetPos(120.23787, 0.514156, 122.11681);
+    giPlayerCurrentSetPos(120.2, 0.5, 122.1);
     giPlayerCurrentSetAng(180.0);
     giCameraSetMode(3, true);
     giArenaReady();
@@ -696,7 +696,7 @@ void func1047()
 void func1048()
 {
     giArenaLoad("Q06", "Q06Q", "", true);
-    giPlayerCurrentSetPos(16111.18, -1025.9082, -3129.9216);
+    giPlayerCurrentSetPos(16111.2, -1025.9, -3129.9);
     giPlayerCurrentSetAng(144.0);
     giCameraSetMode(0, true);
     giArenaReady();
@@ -705,7 +705,7 @@ void func1048()
 void func1049()
 {
     giArenaLoad("Q06", "QN17", "", true);
-    giPlayerCurrentSetPos(-146.77313, 0.514154, 120.96792);
+    giPlayerCurrentSetPos(-146.8, 0.5, 121.0);
     giPlayerCurrentSetAng(180.0);
     giCameraSetMode(3, true);
     giArenaReady();
@@ -714,7 +714,7 @@ void func1049()
 void func1050()
 {
     giArenaLoad("Q06", "Q06Q", "", true);
-    giPlayerCurrentSetPos(14092.448, -1025.9081, -3754.281);
+    giPlayerCurrentSetPos(14092.4, -1025.9, -3754.3);
     giPlayerCurrentSetAng(132.0);
     giCameraSetMode(0, true);
     giArenaReady();
@@ -723,7 +723,7 @@ void func1050()
 void func1051()
 {
     giArenaLoad("Q06", "QN17", "", true);
-    giPlayerCurrentSetPos(120.23787, 0.514156, 122.11681);
+    giPlayerCurrentSetPos(120.2, 0.5, 122.1);
     giPlayerCurrentSetAng(180.0);
     giCameraSetMode(3, true);
     giArenaReady();
@@ -732,7 +732,7 @@ void func1051()
 void func1052()
 {
     giArenaLoad("Q06", "Q06Q", "", true);
-    giPlayerCurrentSetPos(13851.655, -1025.9082, -4054.1067);
+    giPlayerCurrentSetPos(13851.7, -1025.9, -4054.1);
     giPlayerCurrentSetAng(128.0);
     giCameraSetMode(0, true);
     giArenaReady();
@@ -741,7 +741,7 @@ void func1052()
 void func1053()
 {
     giArenaLoad("Q06", "QN18", "", true);
-    giPlayerCurrentSetPos(-234.2573, 0.033857, 1.605606);
+    giPlayerCurrentSetPos(-234.3, 0.0, 1.6);
     giPlayerCurrentSetAng(90.0);
     giCameraSetMode(3, true);
     giArenaReady();
@@ -750,7 +750,7 @@ void func1053()
 void func1054()
 {
     giArenaLoad("Q06", "Q06Q", "", true);
-    giPlayerCurrentSetPos(25991.223, -1300.553, 1411.5134);
+    giPlayerCurrentSetPos(25991.2, -1300.6, 1411.5);
     giPlayerCurrentSetAng(22.0);
     giCameraSetMode(0, true);
     giArenaReady();
@@ -759,7 +759,7 @@ void func1054()
 void func1055()
 {
     giArenaLoad("Q06", "QN19", "", true);
-    giPlayerCurrentSetPos(-31.353601, 0.02149, 159.4544);
+    giPlayerCurrentSetPos(-31.4, 0.0, 159.5);
     giPlayerCurrentSetAng(180.0);
     giCameraSetMode(3, true);
     giArenaReady();
@@ -768,7 +768,7 @@ void func1055()
 void func1056()
 {
     giArenaLoad("Q06", "Q06Q", "", true);
-    giPlayerCurrentSetPos(24399.598, -1514.3518, 2597.3054);
+    giPlayerCurrentSetPos(24399.6, -1514.4, 2597.3);
     giPlayerCurrentSetAng(133.0);
     giCameraSetMode(0, true);
     giArenaReady();
@@ -785,7 +785,7 @@ void func1058()
 void func1059()
 {
     giArenaLoad("Q06", "QN20", "", true);
-    giPlayerCurrentSetPos(-40.824852, 0.07128, 111.20376);
+    giPlayerCurrentSetPos(-40.8, 0.1, 111.2);
     giPlayerCurrentSetAng(180.0);
     giCameraSetMode(3, true);
     giArenaReady();
@@ -794,7 +794,7 @@ void func1059()
 void func1060()
 {
     giArenaLoad("Q06", "Q06Q", "", true);
-    giPlayerCurrentSetPos(26412.473, -1514.3518, -879.6669);
+    giPlayerCurrentSetPos(26412.5, -1514.4, -879.7);
     giPlayerCurrentSetAng(346.0);
     giCameraSetMode(0, true);
     giArenaReady();
@@ -803,7 +803,7 @@ void func1060()
 void func1061()
 {
     giArenaLoad("Q06", "QN21", "", true);
-    giPlayerCurrentSetPos(-231.26414, 0.095688, -2.232918);
+    giPlayerCurrentSetPos(-231.3, 0.1, -2.2);
     giPlayerCurrentSetAng(90.0);
     giCameraSetMode(3, true);
     giArenaReady();
@@ -812,7 +812,7 @@ void func1061()
 void func1062()
 {
     giArenaLoad("Q06", "Q06Q", "", true);
-    giPlayerCurrentSetPos(27796.346, -1453.4014, 1081.0269);
+    giPlayerCurrentSetPos(27796.3, -1453.4, 1081.0);
     giPlayerCurrentSetAng(272.0);
     giCameraSetMode(0, true);
     giArenaReady();
@@ -821,7 +821,7 @@ void func1062()
 void func1063()
 {
     giArenaLoad("Q06", "QN22", "", true);
-    giPlayerCurrentSetPos(0.167527, -19.926172, 258.16196);
+    giPlayerCurrentSetPos(0.2, -19.9, 258.2);
     giPlayerCurrentSetAng(180.0);
     giCameraSetMode(2, true);
     giArenaReady();
@@ -830,7 +830,7 @@ void func1063()
 void func1064()
 {
     giArenaLoad("Q06", "Q06Q", "", true);
-    giPlayerCurrentSetPos(26723.07, -1424.5566, 3110.1272);
+    giPlayerCurrentSetPos(26723.1, -1424.6, 3110.1);
     giPlayerCurrentSetAng(205.0);
     giCameraSetMode(0, true);
     giArenaReady();
@@ -845,7 +845,7 @@ void func1065()
             if (global_mvar < 120800 || global_mvar >= 140100 /* 第三章 / 7-5-1.往事 / 再寻玄霄 */)
             {
                 giArenaLoad("Q06", "Q06J", "", true);
-                giPlayerCurrentSetPos(426.46338, -0.74777, -9.491384);
+                giPlayerCurrentSetPos(426.5, -0.7, -9.5);
                 giPlayerCurrentSetAng(270.0);
                 giCameraSetMode(0, true);
                 giArenaReady();
@@ -853,7 +853,7 @@ void func1065()
             else
             {
                 giPlayerLock();
-                giPlayerWalkTo(0, 4516.8647, -1383.2312, -6230.297, true);
+                giPlayerWalkTo(0, 4516.9, -1383.2, -6230.3, true);
                 giPlayerSetDir(0, 91.0, true);
                 giCameraAutoSeek(true);
                 giCameraSetMode(0, true);
@@ -873,7 +873,7 @@ void func1065()
     {
         giPlayerLock();
         giPlayerSetLeader(0);
-        giPlayerWalkTo(0, 4516.8647, -1383.2312, -6230.297, true);
+        giPlayerWalkTo(0, 4516.9, -1383.2, -6230.3, true);
         giPlayerSetDir(0, 91.0, true);
         giCameraAutoSeek(true);
         giCameraSetMode(0, true);
@@ -886,7 +886,7 @@ void func1065()
 void func1066()
 {
     giArenaLoad("Q06", "Q06Q", "", true);
-    giPlayerCurrentSetPos(4567.6704, -1383.7323, -6239.6006);
+    giPlayerCurrentSetPos(4567.7, -1383.7, -6239.6);
     giPlayerCurrentSetAng(92.0);
     giCameraSetMode(0, true);
     giArenaReady();
@@ -897,7 +897,7 @@ void func1067()
     if (global_mvar >= 80100 /* 第二章 / 5-1-5.寒剑夜鸣 / 回房睡觉 / 寒剑夜鸣 */)
     {
         giArenaLoad("Q06", "Q06S", "", true);
-        giPlayerCurrentSetPos(880.3991, 1.279497, -55.253838);
+        giPlayerCurrentSetPos(880.4, 1.3, -55.3);
         giPlayerCurrentSetAng(283.0);
         giCameraSetMode(0, true);
         giArenaReady();
@@ -906,7 +906,7 @@ void func1067()
     {
         giPlayerLock();
         giPlayerSetLeader(0);
-        giPlayerWalkTo(0, 8934.697, -1383.4742, 526.0894, true);
+        giPlayerWalkTo(0, 8934.7, -1383.5, 526.1, true);
         giPlayerSetDir(0, 165.0, true);
         giCameraAutoSeek(true);
         giCameraSetMode(0, true);
@@ -918,7 +918,7 @@ void func1067()
     {
         giPlayerLock();
         giPlayerSetLeader(0);
-        giPlayerWalkTo(0, 8934.697, -1383.4742, 526.0894, true);
+        giPlayerWalkTo(0, 8934.7, -1383.5, 526.1, true);
         giPlayerSetDir(0, 165.0, true);
         giCameraAutoSeek(true);
         giCameraSetMode(0, true);
@@ -931,7 +931,7 @@ void func1067()
 void func1068()
 {
     giArenaLoad("Q06", "Q06Q", "", true);
-    giPlayerCurrentSetPos(8950.463, -1383.8157, 441.3421);
+    giPlayerCurrentSetPos(8950.5, -1383.8, 441.3);
     giPlayerCurrentSetAng(165.0);
     giCameraSetMode(0, true);
     giArenaReady();
@@ -945,7 +945,7 @@ void func1069()
     if (global_mvar < 70500 || global_mvar < 90100 && global_mvar >= 70901 /* 第二章 / 4-3-4.御剑逍遥 / 东南荒漠 / 修仙习剑 */)
     {
         giArenaLoad("M09", "3", "", true);
-        giPlayerCurrentSetPos(-1458.6412, 1122.77, 2866.7542);
+        giPlayerCurrentSetPos(-1458.6, 1122.8, 2866.8);
         giPlayerCurrentSetAng(177.0);
         giCameraSetMode(0, true);
         giArenaReady();
@@ -970,7 +970,7 @@ void func1069()
             if (select_dialog_last_select != 1)
             {
                 leader_player_id = giPlayerGetLeader();
-                giPlayerWalkTo(leader_player_id, 12676.761, -2022.7461, -15857.931, true);
+                giPlayerWalkTo(leader_player_id, 12676.8, -2022.7, -15857.9, true);
                 giPlayerSetDir(leader_player_id, 352.0, true);
                 giCameraAutoSeek(true);
                 giCameraSetMode(0, true);
@@ -984,7 +984,7 @@ void func1069()
         else
         {
             giArenaLoad("M09", "3", "", true);
-            giPlayerCurrentSetPos(-1458.6412, 1122.77, 2866.7542);
+            giPlayerCurrentSetPos(-1458.6, 1122.8, 2866.8);
             giPlayerCurrentSetAng(177.0);
             giCameraSetMode(0, true);
             giArenaReady();
@@ -1003,7 +1003,7 @@ void func1070()
         if (global_mvar >= 80800 /* 第二章 / 5-3-1.三寒器 / 寻访长老 */)
         {
             giArenaLoad("M12", "1", "", true);
-            giPlayerCurrentSetPos(3402.6694, 284.04095, 1569.3074);
+            giPlayerCurrentSetPos(3402.7, 284.0, 1569.3);
             giPlayerCurrentSetAng(298.0);
             giCameraSetMode(5, true);
             giArenaReady();
@@ -1018,7 +1018,7 @@ void func1070()
         {
             giPlayerLock();
             giPlayerSetLeader(0);
-            giPlayerWalkTo(0, 19944.242, -1085.2783, -1745.7488, true);
+            giPlayerWalkTo(0, 19944.2, -1085.3, -1745.7, true);
             giPlayerSetDir(0, 142.0, true);
             giCameraAutoSeek(true);
             giCameraSetMode(0, true);
@@ -1041,7 +1041,7 @@ void func1070()
             if (select_dialog_last_select != 1)
             {
                 leader_player_id = giPlayerGetLeader();
-                giPlayerWalkTo(leader_player_id, 19971.604, -1084.9795, -1784.5197, true);
+                giPlayerWalkTo(leader_player_id, 19971.6, -1085.0, -1784.5, true);
                 giPlayerSetDir(leader_player_id, 144.0, true);
                 giCameraAutoSeek(true);
                 giCameraSetMode(0, true);
@@ -1055,7 +1055,7 @@ void func1070()
         else
         {
             giArenaLoad("M12", "1", "", true);
-            giPlayerCurrentSetPos(3402.6694, 284.04095, 1569.3074);
+            giPlayerCurrentSetPos(3402.7, 284.0, 1569.3);
             giPlayerCurrentSetAng(298.0);
             giCameraSetMode(5, true);
             giArenaReady();
@@ -1069,7 +1069,7 @@ void func1071()
     if (global_mvar >= 71400 /* 第二章 / 5-1-1.寒剑夜鸣 / 前去禁地 */)
     {
             giArenaLoad("M20", "1", "", true);
-            giPlayerCurrentSetPos(767.5579, 5.223337, -462.87793);
+            giPlayerCurrentSetPos(767.6, 5.2, -462.9);
             giPlayerCurrentSetAng(293.0);
             giCameraSetMode(5, true);
             giArenaReady();
@@ -1084,7 +1084,7 @@ void func1071()
     {
         giPlayerLock();
         giPlayerSetLeader(0);
-        giPlayerWalkTo(0, 14970.895, 127.9119, -2712.7979, true);
+        giPlayerWalkTo(0, 14970.9, 127.9, -2712.8, true);
         giPlayerSetDir(0, 154.0, true);
         giCameraAutoSeek(true);
         giCameraSetMode(0, true);
@@ -1102,7 +1102,7 @@ void func1072()
         {
             case 71900:
                 giArenaLoad("M20", "1Y", "", true);
-                giPlayerCurrentSetPos(-254.1462, 4.353134, 1622.6569);
+                giPlayerCurrentSetPos(-254.1, 4.4, 1622.7);
                 giPlayerCurrentSetAng(144.1639);
                 giCameraSetMode(5, true);
                 giArenaReady();
@@ -1115,7 +1115,7 @@ void func1072()
                 break;
             default:
                 giArenaLoad("M20", "1", "", true);
-                giPlayerCurrentSetPos(-225.55792, 3.223337, 1634.8779);
+                giPlayerCurrentSetPos(-225.6, 3.2, 1634.9);
                 giPlayerCurrentSetAng(200.0);
                 giCameraSetMode(5, true);
                 giArenaReady();
@@ -1125,7 +1125,7 @@ void func1072()
     else
     {
         giArenaLoad("M20", "1Y", "", true);
-        giPlayerCurrentSetPos(-225.55792, 3.223337, 1634.8779);
+        giPlayerCurrentSetPos(-225.6, 3.2, 1634.9);
         giPlayerCurrentSetAng(200.0);
         giCameraSetMode(5, true);
         giArenaReady();
@@ -1135,7 +1135,7 @@ void func1072()
 void func1073()
 {
     giArenaLoad("Q06", "QN12Y", "", true);
-    giPlayerCurrentSetPos(158.15134, 0.039553, 28.879179);
+    giPlayerCurrentSetPos(158.2, 0.0, 28.9);
     giPlayerCurrentSetAng(270.0);
     giCameraSetMode(2, true);
     giArenaReady();
@@ -1144,7 +1144,7 @@ void func1073()
 void func1074()
 {
     giArenaLoad("Q06", "Q06QY", "", true);
-    giPlayerCurrentSetPos(7015.621, -1383.2518, -7848.716);
+    giPlayerCurrentSetPos(7015.6, -1383.3, -7848.7);
     giPlayerCurrentSetAng(25.0);
     giCameraSetMode(0, true);
     giArenaReady();
@@ -1153,7 +1153,7 @@ void func1074()
 void func1075()
 {
     giArenaLoad("Q06", "QN11Y", "", true);
-    giPlayerCurrentSetPos(1.396003, 0.684311, 129.19258);
+    giPlayerCurrentSetPos(1.4, 0.7, 129.2);
     giPlayerCurrentSetAng(180.0);
     giCameraSetMode(2, true);
     giArenaReady();
@@ -1162,7 +1162,7 @@ void func1075()
 void func1076()
 {
     giArenaLoad("Q06", "Q06QY", "", true);
-    giPlayerCurrentSetPos(5233.743, -1387.5995, -6968.9375);
+    giPlayerCurrentSetPos(5233.7, -1387.6, -6968.9);
     giPlayerCurrentSetAng(25.0);
     giCameraSetMode(0, true);
     giArenaReady();
@@ -1171,7 +1171,7 @@ void func1076()
 void func1077()
 {
     giArenaLoad("Q06", "QN05Y", "", true);
-    giPlayerCurrentSetPos(-56.20562, 0.26162, 108.90097);
+    giPlayerCurrentSetPos(-56.2, 0.3, 108.9);
     giPlayerCurrentSetAng(180.0);
     giCameraSetMode(3, true);
     giArenaReady();
@@ -1180,7 +1180,7 @@ void func1077()
 void func1078()
 {
     giArenaLoad("Q06", "Q06QY", "", true);
-    giPlayerCurrentSetPos(5673.268, -1383.2518, -5515.5864);
+    giPlayerCurrentSetPos(5673.3, -1383.3, -5515.6);
     giPlayerCurrentSetAng(115.0);
     giCameraSetMode(0, true);
     giArenaReady();
@@ -1189,7 +1189,7 @@ void func1078()
 void func1079()
 {
     giArenaLoad("M20", "1Y", "", true);
-    giPlayerCurrentSetPos(767.5579, 5.223337, -462.87793);
+    giPlayerCurrentSetPos(767.6, 5.2, -462.9);
     giPlayerCurrentSetAng(293.0);
     giCameraSetMode(5, true);
     giArenaReady();
@@ -1200,7 +1200,7 @@ void func1080()
     if (global_mvar >= 80100 /* 第二章 / 5-1-5.寒剑夜鸣 / 回房睡觉 / 寒剑夜鸣 */)
     {
         giArenaLoad("Q06", "Q06SY", "", true);
-        giPlayerCurrentSetPos(880.3991, 1.279497, -55.253838);
+        giPlayerCurrentSetPos(880.4, 1.3, -55.3);
         giPlayerCurrentSetAng(283.0);
         giCameraSetMode(0, true);
         giArenaReady();
@@ -1209,7 +1209,7 @@ void func1080()
     {
         giPlayerLock();
         giPlayerSetLeader(0);
-        giPlayerWalkTo(0, 8934.697, -1383.4742, 526.0894, true);
+        giPlayerWalkTo(0, 8934.7, -1383.5, 526.1, true);
         giPlayerSetDir(0, 165.0, true);
         giCameraAutoSeek(true);
         giCameraSetMode(0, true);
@@ -1224,7 +1224,7 @@ void func1081()
     if (global_mvar != 80400 /* 第二章 / 5-2-1.心事难明 / 思过结束 */)
     {
         giArenaLoad("Q06", "Q06QY", "", true);
-        giPlayerCurrentSetPos(8950.463, -1383.8157, 441.3421);
+        giPlayerCurrentSetPos(8950.5, -1383.8, 441.3);
         giPlayerCurrentSetAng(165.0);
         giCameraSetMode(0, true);
         giArenaReady();
@@ -1243,7 +1243,7 @@ void func1082()
     if (global_mvar != 71400 /* 第二章 / 5-1-1.寒剑夜鸣 / 前去禁地 */)
     {
         giArenaLoad("M20", "1Y", "", true);
-        giPlayerCurrentSetPos(767.5579, 5.223337, -462.87793);
+        giPlayerCurrentSetPos(767.6, 5.2, -462.9);
         giPlayerCurrentSetAng(293.0);
         giCameraSetMode(5, true);
         giArenaReady();
@@ -1279,20 +1279,20 @@ void func1083()
                     gi2DSoundPlay("wc005", 1);
                     local_3 = giPlayerGetLeader();
                     giPlayerBlendOut(local_3, 0.5, false);
-                    giWait(0.30000001192092896);
+                    giWait(0.3);
                     giFlashOutBlack(0.65, true, true);
                     giWait(0.5);
-                    giPlayerCurrentSetPos(15320.599, -1088.6555, -2787.7915);
+                    giPlayerCurrentSetPos(15320.6, -1088.7, -2787.8);
                     giPlayerCurrentSetAng(155.0);
                     func7500();
                     giArenaReady();
                     giCameraSetMode(0, true);
                     giFlushTailYAngle();
                     giFlashInBlack(0.65, false);
-                    giWait(0.15000000596046448);
+                    giWait(0.15);
                     giEffectPlayWithCurrentPlayer("H_122", 1);
                     gi2DSoundPlay("wc006", 1);
-                    giWait(0.30000001192092896);
+                    giWait(0.3);
                     giPlayerBlendIn(local_3, 0.5, false);
                     giPlayerUnLock();
                     break;
@@ -1301,20 +1301,20 @@ void func1083()
                     gi2DSoundPlay("wc005", 1);
                     local_3 = giPlayerGetLeader();
                     giPlayerBlendOut(local_3, 0.5, false);
-                    giWait(0.30000001192092896);
+                    giWait(0.3);
                     giFlashOutBlack(0.65, true, true);
                     giWait(0.5);
-                    giPlayerCurrentSetPos(14958.604, 282.9795, -5306.5195);
+                    giPlayerCurrentSetPos(14958.6, 283.0, -5306.5);
                     giPlayerCurrentSetAng(155.0);
                     func7500();
                     giArenaReady();
                     giCameraSetMode(0, true);
                     giFlushTailYAngle();
                     giFlashInBlack(0.65, false);
-                    giWait(0.15000000596046448);
+                    giWait(0.15);
                     giEffectPlayWithCurrentPlayer("H_122", 1);
                     gi2DSoundPlay("wc006", 1);
-                    giWait(0.30000001192092896);
+                    giWait(0.3);
                     giPlayerBlendIn(local_3, 0.5, false);
                     giPlayerUnLock();
                     break;
@@ -1323,26 +1323,26 @@ void func1083()
                     gi2DSoundPlay("wc005", 1);
                     local_3 = giPlayerGetLeader();
                     giPlayerBlendOut(local_3, 0.5, false);
-                    giWait(0.30000001192092896);
+                    giWait(0.3);
                     giFlashOutBlack(0.65, true, true);
                     giWait(0.5);
-                    giPlayerCurrentSetPos(23971.604, -1514.9795, -176.51965);
+                    giPlayerCurrentSetPos(23971.6, -1515.0, -176.5);
                     giPlayerCurrentSetAng(280.0);
                     func7500();
                     giArenaReady();
                     giCameraSetMode(0, true);
                     giFlushTailYAngle();
                     giFlashInBlack(0.65, false);
-                    giWait(0.15000000596046448);
+                    giWait(0.15);
                     giEffectPlayWithCurrentPlayer("H_122", 1);
                     gi2DSoundPlay("wc006", 1);
-                    giWait(0.30000001192092896);
+                    giWait(0.3);
                     giPlayerBlendIn(local_3, 0.5, false);
                     giPlayerUnLock();
                     break;
                 default:
                     local_3 = giPlayerGetLeader();
-                    giPlayerWalkTo(local_3, 10076.604, -1840.9795, -13010.52, true);
+                    giPlayerWalkTo(local_3, 10076.6, -1841.0, -13010.5, true);
                     giPlayerSetDir(local_3, 150.0, true);
                     giCameraAutoSeek(true);
                     giCameraSetMode(0, true);
@@ -1356,20 +1356,20 @@ void func1083()
             gi2DSoundPlay("wc005", 1);
             local_3 = giPlayerGetLeader();
             giPlayerBlendOut(local_3, 0.5, false);
-            giWait(0.30000001192092896);
+            giWait(0.3);
             giFlashOutBlack(0.65, true, true);
             giWait(0.5);
-            giPlayerCurrentSetPos(6085.5986, -1387.6555, -7309.7915);
+            giPlayerCurrentSetPos(6085.6, -1387.7, -7309.8);
             giPlayerCurrentSetAng(25.0);
             func7500();
             giArenaReady();
             giCameraSetMode(0, true);
             giFlushTailYAngle();
             giFlashInBlack(0.65, false);
-            giWait(0.15000000596046448);
+            giWait(0.15);
             giEffectPlayWithCurrentPlayer("H_122", 1);
             gi2DSoundPlay("wc006", 1);
-            giWait(0.30000001192092896);
+            giWait(0.3);
             giPlayerBlendIn(local_3, 0.5, false);
             giPlayerUnLock();
         }
@@ -1386,7 +1386,7 @@ void func1083()
         if (local_2 != 0)
         {
             local_3 = giPlayerGetLeader();
-            giPlayerWalkTo(local_3, 10076.604, -1840.9795, -13010.52, true);
+            giPlayerWalkTo(local_3, 10076.6, -1841.0, -13010.5, true);
             giPlayerSetDir(local_3, 150.0, true);
             giCameraAutoSeek(true);
             giCameraSetMode(0, true);
@@ -1398,19 +1398,19 @@ void func1083()
             gi2DSoundPlay("wc005", 1);
             local_3 = giPlayerGetLeader();
             giPlayerBlendOut(local_3, 0.5, false);
-            giWait(0.30000001192092896);
+            giWait(0.3);
             giFlashOutBlack(0.65, true, true);
             giWait(0.5);
-            giPlayerCurrentSetPos(6085.5986, -1387.6555, -7309.7915);
+            giPlayerCurrentSetPos(6085.6, -1387.7, -7309.8);
             giPlayerCurrentSetAng(25.0);
             giArenaReady();
             giCameraSetMode(0, true);
             giFlushTailYAngle();
             giFlashInBlack(0.65, false);
-            giWait(0.15000000596046448);
+            giWait(0.15);
             giEffectPlayWithCurrentPlayer("H_122", 1);
             gi2DSoundPlay("wc006", 1);
-            giWait(0.30000001192092896);
+            giWait(0.3);
             giPlayerBlendIn(local_3, 0.5, false);
             giPlayerUnLock();
         }
@@ -1443,20 +1443,20 @@ void func1084()
                     gi2DSoundPlay("wc005", 1);
                     local_3 = giPlayerGetLeader();
                     giPlayerBlendOut(local_3, 0.5, false);
-                    giWait(0.30000001192092896);
+                    giWait(0.3);
                     giFlashOutBlack(0.65, true, true);
                     giWait(0.5);
-                    giPlayerCurrentSetPos(15320.599, -1088.6555, -2787.7915);
+                    giPlayerCurrentSetPos(15320.6, -1088.7, -2787.8);
                     giPlayerCurrentSetAng(155.0);
                     func7500();
                     giArenaReady();
                     giCameraSetMode(0, true);
                     giFlushTailYAngle();
                     giFlashInBlack(0.65, false);
-                    giWait(0.15000000596046448);
+                    giWait(0.15);
                     giEffectPlayWithCurrentPlayer("H_122", 1);
                     gi2DSoundPlay("wc006", 1);
-                    giWait(0.30000001192092896);
+                    giWait(0.3);
                     giPlayerBlendIn(local_3, 0.5, false);
                     giPlayerUnLock();
                     break;
@@ -1465,20 +1465,20 @@ void func1084()
                     gi2DSoundPlay("wc005", 1);
                     local_3 = giPlayerGetLeader();
                     giPlayerBlendOut(local_3, 0.5, false);
-                    giWait(0.30000001192092896);
+                    giWait(0.3);
                     giFlashOutBlack(0.65, true, true);
                     giWait(0.5);
-                    giPlayerCurrentSetPos(14958.604, 282.9795, -5306.5195);
+                    giPlayerCurrentSetPos(14958.6, 283.0, -5306.5);
                     giPlayerCurrentSetAng(155.0);
                     func7500();
                     giArenaReady();
                     giCameraSetMode(0, true);
                     giFlushTailYAngle();
                     giFlashInBlack(0.65, false);
-                    giWait(0.15000000596046448);
+                    giWait(0.15);
                     giEffectPlayWithCurrentPlayer("H_122", 1);
                     gi2DSoundPlay("wc006", 1);
-                    giWait(0.30000001192092896);
+                    giWait(0.3);
                     giPlayerBlendIn(local_3, 0.5, false);
                     giPlayerUnLock();
                     break;
@@ -1487,26 +1487,26 @@ void func1084()
                     gi2DSoundPlay("wc005", 1);
                     local_3 = giPlayerGetLeader();
                     giPlayerBlendOut(local_3, 0.5, false);
-                    giWait(0.30000001192092896);
+                    giWait(0.3);
                     giFlashOutBlack(0.65, true, true);
                     giWait(0.5);
-                    giPlayerCurrentSetPos(23971.604, -1514.9795, -176.51965);
+                    giPlayerCurrentSetPos(23971.6, -1515.0, -176.5);
                     giPlayerCurrentSetAng(280.0);
                     func7500();
                     giArenaReady();
                     giCameraSetMode(0, true);
                     giFlushTailYAngle();
                     giFlashInBlack(0.65, false);
-                    giWait(0.15000000596046448);
+                    giWait(0.15);
                     giEffectPlayWithCurrentPlayer("H_122", 1);
                     gi2DSoundPlay("wc006", 1);
-                    giWait(0.30000001192092896);
+                    giWait(0.3);
                     giPlayerBlendIn(local_3, 0.5, false);
                     giPlayerUnLock();
                     break;
                 default:
                     local_3 = giPlayerGetLeader();
-                    giPlayerWalkTo(local_3, 6085.5986, -1387.6555, -7309.7915, true);
+                    giPlayerWalkTo(local_3, 6085.6, -1387.7, -7309.8, true);
                     giPlayerSetDir(local_3, 25.0, true);
                     giCameraAutoSeek(true);
                     giCameraSetMode(0, true);
@@ -1520,20 +1520,20 @@ void func1084()
             gi2DSoundPlay("wc005", 1);
             local_3 = giPlayerGetLeader();
             giPlayerBlendOut(local_3, 0.5, false);
-            giWait(0.30000001192092896);
+            giWait(0.3);
             giFlashOutBlack(0.65, true, true);
             giWait(0.5);
-            giPlayerCurrentSetPos(10076.604, -1840.9795, -13010.52);
+            giPlayerCurrentSetPos(10076.6, -1841.0, -13010.5);
             giPlayerCurrentSetAng(150.0);
             func7500();
             giArenaReady();
             giCameraSetMode(0, true);
             giFlushTailYAngle();
             giFlashInBlack(0.65, false);
-            giWait(0.15000000596046448);
+            giWait(0.15);
             giEffectPlayWithCurrentPlayer("H_122", 1);
             gi2DSoundPlay("wc006", 1);
-            giWait(0.30000001192092896);
+            giWait(0.3);
             giPlayerBlendIn(local_3, 0.5, false);
             giPlayerUnLock();
         }
@@ -1550,7 +1550,7 @@ void func1084()
         if (local_2 != 0)
         {
             local_3 = giPlayerGetLeader();
-            giPlayerWalkTo(local_3, 6085.5986, -1387.6555, -7309.7915, true);
+            giPlayerWalkTo(local_3, 6085.6, -1387.7, -7309.8, true);
             giPlayerSetDir(local_3, 25.0, true);
             giCameraAutoSeek(true);
             giCameraSetMode(0, true);
@@ -1562,20 +1562,20 @@ void func1084()
             gi2DSoundPlay("wc005", 1);
             local_3 = giPlayerGetLeader();
             giPlayerBlendOut(local_3, 0.5, false);
-            giWait(0.30000001192092896);
+            giWait(0.3);
             giFlashOutBlack(0.65, true, true);
             giWait(0.5);
-            giPlayerCurrentSetPos(10076.604, -1840.9795, -13010.52);
+            giPlayerCurrentSetPos(10076.6, -1841.0, -13010.5);
             giPlayerCurrentSetAng(150.0);
             func7500();
             giArenaReady();
             giCameraSetMode(0, true);
             giFlushTailYAngle();
             giFlashInBlack(0.65, false);
-            giWait(0.15000000596046448);
+            giWait(0.15);
             giEffectPlayWithCurrentPlayer("H_122", 1);
             gi2DSoundPlay("wc006", 1);
-            giWait(0.30000001192092896);
+            giWait(0.3);
             giPlayerBlendIn(local_3, 0.5, false);
             giPlayerUnLock();
         }
@@ -1606,20 +1606,20 @@ void func1085()
                 gi2DSoundPlay("wc005", 1);
                 local_3 = giPlayerGetLeader();
                 giPlayerBlendOut(local_3, 0.5, false);
-                giWait(0.30000001192092896);
+                giWait(0.3);
                 giFlashOutBlack(0.65, true, true);
                 giWait(0.5);
-                giPlayerCurrentSetPos(6085.5986, -1387.6555, -7309.7915);
+                giPlayerCurrentSetPos(6085.6, -1387.7, -7309.8);
                 giPlayerCurrentSetAng(25.0);
                 func7500();
                 giArenaReady();
                 giCameraSetMode(0, true);
                 giFlushTailYAngle();
                 giFlashInBlack(0.65, false);
-                giWait(0.15000000596046448);
+                giWait(0.15);
                 giEffectPlayWithCurrentPlayer("H_122", 1);
                 gi2DSoundPlay("wc006", 1);
-                giWait(0.30000001192092896);
+                giWait(0.3);
                 giPlayerBlendIn(local_3, 0.5, false);
                 giPlayerUnLock();
                 break;
@@ -1628,20 +1628,20 @@ void func1085()
                 gi2DSoundPlay("wc005", 1);
                 local_3 = giPlayerGetLeader();
                 giPlayerBlendOut(local_3, 0.5, false);
-                giWait(0.30000001192092896);
+                giWait(0.3);
                 giFlashOutBlack(0.65, true, true);
                 giWait(0.5);
-                giPlayerCurrentSetPos(14961.599, 282.6555, -5318.7915);
+                giPlayerCurrentSetPos(14961.6, 282.7, -5318.8);
                 giPlayerCurrentSetAng(155.0);
                 func7500();
                 giArenaReady();
                 giCameraSetMode(0, true);
                 giFlushTailYAngle();
                 giFlashInBlack(0.65, false);
-                giWait(0.15000000596046448);
+                giWait(0.15);
                 giEffectPlayWithCurrentPlayer("H_122", 1);
                 gi2DSoundPlay("wc006", 1);
-                giWait(0.30000001192092896);
+                giWait(0.3);
                 giPlayerBlendIn(local_3, 0.5, false);
                 giPlayerUnLock();
                 break;
@@ -1650,26 +1650,26 @@ void func1085()
                 gi2DSoundPlay("wc005", 1);
                 local_3 = giPlayerGetLeader();
                 giPlayerBlendOut(local_3, 0.5, false);
-                giWait(0.30000001192092896);
+                giWait(0.3);
                 giFlashOutBlack(0.65, true, true);
                 giWait(0.5);
-                giPlayerCurrentSetPos(23971.604, -1514.9795, -176.51965);
+                giPlayerCurrentSetPos(23971.6, -1515.0, -176.5);
                 giPlayerCurrentSetAng(280.0);
                 func7500();
                 giArenaReady();
                 giCameraSetMode(0, true);
                 giFlushTailYAngle();
                 giFlashInBlack(0.65, false);
-                giWait(0.15000000596046448);
+                giWait(0.15);
                 giEffectPlayWithCurrentPlayer("H_122", 1);
                 gi2DSoundPlay("wc006", 1);
-                giWait(0.30000001192092896);
+                giWait(0.3);
                 giPlayerBlendIn(local_3, 0.5, false);
                 giPlayerUnLock();
                 break;
             default:
                 local_3 = giPlayerGetLeader();
-                giPlayerWalkTo(local_3, 15320.599, -1088.6555, -2787.7915, true);
+                giPlayerWalkTo(local_3, 15320.6, -1088.7, -2787.8, true);
                 giPlayerSetDir(local_3, 155.0, true);
                 giCameraAutoSeek(true);
                 giCameraSetMode(0, true);
@@ -1683,20 +1683,20 @@ void func1085()
         gi2DSoundPlay("wc005", 1);
         local_3 = giPlayerGetLeader();
         giPlayerBlendOut(local_3, 0.5, false);
-        giWait(0.30000001192092896);
+        giWait(0.3);
         giFlashOutBlack(0.65, true, true);
         giWait(0.5);
-        giPlayerCurrentSetPos(10076.604, -1840.9795, -13010.52);
+        giPlayerCurrentSetPos(10076.6, -1841.0, -13010.5);
         giPlayerCurrentSetAng(150.0);
         func7500();
         giArenaReady();
         giCameraSetMode(0, true);
         giFlushTailYAngle();
         giFlashInBlack(0.65, false);
-        giWait(0.15000000596046448);
+        giWait(0.15);
         giEffectPlayWithCurrentPlayer("H_122", 1);
         gi2DSoundPlay("wc006", 1);
-        giWait(0.30000001192092896);
+        giWait(0.3);
         giPlayerBlendIn(local_3, 0.5, false);
         giPlayerUnLock();
     }
@@ -1726,20 +1726,20 @@ void func1086()
                 gi2DSoundPlay("wc005", 1);
                 local_3 = giPlayerGetLeader();
                 giPlayerBlendOut(local_3, 0.5, false);
-                giWait(0.30000001192092896);
+                giWait(0.3);
                 giFlashOutBlack(0.65, true, true);
                 giWait(0.5);
-                giPlayerCurrentSetPos(6085.5986, -1387.6555, -7309.7915);
+                giPlayerCurrentSetPos(6085.6, -1387.7, -7309.8);
                 giPlayerCurrentSetAng(25.0);
                 func7500();
                 giArenaReady();
                 giCameraSetMode(0, true);
                 giFlushTailYAngle();
                 giFlashInBlack(0.65, false);
-                giWait(0.15000000596046448);
+                giWait(0.15);
                 giEffectPlayWithCurrentPlayer("H_122", 1);
                 gi2DSoundPlay("wc006", 1);
-                giWait(0.30000001192092896);
+                giWait(0.3);
                 giPlayerBlendIn(local_3, 0.5, false);
                 giPlayerUnLock();
                 break;
@@ -1748,20 +1748,20 @@ void func1086()
                 gi2DSoundPlay("wc005", 1);
                 local_3 = giPlayerGetLeader();
                 giPlayerBlendOut(local_3, 0.5, false);
-                giWait(0.30000001192092896);
+                giWait(0.3);
                 giFlashOutBlack(0.65, true, true);
                 giWait(0.5);
-                giPlayerCurrentSetPos(15320.599, -1088.6555, -2787.7915);
+                giPlayerCurrentSetPos(15320.6, -1088.7, -2787.8);
                 giPlayerCurrentSetAng(155.0);
                 func7500();
                 giArenaReady();
                 giCameraSetMode(0, true);
                 giFlushTailYAngle();
                 giFlashInBlack(0.65, false);
-                giWait(0.15000000596046448);
+                giWait(0.15);
                 giEffectPlayWithCurrentPlayer("H_122", 1);
                 gi2DSoundPlay("wc006", 1);
-                giWait(0.30000001192092896);
+                giWait(0.3);
                 giPlayerBlendIn(local_3, 0.5, false);
                 giPlayerUnLock();
                 break;
@@ -1770,26 +1770,26 @@ void func1086()
                 gi2DSoundPlay("wc005", 1);
                 local_3 = giPlayerGetLeader();
                 giPlayerBlendOut(local_3, 0.5, false);
-                giWait(0.30000001192092896);
+                giWait(0.3);
                 giFlashOutBlack(0.65, true, true);
                 giWait(0.5);
-                giPlayerCurrentSetPos(23971.604, -1514.9795, -176.51965);
+                giPlayerCurrentSetPos(23971.6, -1515.0, -176.5);
                 giPlayerCurrentSetAng(280.0);
                 func7500();
                 giArenaReady();
                 giCameraSetMode(0, true);
                 giFlushTailYAngle();
                 giFlashInBlack(0.65, false);
-                giWait(0.15000000596046448);
+                giWait(0.15);
                 giEffectPlayWithCurrentPlayer("H_122", 1);
                 gi2DSoundPlay("wc006", 1);
-                giWait(0.30000001192092896);
+                giWait(0.3);
                 giPlayerBlendIn(local_3, 0.5, false);
                 giPlayerUnLock();
                 break;
             default:
                 local_3 = giPlayerGetLeader();
-                giPlayerWalkTo(local_3, 14958.604, 282.9795, -5306.5195, true);
+                giPlayerWalkTo(local_3, 14958.6, 283.0, -5306.5, true);
                 giPlayerSetDir(local_3, 155.0, true);
                 giCameraAutoSeek(true);
                 giCameraSetMode(0, true);
@@ -1803,20 +1803,20 @@ void func1086()
         gi2DSoundPlay("wc005", 1);
         local_3 = giPlayerGetLeader();
         giPlayerBlendOut(local_3, 0.5, false);
-        giWait(0.30000001192092896);
+        giWait(0.3);
         giFlashOutBlack(0.65, true, true);
         giWait(0.5);
-        giPlayerCurrentSetPos(10076.604, -1840.9795, -13010.52);
+        giPlayerCurrentSetPos(10076.6, -1841.0, -13010.5);
         giPlayerCurrentSetAng(150.0);
         func7500();
         giArenaReady();
         giCameraSetMode(0, true);
         giFlushTailYAngle();
         giFlashInBlack(0.65, false);
-        giWait(0.15000000596046448);
+        giWait(0.15);
         giEffectPlayWithCurrentPlayer("H_122", 1);
         gi2DSoundPlay("wc006", 1);
-        giWait(0.30000001192092896);
+        giWait(0.3);
         giPlayerBlendIn(local_3, 0.5, false);
         giPlayerUnLock();
     }
@@ -1846,20 +1846,20 @@ void func1087()
                 gi2DSoundPlay("wc005", 1);
                 local_3 = giPlayerGetLeader();
                 giPlayerBlendOut(local_3, 0.5, false);
-                giWait(0.30000001192092896);
+                giWait(0.3);
                 giFlashOutBlack(0.65, true, true);
                 giWait(0.5);
-                giPlayerCurrentSetPos(6085.5986, -1387.6555, -7309.7915);
+                giPlayerCurrentSetPos(6085.6, -1387.7, -7309.8);
                 giPlayerCurrentSetAng(25.0);
                 func7500();
                 giArenaReady();
                 giCameraSetMode(0, true);
                 giFlushTailYAngle();
                 giFlashInBlack(0.65, false);
-                giWait(0.15000000596046448);
+                giWait(0.15);
                 giEffectPlayWithCurrentPlayer("H_122", 1);
                 gi2DSoundPlay("wc006", 1);
-                giWait(0.30000001192092896);
+                giWait(0.3);
                 giPlayerBlendIn(local_3, 0.5, false);
                 giPlayerUnLock();
                 break;
@@ -1868,20 +1868,20 @@ void func1087()
                 gi2DSoundPlay("wc005", 1);
                 local_3 = giPlayerGetLeader();
                 giPlayerBlendOut(local_3, 0.5, false);
-                giWait(0.30000001192092896);
+                giWait(0.3);
                 giFlashOutBlack(0.65, true, true);
                 giWait(0.5);
-                giPlayerCurrentSetPos(15320.599, -1088.6555, -2787.7915);
+                giPlayerCurrentSetPos(15320.6, -1088.7, -2787.8);
                 giPlayerCurrentSetAng(155.0);
                 func7500();
                 giArenaReady();
                 giCameraSetMode(0, true);
                 giFlushTailYAngle();
                 giFlashInBlack(0.65, false);
-                giWait(0.15000000596046448);
+                giWait(0.15);
                 giEffectPlayWithCurrentPlayer("H_122", 1);
                 gi2DSoundPlay("wc006", 1);
-                giWait(0.30000001192092896);
+                giWait(0.3);
                 giPlayerBlendIn(local_3, 0.5, false);
                 giPlayerUnLock();
                 break;
@@ -1890,26 +1890,26 @@ void func1087()
                 gi2DSoundPlay("wc005", 1);
                 local_3 = giPlayerGetLeader();
                 giPlayerBlendOut(local_3, 0.5, false);
-                giWait(0.30000001192092896);
+                giWait(0.3);
                 giFlashOutBlack(0.65, true, true);
                 giWait(0.5);
-                giPlayerCurrentSetPos(14958.604, 282.9795, -5306.5195);
+                giPlayerCurrentSetPos(14958.6, 283.0, -5306.5);
                 giPlayerCurrentSetAng(155.0);
                 func7500();
                 giArenaReady();
                 giCameraSetMode(0, true);
                 giFlushTailYAngle();
                 giFlashInBlack(0.65, false);
-                giWait(0.15000000596046448);
+                giWait(0.15);
                 giEffectPlayWithCurrentPlayer("H_122", 1);
                 gi2DSoundPlay("wc006", 1);
-                giWait(0.30000001192092896);
+                giWait(0.3);
                 giPlayerBlendIn(local_3, 0.5, false);
                 giPlayerUnLock();
                 break;
             default:
                 local_3 = giPlayerGetLeader();
-                giPlayerWalkTo(local_3, 23971.604, -1514.9795, -176.51965, true);
+                giPlayerWalkTo(local_3, 23971.6, -1515.0, -176.5, true);
                 giPlayerSetDir(local_3, 280.0, true);
                 giCameraAutoSeek(true);
                 giCameraSetMode(0, true);
@@ -1923,20 +1923,20 @@ void func1087()
         gi2DSoundPlay("wc005", 1);
         local_3 = giPlayerGetLeader();
         giPlayerBlendOut(local_3, 0.5, false);
-        giWait(0.30000001192092896);
+        giWait(0.3);
         giFlashOutBlack(0.65, true, true);
         giWait(0.5);
-        giPlayerCurrentSetPos(10076.604, -1840.9795, -13010.52);
+        giPlayerCurrentSetPos(10076.6, -1841.0, -13010.5);
         giPlayerCurrentSetAng(150.0);
         func7500();
         giArenaReady();
         giCameraSetMode(0, true);
         giFlushTailYAngle();
         giFlashInBlack(0.65, false);
-        giWait(0.15000000596046448);
+        giWait(0.15);
         giEffectPlayWithCurrentPlayer("H_122", 1);
         gi2DSoundPlay("wc006", 1);
-        giWait(0.30000001192092896);
+        giWait(0.3);
         giPlayerBlendIn(local_3, 0.5, false);
         giPlayerUnLock();
     }
@@ -1950,13 +1950,13 @@ void func2001()
     giCameraAutoSeek(false);
     giPlayerCurrentSetVisible(false);
     giIMMBegin();
-    giPlayerSetPos(0, 12538.849, -2023.0458, -15172.632);
+    giPlayerSetPos(0, 12538.8, -2023.0, -15172.6);
     giPlayerSetAng(0, 349.0);
     giPlayerSetVisible(0, true);
-    giPlayerSetPos(1, 12506.592, -2023.0458, -15223.126);
+    giPlayerSetPos(1, 12506.6, -2023.0, -15223.1);
     giPlayerSetAng(1, 8.0);
     giPlayerSetVisible(1, true);
-    giPlayerSetPos(2, 12596.816, -2023.0458, -15224.098);
+    giPlayerSetPos(2, 12596.8, -2023.0, -15224.1);
     giPlayerSetAng(2, 342.0);
     giPlayerSetVisible(2, true);
     giSetObjectVisible("sound020", false);
@@ -1982,19 +1982,19 @@ void func2001()
     giTalk("韩菱纱：（可怜的野人，没见过这样的气派景象，看傻了都。）", "42426");
     giSetPortrait("101K", true);
     giTalk("云天河：走！哈哈，我们快进去看看里面啥样！", "42427");
-    giPlayerRunTo(0, 12498.661, -1955.7955, -14941.078, false);
+    giPlayerRunTo(0, 12498.7, -1955.8, -14941.1, false);
     giWait(0.6);
     giFlashOutBlack(1.2, true, true);
     giIMMBegin();
-    giPlayerSetPos(0, 12471.419, -1855.2776, -14700.051);
+    giPlayerSetPos(0, 12471.4, -1855.3, -14700.1);
     giPlayerSetAng(0, 307.0);
-    giPlayerSetPos(1, 12430.346, -1855.8242, -14699.3125);
+    giPlayerSetPos(1, 12430.3, -1855.8, -14699.3);
     giPlayerSetAng(1, 338.0);
-    giPlayerSetPos(2, 12531.983, -1869.6136, -14715.016);
+    giPlayerSetPos(2, 12532.0, -1869.6, -14715.0);
     giPlayerSetAng(2, 308.0);
-    giNpcSetPos("4056", 12444.05, -1831.5056, -14604.445);
+    giNpcSetPos("4056", 12444.0, -1831.5, -14604.4);
     giNpcSetAng("4056", 154.0);
-    giNpcSetPos("4055", 12376.552, -1831.535, -14634.788);
+    giNpcSetPos("4055", 12376.6, -1831.5, -14634.8);
     giNpcSetAng("4055", 124.0);
     giIMMEnd();
     giCameraRunSingle("006", true);
@@ -2020,15 +2020,15 @@ void func2001()
     giFlashOutBlack(1.6, true, true);
     giCameraSetDistOptEnable(true);
     giIMMBegin();
-    giPlayerSetPos(0, 12553.8955, -2023.0459, -15343.267);
+    giPlayerSetPos(0, 12553.9, -2023.0, -15343.3);
     giPlayerSetAng(0, 267.0);
-    giPlayerSetPos(1, 12499.198, -2023.0458, -15345.308);
+    giPlayerSetPos(1, 12499.2, -2023.0, -15345.3);
     giPlayerSetAng(1, 81.0);
-    giPlayerSetPos(2, 12524.28, -2023.0459, -15295.906);
+    giPlayerSetPos(2, 12524.3, -2023.0, -15295.9);
     giPlayerSetAng(2, 210.0);
-    giNpcSetPos("4056", 12580.351, -1831.562, -14595.542);
+    giNpcSetPos("4056", 12580.4, -1831.6, -14595.5);
     giNpcSetAng("4056", 259.0);
-    giNpcSetPos("4055", 12373.281, -1831.5421, -14623.683);
+    giNpcSetPos("4055", 12373.3, -1831.5, -14623.7);
     giNpcSetAng("4055", 80.0);
     giIMMEnd();
     giCameraRunSingle("007", true);
@@ -2101,7 +2101,7 @@ void func2001()
     giSetPortrait("106A", false);
     giTalk("柳梦璃：请问，掌门为什么要见我们呢？", "42454");
     giTalk("虚邑：掌门行事，自有缘由。你们只须跟我来。", "42455");
-    giNpcWalkTo("MN001", 12481.871, -2011.656, -15051.363, false);
+    giNpcWalkTo("MN001", 12481.9, -2011.7, -15051.4, false);
     giWait(2.0);
     giPlayerDoAction(1, "J13", 1, false);
     giSetPortrait("103A", false);
@@ -2124,13 +2124,13 @@ void func2001()
     giCameraSetCollide(false);
     giPlayerCurrentSetVisible(false);
     giIMMBegin();
-    giPlayerSetPos(0, -1.0001, 0.496, 98.369);
+    giPlayerSetPos(0, -1.0, 0.5, 98.4);
     giPlayerSetAng(0, 176.0);
     giPlayerSetVisible(0, true);
-    giPlayerSetPos(1, 45.401, 0.496, 44.1903);
+    giPlayerSetPos(1, 45.4, 0.5, 44.2);
     giPlayerSetAng(1, 201.0);
     giPlayerSetVisible(1, true);
-    giPlayerSetPos(2, -59.5383, 0.4961, 50.9717);
+    giPlayerSetPos(2, -59.5, 0.5, 51.0);
     giPlayerSetAng(2, 156.0);
     giPlayerSetVisible(2, true);
     giSetNpcVisible("MN001", true);
@@ -2151,7 +2151,7 @@ void func2001()
     giNpcDoAction("MN002", "J01", 1, false);
     giTalk("虚邑：是！", "42459");
     giNpcEndAction("MN002", true);
-    giNpcWalkTo("MN002", 42.7533, 0.496, 143.0151, true);
+    giNpcWalkTo("MN002", 42.8, 0.5, 143.0, true);
     giSetNpcVisible("MN002", false);
     giWait(0.5);
     giCameraRunSingle("006", true);
@@ -2166,7 +2166,7 @@ void func2001()
     giTalk("夙瑶：……你，叫什么名字？", "42461");
     giWait(0.5);
     giIMMBegin();
-    giPlayerSetPos(0, -7.7357, 0.496, 3.7265);
+    giPlayerSetPos(0, -7.7, 0.5, 3.7);
     giPlayerSetAng(0, 179.0);
     giIMMEnd();
     giIMMBegin();
@@ -2240,7 +2240,7 @@ void func2001()
     giCameraSetMode(2, true);
     giPlayerSetLeader(0);
     giPlayerCurrentSetVisible(true);
-    giPlayerCurrentSetPos(3.2361, 0.496, 35.0346);
+    giPlayerCurrentSetPos(3.2, 0.5, 35.0);
     giPlayerCurrentSetAng(180.0);
     giCameraSeekToPlayer();
     giFlashInBlack(1.5, true);
@@ -2254,13 +2254,13 @@ void func2002()
     giCameraSetCollide(false);
     giPlayerCurrentSetVisible(false);
     giIMMBegin();
-    giPlayerSetPos(0, 8.1685, 0.496, -30.8772);
+    giPlayerSetPos(0, 8.2, 0.5, -30.9);
     giPlayerSetAng(0, 183.0);
     giPlayerSetVisible(0, true);
-    giPlayerSetPos(1, 44.9817, 0.496, -1.219);
+    giPlayerSetPos(1, 45.0, 0.5, -1.2);
     giPlayerSetAng(1, 208.0);
     giPlayerSetVisible(1, true);
-    giPlayerSetPos(2, -22.4238, 0.496, 18.3115);
+    giPlayerSetPos(2, -22.4, 0.5, 18.3);
     giPlayerSetAng(2, 172.0);
     giPlayerSetVisible(2, true);
     giNpcSetAng("MN001", 14.0);
@@ -2319,16 +2319,16 @@ void func2003()
     giCameraSetCollide(false);
     giPlayerCurrentSetVisible(false);
     giIMMBegin();
-    giPlayerSetPos(0, -16.5261, 0.496, -29.8564);
+    giPlayerSetPos(0, -16.5, 0.5, -29.9);
     giPlayerSetAng(0, 170.0);
     giPlayerSetVisible(0, true);
-    giPlayerSetPos(1, 18.6238, 0.496, -4.1333);
+    giPlayerSetPos(1, 18.6, 0.5, -4.1);
     giPlayerSetAng(1, 193.0);
     giPlayerSetVisible(1, true);
-    giPlayerSetPos(2, -50.4943, 0.496, -12.7545);
+    giPlayerSetPos(2, -50.5, 0.5, -12.8);
     giPlayerSetAng(2, 163.0);
     giPlayerSetVisible(2, true);
-    giPlayerSetPos(3, 246.2556, -69.504, 436.6979);
+    giPlayerSetPos(3, 246.3, -69.5, 436.7);
     giPlayerSetAng(3, 189.8477);
     giPlayerSetVisible(3, true);
     giSetNpcVisible("MN001", true);
@@ -2445,7 +2445,7 @@ void func2003()
     giTalk("韩菱纱：是，谢谢掌门！", "42690");
     giSetPortrait("105A", true);
     giTalk("慕容紫英：弟子慕容紫英奉命前来。", "42691");
-    giPlayerWalkTo(3, 189.49, 0.4959, 187.7678, false);
+    giPlayerWalkTo(3, 189.5, 0.5, 187.8, false);
     giWait(1.1);
     giCameraRunSingle("005", true);
     giWait(3.1);
@@ -2455,7 +2455,7 @@ void func2003()
     giPlayerSetAng(1, 44.0);
     giPlayerSetAng(2, 54.0);
     giNpcSetAng("MN001", 19.0);
-    giPlayerSetPos(3, 80.6564, 0.496, 46.1208);
+    giPlayerSetPos(3, 80.7, 0.5, 46.1);
     giPlayerSetAng(3, 209.0);
     giIMMEnd();
     giCameraRunSingle("006", true);
@@ -2499,16 +2499,16 @@ void func2003()
     giCameraAutoSeek(false);
     giPlayerCurrentSetVisible(false);
     giIMMBegin();
-    giPlayerSetPos(0, 11881.55, -1670.0403, -10764.793);
+    giPlayerSetPos(0, 11881.5, -1670.0, -10764.8);
     giPlayerSetAng(0, 163.0);
     giPlayerSetVisible(0, true);
-    giPlayerSetPos(1, 11914.695, -1670.0402, -10790.037);
+    giPlayerSetPos(1, 11914.7, -1670.0, -10790.0);
     giPlayerSetAng(1, 179.0);
     giPlayerSetVisible(1, true);
-    giPlayerSetPos(2, 11934.108, -1670.0402, -10751.465);
+    giPlayerSetPos(2, 11934.1, -1670.0, -10751.5);
     giPlayerSetAng(2, 186.0);
     giPlayerSetVisible(2, true);
-    giPlayerSetPos(3, 11890.113, -1672.0402, -10846.762);
+    giPlayerSetPos(3, 11890.1, -1672.0, -10846.8);
     giPlayerSetAng(3, 23.0);
     giPlayerSetVisible(3, true);
     giIMMEnd();
@@ -2540,7 +2540,7 @@ void func2003()
     giSetPortrait("105A", false);
     giTalk("慕容紫英：弟子房都在<colour red=255 green=187 blue=0 alpha=255>前山剑舞坪</colour><dc0>旁边，你的房间是</dc0><colour red=255 green=187 blue=0 alpha=255>门口有石狮子的那一间</colour><dc0>。</dc0>", "42707");
     giWait(0.6);
-    giPlayerWalkTo(3, 11903.854, -1732.1445, -10984.559, false);
+    giPlayerWalkTo(3, 11903.9, -1732.1, -10984.6, false);
     giWait(2.0);
     giIMMBegin();
     giCameraRunSingle("004", true);
@@ -2558,7 +2558,7 @@ void func2003()
     giWait(0.3);
     giIMMBegin();
     giCameraRunSingle("006", true);
-    giPlayerSetPos(1, 11919.922, -1670.0402, -10804.824);
+    giPlayerSetPos(1, 11919.9, -1670.0, -10804.8);
     giPlayerSetAng(1, 320.0);
     giPlayerSetAng(2, 238.0);
     giIMMEnd();
@@ -2607,7 +2607,7 @@ void func2003()
     giPlayerSetVisible(2, false);
     global_mvar = 61300; // 0x0000EF74, 第二章 / 4-3-1.御剑逍遥 / 去弟子房休息 / 初入琼华
     giPlayerCurrentSetVisible(true);
-    giPlayerCurrentSetPos(11969.891, -1766.368, -11212.495);
+    giPlayerCurrentSetPos(11969.9, -1766.4, -11212.5);
     giPlayerCurrentSetAng(168.0);
     giSetObjectVisible("entrance1", false);
     giSetObjectVisible("entrance2", false);
@@ -2661,10 +2661,10 @@ void func2004()
             giCameraRunSingle("001", true);
             giIMMBegin();
             giSetNpcVisible("MN001", false);
-            giPlayerCurrentSetPos(64.3764, 0.6808, 4.5674);
+            giPlayerCurrentSetPos(64.4, 0.7, 4.6);
             giPlayerCurrentSetAng(332.0);
             giPlayerCurrentSetVisible(true);
-            giPlayerSetPos(3, 52.4024, 0.6808, 66.6302);
+            giPlayerSetPos(3, 52.4, 0.7, 66.6);
             giPlayerSetAng(3, 169.8561);
             giPlayerSetVisible(3, true);
             giIMMEnd();
@@ -2688,7 +2688,7 @@ void func2004()
             giWait(0.5);
             giSetPortrait("105C", false);
             giTalk("慕容紫英：不必吃了，五谷都是浊气，一早就要沾染，你修为永远也无法精进！", "42727");
-            giPlayerWalkTo(3, -36.1132, 0.6808, 141.9553, false);
+            giPlayerWalkTo(3, -36.1, 0.7, 142.0, false);
             giWait(1.0);
             giCameraRunSingle("003", false);
             giSetPortrait("101D", true);
@@ -2700,7 +2700,7 @@ void func2004()
             giWait(0.5);
             giPlayerSetDir(0, 33.0, true);
             giWait(0.5);
-            giPlayerWalkTo(0, 99.5724, 0.6808, 47.8482, false);
+            giPlayerWalkTo(0, 99.6, 0.7, 47.8, false);
             giCameraRunSingle("004", false);
             giPlayerEndMove(0);
             giWait(0.5);
@@ -2715,7 +2715,7 @@ void func2004()
             giPlayerSetVisible(3, false);
             global_mvar = 70200; // 0x00011238, 第二章 / 4-3-2.御剑逍遥 / 剑舞坪修行
             giSetObjectVisible("MO001", false);
-            giPlayerCurrentSetPos(-57.745, 0.6808, 66.2462);
+            giPlayerCurrentSetPos(-57.7, 0.7, 66.2);
             giPlayerCurrentSetAng(339.0);
             giSetObjectVisible("MO005", true);
             giSetObjectVisible("MO006", true);
@@ -2758,10 +2758,10 @@ void func2004()
             giCameraAutoSeek(false);
             giPlayerCurrentSetVisible(false);
             giIMMBegin();
-            giPlayerSetPos(1, 86.8246, 0.6808, 3.8552);
+            giPlayerSetPos(1, 86.8, 0.7, 3.9);
             giPlayerSetAng(1, 173.0);
             giPlayerSetVisible(1, true);
-            giPlayerSetPos(2, 53.6091, 0.6808, 25.478);
+            giPlayerSetPos(2, 53.6, 0.7, 25.5);
             giPlayerSetAng(2, 156.0);
             giPlayerSetVisible(2, true);
             giSetNpcVisible("MN001", true);
@@ -2797,17 +2797,17 @@ void func2004()
             giCameraRunSingle("002", true);
             giIMMBegin();
             giSetNpcVisible("MN001", false);
-            giPlayerSetPos(0, 32.5322, 0.6808, 56.981);
+            giPlayerSetPos(0, 32.5, 0.7, 57.0);
             giPlayerSetAng(0, 234.0);
             giPlayerSetVisible(0, true);
-            giPlayerSetPos(1, 43.03, 0.6808, 8.0049);
+            giPlayerSetPos(1, 43.0, 0.7, 8.0);
             giPlayerSetAng(1, 266.0);
-            giPlayerSetPos(2, 13.6748, 0.6808, 34.5265);
+            giPlayerSetPos(2, 13.7, 0.7, 34.5);
             giPlayerSetAng(2, 240.0);
             giIMMEnd();
             giPlayerDoAction(2, "C01", 0, false);
             giWait(1.0);
-            giPlayerWalkTo(0, -31.1678, 0.6808, 8.3957, true);
+            giPlayerWalkTo(0, -31.2, 0.7, 8.4, true);
             giWait(0.5);
             giSetPortrait("102D", false);
             giTalk("云天河：这剑怎么浮着？", "43033");
@@ -2845,9 +2845,9 @@ void func2004()
             giIMMBegin();
             giCameraRunSingle("004", false);
             giPlayerSetAng(0, 72.0);
-            giPlayerSetPos(1, 25.5607, 0.6808, -0.685);
+            giPlayerSetPos(1, 25.6, 0.7, -0.7);
             giPlayerSetAng(1, 330.0);
-            giPlayerSetPos(2, 13.6748, 0.6808, 34.5265);
+            giPlayerSetPos(2, 13.7, 0.7, 34.5);
             giPlayerSetAng(2, 176.0);
             giIMMEnd();
             giWait(0.6);
@@ -2903,7 +2903,7 @@ void func2004()
             giPlayerSetVisible(2, false);
             global_mvar = 71400; // 0x000116E8, 第二章 / 5-1-1.寒剑夜鸣 / 前去禁地
             giPlayerCurrentSetVisible(true);
-            giPlayerCurrentSetPos(-61.065, 0.6808, 47.751);
+            giPlayerCurrentSetPos(-61.1, 0.7, 47.8);
             giPlayerCurrentSetAng(14.0);
             giIMMEnd();
             giCameraSetMode(3, true);
@@ -2918,7 +2918,7 @@ void func2004()
             gi2DSoundPlay("WJ063", 1);
             giSetFullHP();
             giSetFullMP();
-            giPlayerCurrentSetPos(68.9838, 0.6808, 14.004);
+            giPlayerCurrentSetPos(69.0, 0.7, 14.0);
             giPlayerCurrentSetAng(327.0);
             giCameraPrepare("MC006");
             giCameraRunSingle("001", true);
@@ -2956,14 +2956,14 @@ void func2006()
         giCameraSetCollide(false);
         giPlayerCurrentSetVisible(false);
         giIMMBegin();
-        giPlayerSetPos(0, 6940.63, -1388.3838, -6499.82);
+        giPlayerSetPos(0, 6940.6, -1388.4, -6499.8);
         giPlayerSetAng(0, 0.0);
         giPlayerSetVisible(0, true);
-        giPlayerSetPos(1, 6932.8857, -1388.3838, -6279.84);
+        giPlayerSetPos(1, 6932.9, -1388.4, -6279.8);
         giPlayerSetAng(1, 178.0);
-        giPlayerSetPos(2, 6962.2485, -1388.3837, -6294.1494);
+        giPlayerSetPos(2, 6962.2, -1388.4, -6294.1);
         giPlayerSetAng(2, 193.0);
-        giPlayerSetPos(3, 6876.982, -1388.3838, -6206.445);
+        giPlayerSetPos(3, 6877.0, -1388.4, -6206.4);
         giPlayerSetAng(3, 153.0);
         giSetNpcVisible("4049", false);
         giSetObjectVisible("title09", false);
@@ -2971,7 +2971,7 @@ void func2006()
         giIMMEnd();
         giCameraPrepare("MC003");
         giCameraRunSingle("001", true);
-        giPlayerWalkTo(0, 6959.376, -1388.3838, -6351.913, false);
+        giPlayerWalkTo(0, 6959.4, -1388.4, -6351.9, false);
         giFlashInBlack(2.0, false);
         giPlayerEndMove(0);
         giWait(1.0);
@@ -2996,7 +2996,7 @@ void func2006()
         giCameraRunSingle("006", false);
         giPlayerSetAng(2, 204.0);
         giPlayerSetVisible(0, false);
-        giPlayerSetPos(1, 6939.499, -1388.3838, -6257.917);
+        giPlayerSetPos(1, 6939.5, -1388.4, -6257.9);
         giPlayerSetAng(1, 189.0);
         giIMMEnd();
         giCameraRunSingle("007", false);
@@ -3019,12 +3019,12 @@ void func2006()
         giTalk("慕容紫英：你们几个，言之无聊，成何体统！", "42739");
         giWait(0.3);
         giIMMBegin();
-        giPlayerSetPos(0, 6876.3247, -1388.3837, -6309.144);
+        giPlayerSetPos(0, 6876.3, -1388.4, -6309.1);
         giPlayerSetAng(0, 359.0);
         giPlayerSetVisible(0, true);
-        giPlayerSetPos(1, 6950.223, -1388.3838, -6243.4175);
+        giPlayerSetPos(1, 6950.2, -1388.4, -6243.4);
         giPlayerSetAng(1, 301.0);
-        giPlayerSetPos(2, 6950.1455, -1388.3837, -6297.2285);
+        giPlayerSetPos(2, 6950.1, -1388.4, -6297.2);
         giPlayerSetAng(2, 320.0);
         giPlayerSetAng(3, 130.0);
         giCameraRunSingle("008", false);
@@ -3068,10 +3068,10 @@ void func2006()
         giIMMBegin();
         giCameraRunSingle("011", true);
         giPlayerSetAng(3, 111.0);
-        giPlayerSetPos(1, 6923.629, -1388.3838, -6230.7646);
+        giPlayerSetPos(1, 6923.6, -1388.4, -6230.8);
         giPlayerSetAng(1, 304.0);
         giPlayerSetVisible(1, true);
-        giPlayerSetPos(0, 6886.941, -1388.3838, -6290.972);
+        giPlayerSetPos(0, 6886.9, -1388.4, -6291.0);
         giPlayerSetAng(0, 353.0);
         giPlayerSetVisible(0, false);
         giIMMEnd();
@@ -3098,7 +3098,7 @@ void func2006()
         giCameraRunSingle("012", false);
         giPlayerSetAng(3, 142.0);
         giPlayerSetAng(1, 288.0);
-        giPlayerSetPos(0, 6889.7695, -1388.3838, -6275.186);
+        giPlayerSetPos(0, 6889.8, -1388.4, -6275.2);
         giPlayerSetAng(0, 351.0);
         giPlayerSetAng(2, 307.0);
         giPlayerSetVisible(2, true);
@@ -3134,11 +3134,11 @@ void func2006()
         giTalk("慕容紫英：十九年前昆仑山巅一战，全派弟子死伤过半，前任掌门也不幸战死，甚至听说门派中还有叛徒出现。", "42767");
         giIMMBegin();
         giCameraRunSingle("014", false);
-        giPlayerSetPos(0, 6898.015, -1388.3838, -6288.1855);
+        giPlayerSetPos(0, 6898.0, -1388.4, -6288.2);
         giPlayerSetAng(0, 345.0);
-        giPlayerSetPos(1, 6941.9824, -1388.3838, -6255.4453);
+        giPlayerSetPos(1, 6942.0, -1388.4, -6255.4);
         giPlayerSetAng(1, 306.0);
-        giPlayerSetPos(2, 6940.9385, -1388.3838, -6295.272);
+        giPlayerSetPos(2, 6940.9, -1388.4, -6295.3);
         giPlayerSetAng(2, 325.0);
         giIMMEnd();
         giWait(0.3);
@@ -3228,7 +3228,7 @@ void func2006()
         giWait(1.0);
         giIMMBegin();
         giCameraRunSingle("017", false);
-        giPlayerSetPos(0, 6895.196, -1388.3838, -6273.953);
+        giPlayerSetPos(0, 6895.2, -1388.4, -6274.0);
         giPlayerSetAng(0, 342.0);
         giPlayerSetAng(1, 310.0);
         giPlayerSetAng(3, 153.0);
@@ -3260,7 +3260,7 @@ void func2006()
         giSetPortrait("105A", false);
         giTalk("慕容紫英：我有事待办，最多两个时辰便会回来。", "42801");
         giWait(0.5);
-        giPlayerWalkTo(3, 6723.2446, -1388.3838, -6327.775, false);
+        giPlayerWalkTo(3, 6723.2, -1388.4, -6327.8, false);
         giWait(1.5);
         giIMMBegin();
         giCameraRunSingle("018", false);
@@ -3279,11 +3279,11 @@ void func2006()
         giScriptMusicPlay("P23", 2, 2.5, 0.0);
         giIMMBegin();
         giCameraRunSingle("020", false);
-        giPlayerSetPos(0, 6925.6997, -1388.3838, -6099.3276);
+        giPlayerSetPos(0, 6925.7, -1388.4, -6099.3);
         giPlayerSetAng(0, 161.0);
-        giPlayerSetPos(1, 6964.975, -1388.3838, -6209.5337);
+        giPlayerSetPos(1, 6965.0, -1388.4, -6209.5);
         giPlayerSetAng(1, 93.0);
-        giPlayerSetPos(2, 7073.348, -1388.3838, -6212.405);
+        giPlayerSetPos(2, 7073.3, -1388.4, -6212.4);
         giPlayerSetAng(2, 284.0);
         giPlayerSetVisible(0, false);
         giPlayerSetVisible(3, false);
@@ -3316,7 +3316,7 @@ void func2006()
         giIMMBegin();
         giCameraRunSingle("022", false);
         giPlayerSetAng(1, 351.0);
-        giPlayerSetPos(2, 7074.106, -1388.3838, -6213.6997);
+        giPlayerSetPos(2, 7074.1, -1388.4, -6213.7);
         giPlayerSetAng(2, 298.0);
         giIMMEnd();
         giWait(1.0);
@@ -3333,7 +3333,7 @@ void func2006()
         giTalk("云天河：我、我也不知怎么回事，在脑子里想着想着就突然飞起来了。", "42810");
         giSetPortrait("102K", true);
         giTalk("云天河：不过爹留下来的这把剑真厉害，我算算～可以打猎、剥皮、切肉、把肉串起来烤，现在我还能站在上面御剑了！", "42811");
-        giPlayerWalkTo(2, 6997.0176, -1388.3838, -6175.131, false);
+        giPlayerWalkTo(2, 6997.0, -1388.4, -6175.1, false);
         giWait(1.2);
         giPlayerSetDir(0, 135.0, false);
         giPlayerEndMove(2);
@@ -3345,9 +3345,9 @@ void func2006()
         giIMMBegin();
         giCameraRunSingle("023", false);
         giPlayerSetAng(0, 107.0);
-        giPlayerSetPos(1, 7005.124, -1388.3838, -6184.35);
+        giPlayerSetPos(1, 7005.1, -1388.4, -6184.4);
         giPlayerSetAng(1, 325.0);
-        giPlayerSetPos(2, 7016.0913, -1388.3838, -6158.157);
+        giPlayerSetPos(2, 7016.1, -1388.4, -6158.2);
         giPlayerSetAng(2, 286.0);
         giIMMEnd();
         giCameraRunSingle("024", false);
@@ -3373,11 +3373,11 @@ void func2006()
         giPlayerEndAction(1);
         giIMMBegin();
         giCameraRunSingle("025", false);
-        giPlayerSetPos(0, 6925.6997, -1388.3838, -6099.3276);
+        giPlayerSetPos(0, 6925.7, -1388.4, -6099.3);
         giPlayerSetAng(0, 146.0);
-        giPlayerSetPos(1, 6970.245, -1388.3838, -6164.419);
+        giPlayerSetPos(1, 6970.2, -1388.4, -6164.4);
         giPlayerSetAng(1, 342.0);
-        giPlayerSetPos(2, 6991.413, -1388.3838, -6118.388);
+        giPlayerSetPos(2, 6991.4, -1388.4, -6118.4);
         giPlayerSetAng(2, 281.0);
         giIMMEnd();
         giWait(0.5);
@@ -3413,9 +3413,9 @@ void func2006()
         giIMMBegin();
         giCameraRunSingle("026", false);
         giPlayerSetAng(0, 136.0);
-        giPlayerSetPos(1, 6963.6016, -1388.3838, -6154.9185);
+        giPlayerSetPos(1, 6963.6, -1388.4, -6154.9);
         giPlayerSetAng(1, 316.0);
-        giPlayerSetPos(2, 6969.1377, -1388.3838, -6124.676);
+        giPlayerSetPos(2, 6969.1, -1388.4, -6124.7);
         giPlayerSetAng(2, 273.0);
         giIMMEnd();
         giWait(0.5);
@@ -3436,7 +3436,7 @@ void func2006()
         giPlayerSetVisible(2, false);
         global_mvar = 70400; // 0x00011300, 第二章 / 4-3-3.御剑逍遥 / 御剑下山
         giPlayerCurrentSetVisible(true);
-        giPlayerCurrentSetPos(6803.4883, -1387.947, -6605.9067);
+        giPlayerCurrentSetPos(6803.5, -1387.9, -6605.9);
         giPlayerCurrentSetAng(201.0);
         giSetNpcVisible("4049", true);
         giSetNpcVisible("4056", false);
@@ -3463,7 +3463,7 @@ void func2007()
             {
                 giPlayerLock();
                 giPlayerSetLeader(0);
-                giPlayerWalkTo(0, 12447.839, -1831.3145, -14418.804, true);
+                giPlayerWalkTo(0, 12447.8, -1831.3, -14418.8, true);
                 giPlayerSetDir(0, 350.0, true);
                 giCameraAutoSeek(true);
                 giCameraSetMode(0, true);
@@ -3476,7 +3476,7 @@ void func2007()
         {
             giPlayerLock();
             giPlayerSetLeader(0);
-            giPlayerWalkTo(0, 12447.839, -1831.3145, -14418.804, true);
+            giPlayerWalkTo(0, 12447.8, -1831.3, -14418.8, true);
             giPlayerSetDir(0, 350.0, true);
             giCameraAutoSeek(true);
             giCameraSetMode(0, true);
@@ -3492,16 +3492,16 @@ void func2007()
         giCameraSetCollide(false);
         giPlayerCurrentSetVisible(false);
         giIMMBegin();
-        giPlayerSetPos(0, 12463.577, -1831.404, -14513.374);
+        giPlayerSetPos(0, 12463.6, -1831.4, -14513.4);
         giPlayerSetAng(0, 190.0);
         giPlayerSetVisible(0, true);
-        giPlayerSetPos(1, 12492.769, -1831.4298, -14577.734);
+        giPlayerSetPos(1, 12492.8, -1831.4, -14577.7);
         giPlayerSetAng(1, 260.0);
         giPlayerSetVisible(1, true);
-        giPlayerSetPos(2, 12422.16, -1831.3838, -14512.443);
+        giPlayerSetPos(2, 12422.2, -1831.4, -14512.4);
         giPlayerSetAng(2, 158.0);
         giPlayerSetVisible(2, true);
-        giNpcSetPos("4055", 12447.283, -1831.4694, -14588.377);
+        giNpcSetPos("4055", 12447.3, -1831.5, -14588.4);
         giNpcSetAng("4055", 70.0);
         giSetNpcVisible("4001", false);
         giIMMEnd();
@@ -3517,13 +3517,13 @@ void func2007()
         giTalk("韩菱纱：那就没问题了，正是紫英～师～叔让我们去山下办事呢。", "42833");
         giTalk("明尘：咦？师叔他……", "42834");
         giTalk("明尘：如此多有冒犯了，师弟师妹请多加小心。", "42835");
-        giPlayerWalkTo(1, 12563.999, -1891.0825, -14757.0, false);
+        giPlayerWalkTo(1, 12564.0, -1891.1, -14757.0, false);
         giWait(0.6);
-        giPlayerWalkTo(0, 12563.999, -1891.0825, -14757.0, false);
+        giPlayerWalkTo(0, 12564.0, -1891.1, -14757.0, false);
         giWait(0.5);
         giNpcSetDir("4055", 122.0, false);
-        giPlayerWalkTo(2, 12482.421, -1831.402, -14509.839, true);
-        giPlayerWalkTo(2, 12563.999, -1891.0825, -14757.0, false);
+        giPlayerWalkTo(2, 12482.4, -1831.4, -14509.8, true);
+        giPlayerWalkTo(2, 12564.0, -1891.1, -14757.0, false);
         giWait(3.0);
         giCameraRunSingle("002", false);
         giTalk("明尘：……紫英师叔行事当真不拘一格，竟会差入门才一天的弟子下山办事……", "42836");
@@ -3531,13 +3531,13 @@ void func2007()
         giCameraSetDistOptEnable(true);
         giIMMBegin();
         giCameraRunSingle("003", false);
-        giPlayerSetPos(0, 12581.382, -2023.0459, -15422.004);
+        giPlayerSetPos(0, 12581.4, -2023.0, -15422.0);
         giPlayerSetAng(0, 331.0);
-        giPlayerSetPos(1, 12549.634, -2023.0459, -15363.466);
+        giPlayerSetPos(1, 12549.6, -2023.0, -15363.5);
         giPlayerSetAng(1, 103.0);
-        giPlayerSetPos(2, 12600.4795, -2023.0459, -15369.084);
+        giPlayerSetPos(2, 12600.5, -2023.0, -15369.1);
         giPlayerSetAng(2, 274.0);
-        giNpcSetPos("4055", 12373.281, -1831.5421, -14623.683);
+        giNpcSetPos("4055", 12373.3, -1831.5, -14623.7);
         giNpcSetAng("4055", 80.0);
         giIMMEnd();
         giPlayerDoAction(1, "J13", -1, false);
@@ -3557,7 +3557,7 @@ void func2007()
         giIMMBegin();
         giCameraRunSingle("005", false);
         giPlayerSetAng(0, 6.0);
-        giPlayerSetPos(1, 12564.759, -2023.0459, -15373.573);
+        giPlayerSetPos(1, 12564.8, -2023.0, -15373.6);
         giPlayerSetAng(1, 158.0);
         giPlayerSetAng(2, 206.0);
         giIMMEnd();
@@ -3593,7 +3593,7 @@ void func2007()
         giPlayerSetVisible(2, false);
         global_mvar = 70500; // 0x00011364, 第二章 / 4-3-4.御剑逍遥 / 东南荒漠 / 修仙习剑
         giPlayerCurrentSetVisible(true);
-        giPlayerCurrentSetPos(12621.778, -2023.0459, -15541.742);
+        giPlayerCurrentSetPos(12621.8, -2023.0, -15541.7);
         giPlayerCurrentSetAng(168.0);
         giSetNpcVisible("4001", true);
         giSetObjectVisible("entrance0", true);
@@ -3623,22 +3623,22 @@ void func2008()
         giCameraAutoSeek(false);
         giPlayerCurrentSetVisible(false);
         giIMMBegin();
-        giPlayerSetPos(0, 11885.075, -1705.3048, -10936.454);
+        giPlayerSetPos(0, 11885.1, -1705.3, -10936.5);
         giPlayerSetAng(0, 356.0);
         giPlayerSetVisible(0, true);
-        giPlayerSetPos(1, 11974.87, -1704.6606, -10921.302);
+        giPlayerSetPos(1, 11974.9, -1704.7, -10921.3);
         giPlayerSetAng(1, 338.0);
         giPlayerSetVisible(1, true);
-        giPlayerSetPos(2, 11946.087, -1715.3335, -10946.027);
+        giPlayerSetPos(2, 11946.1, -1715.3, -10946.0);
         giPlayerSetAng(2, 349.0);
         giPlayerSetVisible(2, true);
-        giPlayerSetPos(3, 11932.658, -1715.5883, -10948.626);
+        giPlayerSetPos(3, 11932.7, -1715.6, -10948.6);
         giPlayerSetAng(3, 353.0);
         giPlayerSetVisible(3, true);
         giIMMEnd();
         giCameraPrepare("MC005");
         giCameraRunSingle("001", true);
-        giPlayerWalkTo(3, 11900.934, -1670.0402, -10748.865, false);
+        giPlayerWalkTo(3, 11900.9, -1670.0, -10748.9, false);
         giFlashInBlack(2.0, false);
         giPlayerEndMove(3);
         giWait(1.0);
@@ -3653,15 +3653,15 @@ void func2008()
         giCameraRunSingle("002", true);
         giSetPortrait("105A", true);
         giTalk("慕容紫英：你们随我来。", "42938");
-        giPlayerWalkTo(3, 11887.446, -1670.0404, -10679.4, false);
+        giPlayerWalkTo(3, 11887.4, -1670.0, -10679.4, false);
         giWait(1.0);
         giIMMBegin();
         giCameraRunSingle("003", false);
-        giPlayerSetPos(0, 11916.729, -1707.2019, -10928.182);
+        giPlayerSetPos(0, 11916.7, -1707.2, -10928.2);
         giPlayerSetAng(0, 352.0);
-        giPlayerSetPos(1, 11969.409, -1698.9923, -10900.15);
+        giPlayerSetPos(1, 11969.4, -1699.0, -10900.2);
         giPlayerSetAng(1, 331.0);
-        giPlayerSetPos(2, 11963.062, -1725.2089, -10953.533);
+        giPlayerSetPos(2, 11963.1, -1725.2, -10953.5);
         giPlayerSetAng(2, 340.0);
         giPlayerSetVisible(3, false);
         giIMMEnd();
@@ -3709,19 +3709,19 @@ void func2008()
         giCameraSetCollide(false);
         giPlayerCurrentSetVisible(false);
         giIMMBegin();
-        giPlayerSetPos(0, -12.0476, 0.496, 95.3158);
+        giPlayerSetPos(0, -12.0, 0.5, 95.3);
         giPlayerSetAng(0, 162.0);
         giPlayerSetVisible(0, true);
-        giPlayerSetPos(1, 38.8876, 0.496, 109.5194);
+        giPlayerSetPos(1, 38.9, 0.5, 109.5);
         giPlayerSetAng(1, 196.0);
         giPlayerSetVisible(1, true);
-        giPlayerSetPos(2, -42.7959, 0.496, 130.1115);
+        giPlayerSetPos(2, -42.8, 0.5, 130.1);
         giPlayerSetAng(2, 161.0);
         giPlayerSetVisible(2, true);
-        giPlayerSetPos(3, 8.271, 0.496, -23.5023);
+        giPlayerSetPos(3, 8.3, 0.5, -23.5);
         giPlayerSetAng(3, 192.0);
         giPlayerSetVisible(3, true);
-        giNpcSetPos("MN001", 4.5608, 40.8801, -128.0657);
+        giNpcSetPos("MN001", 4.6, 40.9, -128.1);
         giNpcSetAng("MN001", 8.0);
         giSetNpcVisible("MN001", true);
         giIMMEnd();
@@ -3795,7 +3795,7 @@ void func2008()
         giTalk("夙瑶：嗯？", "42965");
         giIMMBegin();
         giCameraRunSingle("004", false);
-        giPlayerSetPos(0, -3.3151, 0.496, 63.4749);
+        giPlayerSetPos(0, -3.3, 0.5, 63.5);
         giPlayerSetAng(0, 169.0);
         giPlayerSetAng(1, 213.0);
         giPlayerSetAng(2, 157.0);
@@ -3825,14 +3825,14 @@ void func2008()
         giSetPortrait("102E", false);
         giTalk("云天河：好……知道了。", "42969");
         giWait(0.5);
-        giPlayerWalkTo(2, -83.1209, 0.496, 197.3898, false);
+        giPlayerWalkTo(2, -83.1, 0.5, 197.4, false);
         giWait(0.5);
-        giPlayerWalkTo(1, -3.7224, 0.496, 171.0116, false);
+        giPlayerWalkTo(1, -3.7, 0.5, 171.0, false);
         giWait(0.3);
         giPlayerEndAction(0);
         giPlayerSetDir(0, 175.0, true);
         giWait(1.3);
-        giPlayerWalkTo(0, -50.9413, 0.496, 200.5422, false);
+        giPlayerWalkTo(0, -50.9, 0.5, 200.5, false);
         giPlayerEndMove(0);
         giWait(1.0);
         giScriptMusicStop(0, 2.5);
@@ -3944,7 +3944,7 @@ void func2008()
         giIMMBegin();
         giCameraRunSingle("009", false);
         giNpcSetAng("MN001", 18.0);
-        giPlayerSetPos(3, 12.0339, 0.496, -8.6458);
+        giPlayerSetPos(3, 12.0, 0.5, -8.6);
         giPlayerSetAng(3, 201.0);
         giIMMEnd();
         giWait(0.7);
@@ -4020,13 +4020,13 @@ void func2008()
         giCameraSetCollide(false);
         giPlayerCurrentSetVisible(false);
         giIMMBegin();
-        giPlayerSetPos(0, 12069.938, -1759.2672, -12146.838);
+        giPlayerSetPos(0, 12069.9, -1759.3, -12146.8);
         giPlayerSetAng(0, 39.0);
         giPlayerSetVisible(0, true);
-        giPlayerSetPos(1, 12134.858, -1759.2673, -12136.863);
+        giPlayerSetPos(1, 12134.9, -1759.3, -12136.9);
         giPlayerSetAng(1, 274.0);
         giPlayerSetVisible(1, true);
-        giPlayerSetPos(2, 12112.055, -1759.2672, -12095.338);
+        giPlayerSetPos(2, 12112.1, -1759.3, -12095.3);
         giPlayerSetAng(2, 227.0);
         giPlayerSetVisible(2, true);
         giIMMEnd();
@@ -4065,7 +4065,7 @@ void func2008()
         giSetPortrait("107A", false);
         giTalk("柳梦璃：嗯，也只能先这样了。", "43022");
         giWait(0.5);
-        giPlayerWalkTo(0, 12011.448, -1759.5946, -12259.826, false);
+        giPlayerWalkTo(0, 12011.4, -1759.6, -12259.8, false);
         giWait(1.0);
         giPlayerSetDir(2, 208.0, false);
         giPlayerSetDir(1, 233.0, true);
@@ -4086,7 +4086,7 @@ void func2008()
         giSetObjectVisible("entrance1", true);
         global_mvar = 71200; // 0x00011620, 第二章 / 4-4-3.叹沧桑 / 回房休息 / 沙地助人
         giPlayerCurrentSetVisible(true);
-        giPlayerCurrentSetPos(11459.011, -1759.2672, -12469.056);
+        giPlayerCurrentSetPos(11459.0, -1759.3, -12469.1);
         giPlayerCurrentSetAng(277.0);
         giSetNpcVisible("4005", true);
         giIMMEnd();
@@ -4109,13 +4109,13 @@ void func2010()
         giCameraAutoSeek(false);
         giPlayerCurrentSetVisible(false);
         giIMMBegin();
-        giPlayerSetPos(0, 1240.6027, 130.9758, 644.7593);
+        giPlayerSetPos(0, 1240.6, 131.0, 644.8);
         giPlayerSetAng(0, 10.0);
         giPlayerSetVisible(0, true);
-        giPlayerSetPos(1, 1203.9812, 130.9758, 690.2551);
+        giPlayerSetPos(1, 1204.0, 131.0, 690.3);
         giPlayerSetAng(1, 66.0);
         giPlayerSetVisible(1, true);
-        giPlayerSetPos(2, 1252.189, 130.9759, 719.4197);
+        giPlayerSetPos(2, 1252.2, 131.0, 719.4);
         giPlayerSetAng(2, 44.0);
         giPlayerSetVisible(2, true);
         giAddPlayerFavor(0, 3, 10);
@@ -4136,7 +4136,7 @@ void func2010()
         giWait(0.5);
         giSetPortrait("102A", false);
         giTalk("云天河：这里～和爹的墓室有点像……", "43080");
-        giPlayerWalkTo(2, 1279.1328, 130.9758, 746.8027, true);
+        giPlayerWalkTo(2, 1279.1, 131.0, 746.8, true);
         giSetPortrait("107E", true);
         giTalk("柳梦璃：你们，快看！", "43081");
         giWait(0.5);
@@ -4151,16 +4151,16 @@ void func2010()
         giCameraRunSingle("002", true);
         giCameraRunSingle("003", true);
         giIMMBegin();
-        giPlayerSetPos(0, 1262.4902, 130.9758, 722.1158);
+        giPlayerSetPos(0, 1262.5, 131.0, 722.1);
         giPlayerSetAng(0, 28.0);
-        giPlayerSetPos(1, 1203.1348, 130.9758, 699.1591);
+        giPlayerSetPos(1, 1203.1, 131.0, 699.2);
         giPlayerSetAng(1, 56.0);
-        giPlayerSetPos(2, 1279.1199, 130.9758, 668.7565);
+        giPlayerSetPos(2, 1279.1, 131.0, 668.8);
         giPlayerSetAng(2, 28.0);
         giCameraRunSingle("004", true);
         giIMMEnd();
         giWait(0.5);
-        giPlayerWalkTo(0, 1286.9707, 130.9758, 757.0366, true);
+        giPlayerWalkTo(0, 1287.0, 131.0, 757.0, true);
         giWait(0.5);
         giPlayerDoAction(2, "C07", -1, false);
         giSetPortrait("107A", true);
@@ -4198,14 +4198,14 @@ void func2010()
         giIMMBegin();
         giPlayerSetVisible(1, false);
         giPlayerSetVisible(2, false);
-        giPlayerSetPos(0, 1262.4902, 130.9758, 722.1158);
+        giPlayerSetPos(0, 1262.5, 131.0, 722.1);
         giCameraRunSingle("006", true);
         giIMMEnd();
         giWait(0.7);
         giTalk("？？：……少年人，你，能否靠近一些？", "43089");
         giSetPortrait("102A", true);
         giTalk("云天河：我吗？", "43090");
-        giPlayerWalkTo(0, 1286.9707, 130.9758, 757.0366, true);
+        giPlayerWalkTo(0, 1287.0, 131.0, 757.0, true);
         giWait(1.0);
         giTalk("？？：……你的长相，果真……你，可认识一个叫云天青的人？", "43091");
         giPlayerDoAction(0, "J14", 1, false);
@@ -4248,7 +4248,7 @@ void func2010()
         giPlayerSetVisible(3, true);
         giCameraSetCollide(false);
         giCameraAutoSeek(false);
-        giPlayerSetPos(3, 37.5595, 0.6808, 31.1533);
+        giPlayerSetPos(3, 37.6, 0.7, 31.2);
         giPlayerSetAng(3, 334.0);
         giCameraPrepare("MC002");
         giCameraRunSingle("002", true);
@@ -4271,18 +4271,18 @@ void func2010()
         giSetPortrait("105F", false);
         giTalk("慕容紫英：（……以他们的放肆，闯去那里自然也不稀奇，真是太过胡来！）", "43108");
         giWait(0.4);
-        giPlayerWalkTo(3, -24.0839, 0.6808, 102.291, false);
+        giPlayerWalkTo(3, -24.1, 0.7, 102.3, false);
         giWait(0.3);
         giFlashOutBlack(1.5, true, true);
         giPlayerEndMove(3);
         giPlayerSetVisible(3, false);
         giArenaLoad("Q06", "Q06H", "", true);
         giPlayerLock();
-        giPlayerSetPos(0, 1273.9912, 130.9758, 712.149);
+        giPlayerSetPos(0, 1274.0, 131.0, 712.1);
         giPlayerSetAng(0, 28.0);
-        giPlayerSetPos(1, 1217.1184, 130.9758, 715.0046);
+        giPlayerSetPos(1, 1217.1, 131.0, 715.0);
         giPlayerSetAng(1, 56.0);
-        giPlayerSetPos(2, 1272.1273, 130.9758, 659.8973);
+        giPlayerSetPos(2, 1272.1, 131.0, 659.9);
         giPlayerSetAng(2, 40.0);
         giPlayerCurrentSetVisible(false);
         giPlayerSetVisible(0, true);
@@ -4366,7 +4366,7 @@ void func2010()
         giWait(0.4);
         giTalk("玄霄：噤声！……又有人闯入，今天可真是热闹。", "43134");
         giIMMBegin();
-        giPlayerSetPos(3, 1150.8516, 119.8983, 490.1861);
+        giPlayerSetPos(3, 1150.9, 119.9, 490.2);
         giPlayerSetVisible(3, true);
         giIMMEnd();
         giPlayerSetDir(0, 188.0, false);
@@ -4374,13 +4374,13 @@ void func2010()
         giPlayerSetDir(2, 196.0, false);
         giWait(0.5);
         giCameraRunSingle("012", false);
-        giPlayerWalkTo(3, 1208.3333, 130.9758, 563.7109, true);
+        giPlayerWalkTo(3, 1208.3, 131.0, 563.7, true);
         giCameraWait();
         giWait(0.8);
         giIMMBegin();
-        giPlayerSetPos(0, 1233.4438, 130.9758, 747.0768);
-        giPlayerSetPos(1, 1202.096, 130.9758, 706.9268);
-        giPlayerSetPos(2, 1241.6588, 130.9758, 675.5059);
+        giPlayerSetPos(0, 1233.4, 131.0, 747.1);
+        giPlayerSetPos(1, 1202.1, 131.0, 706.9);
+        giPlayerSetPos(2, 1241.7, 131.0, 675.5);
         giPlayerSetAng(0, 176.0);
         giPlayerSetAng(1, 174.0);
         giPlayerSetAng(2, 192.0);
@@ -4421,7 +4421,7 @@ void func2010()
         giTalk("韩菱纱：啊？！师叔的师叔……", "43144");
         giPlayerUnHoldAct(1);
         giPlayerEndAction(1);
-        giPlayerWalkTo(3, 1296.5176, 130.9758, 681.0529, false);
+        giPlayerWalkTo(3, 1296.5, 131.0, 681.1, false);
         giWait(0.5);
         giCameraRunSingle("015", true);
         giWait(1.2);
@@ -4515,7 +4515,7 @@ void func2010()
         giPlayerSetVisible(2, false);
         giPlayerSetVisible(3, false);
         giPlayerCurrentSetVisible(true);
-        giPlayerCurrentSetPos(1270.9652, 130.9758, 720.7191);
+        giPlayerCurrentSetPos(1271.0, 131.0, 720.7);
         giPlayerCurrentSetAng(4.5);
         giCameraSetCollide(true);
         giCameraAutoSeek(true);
@@ -4543,7 +4543,7 @@ void func2011()
         giCameraAutoSeek(false);
         giPlayerCurrentSetVisible(false);
         giPlayerSetVisible(0, true);
-        giPlayerSetPos(0, 82.222, 26.6808, -54.0353);
+        giPlayerSetPos(0, 82.2, 26.7, -54.0);
         giPlayerSetAng(0, 270.0);
         giCameraPrepare("MC002");
         giCameraRunSingle("001", true);
@@ -4572,9 +4572,9 @@ void func2011()
         giCameraSetCollide(false);
         giCameraAutoSeek(false);
         giPlayerCurrentSetVisible(false);
-        giPlayerSetPos(0, 59.3091, 0.6808, 17.5098);
+        giPlayerSetPos(0, 59.3, 0.7, 17.5);
         giPlayerSetAng(0, 336.0);
-        giPlayerSetPos(3, -24.7917, 0.6808, 66.4242);
+        giPlayerSetPos(3, -24.8, 0.7, 66.4);
         giPlayerSetAng(3, 132.0);
         giPlayerSetVisible(0, true);
         giSetObjectVisible("MO002", true);
@@ -4657,7 +4657,7 @@ void func2011()
         giPlayerUnHoldAct(0);
         giPlayerEndAction(0);
         giCameraRunSingle("005", false);
-        giPlayerWalkTo(3, 1.931, 0.6808, 49.6087, true);
+        giPlayerWalkTo(3, 1.9, 0.7, 49.6, true);
         giPlayerSetAng(3, 134.0);
         giSetPortrait("105E", true);
         giTalk("慕容紫英：…………还……有……没……有？", "43246");
@@ -4682,11 +4682,11 @@ void func2011()
         giTalk("云天河：师叔？", "43251");
         giWait(0.5);
         giCameraRunSingle("006", false);
-        giPlayerWalkTo(3, 29.888, 0.6808, 35.6227, true);
+        giPlayerWalkTo(3, 29.9, 0.7, 35.6, true);
         giPlayerSetAng(3, 126.0);
         giSetPortrait("105F", true);
         giTalk("慕容紫英：云、天、河！！", "43252");
-        giPlayerBackTo(0, 65.9409, 0.6808, 11.7467, true);
+        giPlayerBackTo(0, 65.9, 0.7, 11.7, true);
         giSetPortrait("102D", false);
         giTalk("云天河：啊！怎么了？！", "43253");
         giPlayerDoAction(3, "J13", 1, false);
@@ -4713,7 +4713,7 @@ void func2011()
         giCameraSetCollide(false);
         giCameraAutoSeek(false);
         giPlayerCurrentSetVisible(false);
-        giPlayerSetPos(0, -19.8211, 0.8795, -92.0806);
+        giPlayerSetPos(0, -19.8, 0.9, -92.1);
         giPlayerSetAng(0, 182.0);
         giPlayerSetVisible(0, true);
         giSetNpcVisible("MN001", true);
@@ -4741,7 +4741,7 @@ void func2011()
         giTalk("云天河：怀朔、璇玑！是你们？", "43259");
         giPlayerEndAction(0);
         giCameraRunSingle("003", false);
-        giPlayerRunTo(0, 109.2726, 0.8795, -30.8103, true);
+        giPlayerRunTo(0, 109.3, 0.9, -30.8, true);
         giPlayerSetAng(0, 74.0);
         giCameraWait();
         giCameraRunSingle("004", false);
@@ -4785,8 +4785,8 @@ void func2011()
         giWait(0.5);
         giPlayerDoAction(0, "C08", 1, true);
         giWait(0.8);
-        giNpcWalkTo("MN001", 282.8283, 0.8795, 43.3338, false);
-        giNpcWalkTo("MN002", 296.7559, 0.8795, 18.9991, true);
+        giNpcWalkTo("MN001", 282.8, 0.9, 43.3, false);
+        giNpcWalkTo("MN002", 296.8, 0.9, 19.0, true);
         giNpcEndMove("MN001");
         giFlashOutBlack(1.5, true, true);
         giCameraRunSingle("001", true);
@@ -4796,7 +4796,7 @@ void func2011()
         giPlayerSetVisible(0, false);
         giCameraSetCollide(true);
         giPlayerCurrentSetVisible(true);
-        giPlayerCurrentSetPos(109.2726, 0.8795, -30.8103);
+        giPlayerCurrentSetPos(109.3, 0.9, -30.8);
         giPlayerCurrentSetAng(74.0);
         global_mvar = 80400; // 0x00013A10, 第二章 / 5-2-1.心事难明 / 思过结束
         giIMMEnd();
@@ -4820,12 +4820,12 @@ void func2012()
         giCameraAutoSeek(false);
         giPlayerCurrentSetVisible(false);
         giSetObjectVisible("entrance3", false);
-        giPlayerSetPos(0, 9155.96, -1382.2301, 221.6398);
-        giPlayerSetPos(1, 10954.697, -1383.1448, 271.1691);
+        giPlayerSetPos(0, 9156.0, -1382.2, 221.6);
+        giPlayerSetPos(1, 10954.7, -1383.1, 271.2);
         giPlayerSetAng(1, 280.0);
-        giPlayerSetPos(2, 9333.097, -1382.669, 96.3522);
+        giPlayerSetPos(2, 9333.1, -1382.7, 96.4);
         giPlayerSetAng(2, 294.0);
-        giPlayerSetPos(3, 10771.587, -1382.9156, 308.1119);
+        giPlayerSetPos(3, 10771.6, -1382.9, 308.1);
         giPlayerSetAng(3, 300.0);
         giPlayerSetVisible(0, true);
         giPlayerSetVisible(2, true);
@@ -4835,7 +4835,7 @@ void func2012()
         giCameraRunSingle("001", true);
         giFlashInBlack(1.5, false);
         giCameraRunSingle("002", false);
-        giPlayerWalkTo(0, 9263.226, -1381.1603, 127.9911, true);
+        giPlayerWalkTo(0, 9263.2, -1381.2, 128.0, true);
         giPlayerSetAng(0, 110.0);
         giSetPortrait("102B", true);
         giTalk("云天河：梦璃，你怎么在这？菱纱呢？", "43273");
@@ -4951,7 +4951,7 @@ void func2012()
         giTalk("柳梦璃：云公子？", "43302");
         giSetPortrait("102F", false);
         giTalk("云天河：没、没什么！我……我离开一下！", "43303");
-        giPlayerRunTo(0, 9165.724, -1378.0189, 45.2368, false);
+        giPlayerRunTo(0, 9165.7, -1378.0, 45.2, false);
         giWait(0.5);
         giCameraRunSingle("011", false);
         giWait(1.0);
@@ -4962,7 +4962,7 @@ void func2012()
         giSetPortrait("107A", true);
         giTalk("柳梦璃：云公子……谢谢你…… ", "43304");
         giPlayerEndAction(2);
-        giPlayerWalkTo(2, 9230.8125, -1382.6753, 37.2737, false);
+        giPlayerWalkTo(2, 9230.8, -1382.7, 37.3, false);
         giFlashOutBlack(2.0, true, true);
         giPlayerEndMove(2);
         giPlayerSetVisible(2, false);
@@ -4976,7 +4976,7 @@ void func2012()
         giFlashInBlack(1.5, true);
         giSetPortrait("105A", false);
         giTalk("慕容紫英：……", "43305");
-        giPlayerWalkTo(1, 10838.978, -1383.1448, 281.4386, false);
+        giPlayerWalkTo(1, 10839.0, -1383.1, 281.4, false);
         giCameraRunSingle("016", false);
         giPlayerEndMove(1);
         giPlayerSetAng(1, 288.0);
@@ -5001,12 +5001,12 @@ void func2012()
         giTalk("韩菱纱：喂，明明一副若有所思的样子，干嘛不把话讲出来？", "43309");
         giPlayerUnHoldAct(1);
         giPlayerEndAction(1);
-        giWait(0.30000001192092896);
+        giWait(0.3);
         giIMMBegin();
         giPlayerSetAng(3, 112.0);
         giCameraRunSingle("020", true);
         giIMMEnd();
-        giWait(0.6000000238418579);
+        giWait(0.6);
         giSetPortrait("105A", true);
         giTalk("慕容紫英：……不坦率的人是你吧？", "43310");
         giSetPortrait("104C", false);
@@ -5056,19 +5056,19 @@ void func2012()
         giTalk("韩菱纱：算了算了，和你真的说不通呐，你觉得好就好。", "43322");
         giPlayerEndAction(1);
         giWait(0.5);
-        giPlayerWalkTo(1, 10943.032, -1383.1919, 288.5745, false);
+        giPlayerWalkTo(1, 10943.0, -1383.2, 288.6, false);
         giFlashOutBlack(1.5, true, true);
         giPlayerEndMove(1);
         giIMMBegin();
         giPlayerSetVisible(1, false);
         giPlayerSetVisible(3, false);
-        giPlayerSetPos(0, 8421.773, -1382.0189, -257.3676);
+        giPlayerSetPos(0, 8421.8, -1382.0, -257.4);
         giPlayerSetAng(0, 36.0);
         giPlayerSetVisible(0, true);
         giCameraRunSingle("023", true);
         giIMMEnd();
         giFlashInBlack(1.5, false);
-        giWait(0.800000011920929);
+        giWait(0.8);
         giPlayerDoAction(0, "J14", 1, false);
         giSetPortrait("102A", true);
         giTalk("云天河：……真奇怪，有时候对着梦璃，就会觉得头晕晕的，话也说得乱七八糟……是不是病了？可是有菱纱在的时候又不会这样……", "43323");
@@ -5077,10 +5077,10 @@ void func2012()
         giFlashOutBlack(1.5, true, true);
         giCameraRunSingle("023", true);
         giPlayerEndAction(0);
-        giNpcSetPos("SN001", 13335.574, -1088.2423, -5375.1333);
+        giNpcSetPos("SN001", 13335.6, -1088.2, -5375.1);
         giNpcSetAng("SN001", 100.0);
         giSetNpcVisible("SN001", true);
-        giPlayerSetPos(0, 9440.097, -1382.2301, 91.7104);
+        giPlayerSetPos(0, 9440.1, -1382.2, 91.7);
         giPlayerSetAng(0, 72.0);
         giCameraSetMode(0, true);
         giCameraSeekToPlayer();
@@ -5104,24 +5104,24 @@ void func2013()
         giCameraSetCollide(false);
         giCameraAutoSeek(false);
         giPlayerCurrentSetVisible(false);
-        giPlayerSetPos(0, 15366.475, 136.3821, -4038.2507);
-        giPlayerSetPos(1, 15378.491, 136.3821, -4067.487);
+        giPlayerSetPos(0, 15366.5, 136.4, -4038.3);
+        giPlayerSetPos(1, 15378.5, 136.4, -4067.5);
         giPlayerSetAng(1, 280.0);
         giPlayerSetVisible(0, true);
         giPlayerSetVisible(1, true);
         giIMMEnd();
         giCameraPrepare("MC002");
         giCameraRunSingle("001", true);
-        giPlayerWalkTo(0, 15332.366, 136.3816, -3871.2395, false);
+        giPlayerWalkTo(0, 15332.4, 136.4, -3871.2, false);
         giFlashInBlack(1.5, true);
         giWait(1.5);
-        giPlayerRunTo(1, 15353.51, 136.3822, -3994.8533, false);
+        giPlayerRunTo(1, 15353.5, 136.4, -3994.9, false);
         giSetPortrait("104A", true);
         giTalk("韩菱纱：天河，等等我！", "43325");
         giPlayerEndMove(1);
         giPlayerSetDir(0, 170.0, true);
         giCameraRunSingle("002", false);
-        giPlayerWalkTo(1, 15342.123, 136.3822, -3927.9229, true);
+        giPlayerWalkTo(1, 15342.1, 136.4, -3927.9, true);
         giPlayerSetAng(1, 346.0);
         giSetPortrait("104A", true);
         giTalk("韩菱纱：你是想去那个……禁地，对不对？", "43326");
@@ -5214,18 +5214,18 @@ void func2014()
         giCameraAutoSeek(false);
         giPlayerCurrentSetVisible(false);
         giIMMBegin();
-        giPlayerSetPos(0, 1178.9003, 130.9758, 543.0793);
+        giPlayerSetPos(0, 1178.9, 131.0, 543.1);
         giPlayerSetAng(0, 34.0);
         giPlayerSetVisible(0, true);
-        giPlayerSetPos(1, 1220.1041, 130.9758, 519.4426);
+        giPlayerSetPos(1, 1220.1, 131.0, 519.4);
         giPlayerSetAng(1, 24.0);
         giPlayerSetVisible(1, true);
         giIMMEnd();
         giCameraPrepare("MC003");
         giCameraRunSingle("001", true);
         giCameraRunSingle("002", false);
-        giPlayerWalkTo(0, 1274.8154, 130.9758, 711.9861, false);
-        giPlayerWalkTo(1, 1302.6307, 130.9758, 680.7112, false);
+        giPlayerWalkTo(0, 1274.8, 131.0, 712.0, false);
+        giPlayerWalkTo(1, 1302.6, 131.0, 680.7, false);
         giFlashInBlack(1.5, true);
         giPlayerEndMove(0);
         giPlayerEndMove(1);
@@ -5459,7 +5459,7 @@ void func2014()
         giPlayerSetVisible(0, false);
         giPlayerSetVisible(1, false);
         giPlayerCurrentSetVisible(true);
-        giPlayerCurrentSetPos(1270.9652, 130.9758, 720.7191);
+        giPlayerCurrentSetPos(1271.0, 131.0, 720.7);
         giPlayerCurrentSetAng(4.5);
         giCameraSetCollide(true);
         giCameraAutoSeek(true);
@@ -5483,11 +5483,11 @@ void func2015()
         giCameraSetCollide(false);
         giCameraAutoSeek(false);
         giPlayerCurrentSetVisible(false);
-        giPlayerSetPos(0, 15331.611, 136.3816, -3751.4666);
-        giPlayerSetPos(1, 15387.43, 136.3816, -3747.313);
-        giPlayerSetPos(3, 15342.142, 136.3821, -4003.1846);
+        giPlayerSetPos(0, 15331.6, 136.4, -3751.5);
+        giPlayerSetPos(1, 15387.4, 136.4, -3747.3);
+        giPlayerSetPos(3, 15342.1, 136.4, -4003.2);
         giPlayerSetAng(3, 12.0);
-        giPlayerSetPos(2, 15564.145, 136.3821, -4033.0764);
+        giPlayerSetPos(2, 15564.1, 136.4, -4033.1);
         giPlayerSetVisible(0, true);
         giPlayerSetVisible(1, true);
         giPlayerSetVisible(3, true);
@@ -5495,8 +5495,8 @@ void func2015()
         giArenaReady();
         giCameraPrepare("MC007");
         giCameraRunSingle("001", true);
-        giPlayerWalkTo(0, 15315.086, 136.3816, -3925.7534, false);
-        giPlayerWalkTo(1, 15365.583, 136.3816, -3918.7915, false);
+        giPlayerWalkTo(0, 15315.1, 136.4, -3925.8, false);
+        giPlayerWalkTo(1, 15365.6, 136.4, -3918.8, false);
         giFlashInBlack(1.5, true);
         giPlayerEndMove(0);
         giPlayerSetAng(0, 152.0);
@@ -5575,12 +5575,12 @@ void func2015()
         giPlayerSetAng(3, 70.0);
         giCameraRunSingle("005", true);
         giIMMEnd();
-        giPlayerWalkTo(1, 15433.066, 136.3822, -4021.568, false);
+        giPlayerWalkTo(1, 15433.1, 136.4, -4021.6, false);
         giPlayerEndMove(1);
         giIMMBegin();
         giPlayerSetVisible(1, false);
         giPlayerSetDir(0, 157.0, false);
-        giPlayerSetPos(1, 15550.2, 136.3822, -4083.649);
+        giPlayerSetPos(1, 15550.2, 136.4, -4083.6);
         giIMMEnd();
         giWait(0.5);
         giSetPortrait("102A", true);
@@ -5613,14 +5613,14 @@ void func2015()
         giPlayerDoAction(3, "C09", 1, false);
         giSetPortrait("105A", false);
         giTalk("慕容紫英：唉，我说过了，不必心急，如今妖界将临，许多事情千头万绪，一时顾不上你们，也在情理之中。", "43443");
-        giWait(0.4000000059604645);
+        giWait(0.4);
         giSetPortrait("102C", true);
         giTalk("云天河：……", "43444");
         giPlayerSetVisible(1, true);
         giPlayerSetVisible(2, true);
-        giPlayerWalkTo(1, 15424.924, 136.3818, -4013.9675, false);
-        giPlayerWalkTo(2, 15428.713, 136.3822, -3978.0718, false);
-        giWait(0.6000000238418579);
+        giPlayerWalkTo(1, 15424.9, 136.4, -4014.0, false);
+        giPlayerWalkTo(2, 15428.7, 136.4, -3978.1, false);
+        giWait(0.6);
         giIMMBegin();
         giPlayerSetAng(0, 124.0);
         giPlayerSetAng(3, 60.0);
@@ -5653,7 +5653,7 @@ void func2015()
         giPlayerSetVisible(2, false);
         giPlayerSetVisible(3, false);
         giPlayerEndAction(0);
-        giPlayerSetPos(0, 15125.338, 136.3822, -4289.0737);
+        giPlayerSetPos(0, 15125.3, 136.4, -4289.1);
         giPlayerSetAng(0, 280.0);
         giCameraSetMode(0, true);
         giCameraSeekToPlayer();
@@ -5674,13 +5674,13 @@ void func2016()
         giCameraSetCollide(false);
         giCameraAutoSeek(false);
         giPlayerCurrentSetVisible(false);
-        giPlayerSetPos(0, 12562.096, -1831.3142, -14355.043);
+        giPlayerSetPos(0, 12562.1, -1831.3, -14355.0);
         giPlayerSetAng(0, 306.0);
-        giPlayerSetPos(1, 12513.613, -1831.3143, -14384.118);
+        giPlayerSetPos(1, 12513.6, -1831.3, -14384.1);
         giPlayerSetAng(1, 64.0);
-        giPlayerSetPos(2, 12463.482, -1831.3143, -14347.462);
+        giPlayerSetPos(2, 12463.5, -1831.3, -14347.5);
         giPlayerSetAng(2, 96.0);
-        giPlayerSetPos(3, 12495.764, -1831.3145, -14278.474);
+        giPlayerSetPos(3, 12495.8, -1831.3, -14278.5);
         giPlayerSetAng(3, 142.0);
         giPlayerSetVisible(0, true);
         giPlayerSetVisible(1, true);
@@ -5691,7 +5691,7 @@ void func2016()
         giCameraRunSingle("001", true);
         giFlashInBlack(2.0, false);
         giArenaReady();
-        giWait(0.8999999761581421);
+        giWait(0.9);
         giCameraRunSingle("002", true);
         giWait(0.5);
         giSetPortrait("102K", true);
@@ -5703,9 +5703,9 @@ void func2016()
         giSetPortrait("107G", false);
         giTalk("柳梦璃：我……", "43794");
         giIMMBegin();
-        giPlayerSetPos(3, 12499.989, -1831.3145, -14299.2705);
-        giPlayerSetPos(1, 12494.41, -1831.3143, -14378.778);
-        giPlayerSetPos(0, 12541.047, -1831.3142, -14357.849);
+        giPlayerSetPos(3, 12500.0, -1831.3, -14299.3);
+        giPlayerSetPos(1, 12494.4, -1831.3, -14378.8);
+        giPlayerSetPos(0, 12541.0, -1831.3, -14357.8);
         giPlayerSetAng(3, 226.0);
         giPlayerSetAng(1, 320.0);
         giPlayerSetAng(0, 280.0);
@@ -5752,7 +5752,7 @@ void func2016()
         giPlayerSetVisible(2, false);
         giPlayerSetVisible(3, false);
         giIMMEnd();
-        giPlayerSetPos(0, 12402.354, -1831.3754, -14221.226);
+        giPlayerSetPos(0, 12402.4, -1831.4, -14221.2);
         giPlayerSetAng(0, 280.0);
         giCameraSetMode(0, true);
         giCameraSeekToPlayer();
@@ -5773,10 +5773,10 @@ void func2017()
         giCameraSetCollide(false);
         giPlayerCurrentSetVisible(false);
         giIMMBegin();
-        giPlayerSetPos(0, 1146.14, 130.9758, 562.3093);
+        giPlayerSetPos(0, 1146.1, 131.0, 562.3);
         giPlayerSetAng(0, 34.0);
         giPlayerSetVisible(0, true);
-        giPlayerSetPos(3, 1188.7954, 130.9758, 534.2404);
+        giPlayerSetPos(3, 1188.8, 131.0, 534.2);
         giPlayerSetAng(3, 36.0);
         giPlayerSetVisible(3, true);
         giIMMEnd();
@@ -5788,8 +5788,8 @@ void func2017()
         giSetPortrait("102K", false);
         giTalk("云天河：玄霄～", "43800");
         giWait(0.9);
-        giPlayerRunTo(0, 1237.4829, 130.9758, 687.3568, false);
-        giPlayerWalkTo(3, 1285.4767, 130.9758, 647.653, true);
+        giPlayerRunTo(0, 1237.5, 131.0, 687.4, false);
+        giPlayerWalkTo(3, 1285.5, 131.0, 647.7, true);
         giPlayerSetAng(3, 22.0);
         giPlayerEndMove(0);
         giPlayerSetAng(0, 32.5);
@@ -5935,7 +5935,7 @@ void func2017()
         giPlayerSetVisible(0, false);
         giPlayerSetVisible(3, false);
         giPlayerCurrentSetVisible(true);
-        giPlayerSetPos(0, 1077.0, 67.033, 359.0);
+        giPlayerSetPos(0, 1077.0, 67.0, 359.0);
         giPlayerSetAng(0, 200.0);
         giCameraSetCollide(true);
         giCameraAutoSeek(true);
@@ -5957,13 +5957,13 @@ void func2018()
         giCameraSetCollide(false);
         giCameraAutoSeek(false);
         giPlayerCurrentSetVisible(false);
-        giPlayerSetPos(0, 5844.755, -1383.5505, -5534.958);
+        giPlayerSetPos(0, 5844.8, -1383.6, -5535.0);
         giPlayerSetAng(0, 158.0);
-        giPlayerSetPos(1, 5908.565, -1387.8987, -5742.8594);
+        giPlayerSetPos(1, 5908.6, -1387.9, -5742.9);
         giPlayerSetAng(1, 98.0);
-        giPlayerSetPos(2, 5962.1396, -1387.8987, -5760.7905);
+        giPlayerSetPos(2, 5962.1, -1387.9, -5760.8);
         giPlayerSetAng(2, 290.0);
-        giPlayerSetPos(3, 5985.49, -1387.8988, -5695.5635);
+        giPlayerSetPos(3, 5985.5, -1387.9, -5695.6);
         giPlayerSetAng(3, 244.0);
         giPlayerSetVisible(0, true);
         giPlayerSetVisible(1, true);
@@ -5974,7 +5974,7 @@ void func2018()
         giCameraRunSingle("001", true);
         giFlashInBlack(2.0, true);
         giArenaReady();
-        giWait(1.100000023841858);
+        giWait(1.1);
         giPlayerDoAction(2, "C07", -1, false);
         giSetPortrait("107A", false);
         giTalk("柳梦璃：菱纱，我看你今天还是别出门了吧。", "43852");
@@ -5986,7 +5986,7 @@ void func2018()
         giSetPortrait("102B", true);
         giTalk("云天河：你们都起来了啊？", "43854");
         giWait(0.5);
-        giPlayerWalkTo(0, 5887.5234, -1383.5507, -5665.1826, false);
+        giPlayerWalkTo(0, 5887.5, -1383.6, -5665.2, false);
         giIMMBegin();
         giPlayerSetDir(1, 346.0, false);
         giPlayerSetDir(2, 324.0, false);
@@ -5996,11 +5996,11 @@ void func2018()
         giPlayerEndMove(0);
         giSetPortrait("104M", true);
         giTalk("韩菱纱：嘻～大懒虫都爬起来了，我们还不快走？", "43855");
-        giWait(0.30000001192092896);
+        giWait(0.3);
         giPlayerSetDir(0, 180.0, false);
         giPlayerSetDir(2, 290.0, false);
         giPlayerSetDir(3, 244.0, false);
-        giWait(0.800000011920929);
+        giWait(0.8);
         giPlayerDoAction(1, "J13", -1, false);
         giSetPortrait("104M", true);
         giTalk("韩菱纱：<colour red=255 green=187 blue=0 alpha=255>今天就去炎帝神农洞了！</colour><dc0>那地方我也知道在哪里～</dc0>", "43856");
@@ -6060,13 +6060,13 @@ void func2019()
         giCameraSetCollide(false);
         giCameraAutoSeek(false);
         giPlayerCurrentSetVisible(false);
-        giPlayerSetPos(0, 12272.791, -1743.3263, -13641.126);
+        giPlayerSetPos(0, 12272.8, -1743.3, -13641.1);
         giPlayerSetAng(0, 158.0);
-        giPlayerSetPos(1, 12301.741, -1743.4564, -13642.211);
+        giPlayerSetPos(1, 12301.7, -1743.5, -13642.2);
         giPlayerSetAng(1, 98.0);
-        giPlayerSetPos(2, 12406.725, -1743.8187, -13632.321);
+        giPlayerSetPos(2, 12406.7, -1743.8, -13632.3);
         giPlayerSetAng(2, 290.0);
-        giPlayerSetPos(3, 12357.439, -1742.9926, -13625.337);
+        giPlayerSetPos(3, 12357.4, -1743.0, -13625.3);
         giPlayerSetAng(3, 244.0);
         giPlayerSetVisible(0, true);
         giPlayerSetVisible(1, true);
@@ -6085,14 +6085,14 @@ void func2019()
         giArenaReady();
         giCameraPrepare("MC010");
         giCameraRunSingle("001", true);
-        giPlayerWalkTo(0, 12242.339, -1759.2672, -13431.185, false);
-        giPlayerWalkTo(1, 12276.883, -1759.2672, -13445.089, false);
-        giPlayerWalkTo(2, 12366.908, -1759.2675, -13414.519, false);
-        giPlayerWalkTo(3, 12326.003, -1759.2675, -13397.723, false);
-        giWait(0.699999988079071);
+        giPlayerWalkTo(0, 12242.3, -1759.3, -13431.2, false);
+        giPlayerWalkTo(1, 12276.9, -1759.3, -13445.1, false);
+        giPlayerWalkTo(2, 12366.9, -1759.3, -13414.5, false);
+        giPlayerWalkTo(3, 12326.0, -1759.3, -13397.7, false);
+        giWait(0.7);
         giFlashInBlack(1.5, false);
-        giWait(0.699999988079071);
-        giNpcWalkTo("MN006", 12296.905, -1759.2672, -13279.595, false);
+        giWait(0.7);
+        giNpcWalkTo("MN006", 12296.9, -1759.3, -13279.6, false);
         giPlayerEndMove(0);
         giPlayerSetAng(0, 16.0);
         giPlayerEndMove(1);
@@ -6119,17 +6119,17 @@ void func2019()
         giTalk("明采：没错，刚才怀安师兄已去禀报掌门，请掌门将这个女贼逐出门墙！", "44039");
         giWait(0.5);
         giIMMBegin();
-        giNpcSetPos("MN006", 12285.765, -1759.2672, -13224.686);
-        giNpcSetPos("MN007", 12248.8, -1759.2673, -13191.565);
+        giNpcSetPos("MN006", 12285.8, -1759.3, -13224.7);
+        giNpcSetPos("MN007", 12248.8, -1759.3, -13191.6);
         giNpcSetAng("MN006", 166.0);
         giNpcSetAng("MN007", 162.0);
         giCameraRunSingle("003", true);
         giIMMEnd();
         giWait(0.5);
         giTalk("明靖：现在逐下山去说不定都为时已晚！谁知道本派有没有丢过什么——", "44040");
-        giWait(0.30000001192092896);
+        giWait(0.3);
         giCameraRunSingle("004", false);
-        giPlayerRunTo(0, 12280.955, -1759.2672, -13348.295, true);
+        giPlayerRunTo(0, 12281.0, -1759.3, -13348.3, true);
         giPlayerSetAng(0, 352.0);
         giPlayerDoAction(0, "Z01", 0, false);
         giWait(0.5);
@@ -6158,10 +6158,10 @@ void func2019()
         giTalk("慕容紫英：回去！！", "44050");
         giPlayerEndAction(3);
         giTalk("怀溪：可恶！", "44051");
-        giNpcWalkTo("MN005", 12292.967, -1759.2672, -13040.696, false);
-        giNpcWalkTo("MN004", 12175.442, -1759.2673, -13034.497, false);
-        giNpcWalkTo("MN003", 12292.967, -1759.2672, -13040.696, false);
-        giNpcWalkTo("MN002", 12175.442, -1759.2673, -13034.497, false);
+        giNpcWalkTo("MN005", 12293.0, -1759.3, -13040.7, false);
+        giNpcWalkTo("MN004", 12175.4, -1759.3, -13034.5, false);
+        giNpcWalkTo("MN003", 12293.0, -1759.3, -13040.7, false);
+        giNpcWalkTo("MN002", 12175.4, -1759.3, -13034.5, false);
         giNpcEndMove("MN002");
         giIMMBegin();
         giPlayerDoAction(0, "C01", 1, false);
@@ -6169,21 +6169,21 @@ void func2019()
         giSetNpcVisible("MN003", false);
         giSetNpcVisible("MN004", false);
         giSetNpcVisible("MN005", false);
-        giPlayerSetPos(0, 12278.154, -1759.2672, -13351.269);
+        giPlayerSetPos(0, 12278.2, -1759.3, -13351.3);
         giPlayerSetAng(0, 6.0);
-        giPlayerSetPos(1, 12248.72, -1759.2672, -13367.508);
+        giPlayerSetPos(1, 12248.7, -1759.3, -13367.5);
         giPlayerSetAng(1, 26.0);
-        giPlayerSetPos(2, 12356.337, -1759.2675, -13355.031);
+        giPlayerSetPos(2, 12356.3, -1759.3, -13355.0);
         giPlayerSetAng(2, 318.0);
-        giPlayerSetPos(3, 12322.663, -1759.2675, -13368.815);
+        giPlayerSetPos(3, 12322.7, -1759.3, -13368.8);
         giPlayerSetAng(3, 344.0);
-        giNpcSetPos("MN006", 12292.69, -1759.2672, -13254.537);
+        giNpcSetPos("MN006", 12292.7, -1759.3, -13254.5);
         giNpcSetAng("MN006", 166.0);
-        giNpcSetPos("MN007", 12252.644, -1759.2673, -13240.751);
+        giNpcSetPos("MN007", 12252.6, -1759.3, -13240.8);
         giNpcSetAng("MN007", 162.0);
         giCameraRunSingle("006", true);
         giIMMEnd();
-        giWait(0.800000011920929);
+        giWait(0.8);
         giSetPortrait("202D", true);
         giTalk("璇玑：紫英师叔，师兄他们太过份了……", "44052");
         giSetPortrait("202D", true);
@@ -6199,22 +6199,22 @@ void func2019()
         giTalk("怀朔：师妹，听师叔的话吧，你去了，也不一定能帮上忙。", "44056");
         giSetPortrait("202D", true);
         giTalk("璇玑：……好吧……", "44057");
-        giWait(0.6000000238418579);
-        giNpcWalkTo("MN007", 12223.893, -1759.2673, -13060.829, false);
-        giNpcWalkTo("MN006", 12264.832, -1759.2673, -13055.065, false);
-        giWait(1.600000023841858);
+        giWait(0.6);
+        giNpcWalkTo("MN007", 12223.9, -1759.3, -13060.8, false);
+        giNpcWalkTo("MN006", 12264.8, -1759.3, -13055.1, false);
+        giWait(1.6);
         giIMMBegin();
-        giPlayerSetPos(0, 12296.013, -1759.2672, -13292.078);
+        giPlayerSetPos(0, 12296.0, -1759.3, -13292.1);
         giPlayerSetAng(0, 176.0);
-        giPlayerSetPos(1, 12260.972, -1759.2672, -13358.849);
+        giPlayerSetPos(1, 12261.0, -1759.3, -13358.8);
         giPlayerSetAng(1, 28.0);
-        giPlayerSetPos(2, 12349.996, -1759.2675, -13332.483);
+        giPlayerSetPos(2, 12350.0, -1759.3, -13332.5);
         giPlayerSetAng(2, 286.0);
-        giPlayerSetPos(3, 12319.576, -1759.2675, -13396.812);
+        giPlayerSetPos(3, 12319.6, -1759.3, -13396.8);
         giPlayerSetAng(3, 322.0);
         giCameraRunSingle("007", true);
         giIMMEnd();
-        giWait(0.6000000238418579);
+        giWait(0.6);
         giPlayerDoAction(0, "J18", 1, false);
         giSetPortrait("102H", true);
         giTalk("云天河：菱纱，你别理那些人，他们再敢乱说，我就直接打人了！", "44058");
@@ -6246,7 +6246,7 @@ void func2019()
         giTalk("韩菱纱：一想到炎帝神农洞的事，心里就难过得不得了，和那一比，这些小事又算得了什么呢？", "44062");
         giPlayerUnHoldAct(1);
         giPlayerEndAction(1);
-        giWait(0.6000000238418579);
+        giWait(0.6);
         giSetPortrait("105C", false);
         giTalk("慕容紫英：菱纱，你以前……真的是……？", "44063");
         giCameraRunSingle("009", false);
@@ -6280,7 +6280,7 @@ void func2019()
         giSetPortrait("105A", false);
         giTalk("慕容紫英：你们如想继续修行，此事一定要妥善而为，我们势必得见掌门一面。", "44071");
         giPlayerDoAction(1, "J04", 1, true);
-        giWait(1.2999999523162842);
+        giWait(1.3);
         giPlayerDoAction(1, "C08", 1, false);
         giSetPortrait("104A", true);
         giTalk("韩菱纱：……好吧，也许你说的没错。", "44072");
@@ -6319,20 +6319,20 @@ void func2020()
         giCameraSetCollide(false);
         giCameraAutoSeek(false);
         giPlayerCurrentSetVisible(false);
-        giPlayerSetPos(0, 11924.634, -1766.3682, -11086.96);
+        giPlayerSetPos(0, 11924.6, -1766.4, -11087.0);
         giPlayerSetAng(0, 14.0);
-        giPlayerSetPos(1, 12007.812, -1766.3682, -11091.651);
+        giPlayerSetPos(1, 12007.8, -1766.4, -11091.7);
         giPlayerSetAng(1, 358.0);
-        giPlayerSetPos(2, 11910.485, -1766.3682, -11130.985);
+        giPlayerSetPos(2, 11910.5, -1766.4, -11131.0);
         giPlayerSetAng(2, 20.0);
-        giPlayerSetPos(3, 11951.11, -1766.3682, -11051.908);
+        giPlayerSetPos(3, 11951.1, -1766.4, -11051.9);
         giPlayerSetAng(3, 8.0);
         giPlayerSetVisible(0, true);
         giPlayerSetVisible(1, true);
         giPlayerSetVisible(3, true);
         giPlayerSetVisible(2, true);
         giSetNpcVisible("MN001", true);
-        giNpcSetPos("MN001", 11942.25, -1670.7584, -10865.785);
+        giNpcSetPos("MN001", 11942.2, -1670.8, -10865.8);
         giNpcSetAng("MN001", 170.0);
         giSetNpcVisible("MN001", true);
         giSetNpcVisible("4008", false);
@@ -6356,18 +6356,18 @@ void func2020()
         giPlayerEndAction(3);
         giNpcDoAction("MN001", "J01", 1, true);
         giWait(1.0);
-        giNpcWalkTo("MN001", 11903.643, -1670.7584, -10692.254, false);
+        giNpcWalkTo("MN001", 11903.6, -1670.8, -10692.3, false);
         giWait(1.5);
         giIMMBegin();
         giSetNpcVisible("MN001", false);
-        giPlayerSetPos(3, 11974.065, -1766.3683, -11051.707);
+        giPlayerSetPos(3, 11974.1, -1766.4, -11051.7);
         giPlayerSetAng(3, 132.0);
         giPlayerSetAng(1, 314.0);
         giPlayerSetAng(2, 60.0);
         giPlayerSetAng(0, 66.0);
         giCameraRunSingle("002", true);
         giIMMEnd();
-        giWait(0.699999988079071);
+        giWait(0.7);
         giSetPortrait("105A", false);
         giTalk("慕容紫英：实在不巧，我们且在这里等一等吧。", "44077");
         giFlashOutBlack(2.0, true, true);
@@ -6375,13 +6375,13 @@ void func2020()
         giArenaLoad("Q06", "Q06QY", "", true);
         giScriptMusicPlay("P49", 2, 0.0, 0.0);
         giIMMBegin();
-        giPlayerSetPos(0, 12632.555, -1769.2468, -10249.216);
+        giPlayerSetPos(0, 12632.6, -1769.2, -10249.2);
         giPlayerSetAng(0, 322.0);
-        giPlayerSetPos(1, 12520.751, -1769.2468, -10263.308);
+        giPlayerSetPos(1, 12520.8, -1769.2, -10263.3);
         giPlayerSetAng(1, 30.0);
-        giPlayerSetPos(2, 12561.426, -1769.2467, -10288.718);
+        giPlayerSetPos(2, 12561.4, -1769.2, -10288.7);
         giPlayerSetAng(2, 12.0);
-        giPlayerSetPos(3, 12574.875, -1769.2468, -10225.102);
+        giPlayerSetPos(3, 12574.9, -1769.2, -10225.1);
         giPlayerSetAng(3, 2.0);
         giPlayerSetVisible(0, true);
         giPlayerSetVisible(1, true);
@@ -6430,7 +6430,7 @@ void func2020()
         giTalk("云天河：你觉得，在山上很快乐吗？", "44082");
         giWait(0.5);
         giIMMBegin();
-        giPlayerSetPos(3, 12533.755, -1769.2468, -10178.027);
+        giPlayerSetPos(3, 12533.8, -1769.2, -10178.0);
         giPlayerSetAng(3, 124.0);
         giCameraRunSingle("009", true);
         giIMMEnd();
@@ -6476,7 +6476,7 @@ void func2020()
         giWait(0.5);
         giIMMBegin();
         giPlayerSetAng(0, 280.0);
-        giPlayerSetPos(1, 12553.705, -1769.2468, -10235.494);
+        giPlayerSetPos(1, 12553.7, -1769.2, -10235.5);
         giPlayerSetAng(1, 105.0);
         giPlayerSetAng(2, 50.0);
         giCameraRunSingle("011", true);
@@ -6510,18 +6510,18 @@ void func2020()
         giPlayerEndAction(0);
         giWait(0.5);
         giIMMBegin();
-        giPlayerSetPos(0, 12662.311, -1769.247, -10222.695);
+        giPlayerSetPos(0, 12662.3, -1769.2, -10222.7);
         giPlayerSetAng(0, 280.0);
-        giPlayerSetPos(1, 12590.045, -1770.2468, -10254.531);
+        giPlayerSetPos(1, 12590.0, -1770.2, -10254.5);
         giPlayerSetAng(1, 346.0);
-        giPlayerSetPos(2, 12654.879, -1769.247, -10273.007);
+        giPlayerSetPos(2, 12654.9, -1769.2, -10273.0);
         giPlayerSetAng(2, 312.0);
-        giPlayerSetPos(3, 12568.469, -1769.2468, -10198.688);
+        giPlayerSetPos(3, 12568.5, -1769.2, -10198.7);
         giPlayerSetAng(3, 106.0);
         giPlayerDoAction(2, "C10", 0, false);
         giCameraRunSingle("017", true);
         giIMMEnd();
-        giWait(0.6000000238418579);
+        giWait(0.6);
         giPlayerDoAction(0, "C07", -1, false);
         giSetPortrait("102A", true);
         giTalk("云天河：你别担心，我们就先住在山下，万一那个什么妖界打过来了，还能帮到你！", "44101");
@@ -6538,9 +6538,9 @@ void func2020()
         giTalk("韩菱纱：嘻，知道了，小紫英是舍不得我们，对吧？", "44104");
         giPlayerUnHoldAct(1);
         giPlayerEndAction(1);
-        giWait(1.2000000476837158);
+        giWait(1.2);
         giIMMBegin();
-        giPlayerSetPos(2, 12636.639, -1769.247, -10285.307);
+        giPlayerSetPos(2, 12636.6, -1769.2, -10285.3);
         giPlayerSetAng(2, 315.0);
         giPlayerSetAng(3, 106.0);
         giPlayerSetAng(0, 290.0);
@@ -6567,7 +6567,7 @@ void func2020()
         giWait(1.0);
         giSetPortrait("104A", false);
         giTalk("韩菱纱：我、天河，还有梦璃，我们也要去找其它更想做的事。", "44107");
-        giWait(0.30000001192092896);
+        giWait(0.3);
         giSetPortrait("105A", true);
         giTalk("慕容紫英：……", "44108");
         giWait(0.5);
@@ -6582,7 +6582,7 @@ void func2020()
         giSetPortrait("104A", false);
         giTalk("韩菱纱：如果哪天剑侠变成了剑仙，不要忘了来看看我啊～", "44111");
         giPlayerEndAction(1);
-        giWait(0.30000001192092896);
+        giWait(0.3);
         giIMMBegin();
         giPlayerSetVisible(3, true);
         giPlayerSetVisible(2, true);
@@ -6596,10 +6596,10 @@ void func2020()
         giSetPortrait("102A", false);
         giTalk("云天河：对！也不要忘记我，我请你吃好吃的烤猪，哈哈～", "44112");
         giPlayerEndAction(0);
-        giWait(0.20000000298023224);
+        giWait(0.2);
         giIMMBegin();
         giPlayerSetVisible(1, false);
-        giPlayerSetPos(3, 12533.755, -1769.2468, -10178.027);
+        giPlayerSetPos(3, 12533.8, -1769.2, -10178.0);
         giPlayerSetAng(3, 124.0);
         giCameraRunSingle("007", true);
         giIMMEnd();
@@ -6614,19 +6614,19 @@ void func2020()
         giPlayerEndAction(3);
         giWait(1.0);
         giIMMBegin();
-        giPlayerSetPos(0, 12647.666, -1769.247, -10188.486);
+        giPlayerSetPos(0, 12647.7, -1769.2, -10188.5);
         giPlayerSetAng(0, 254.0);
-        giPlayerSetPos(1, 12560.583, -1769.2468, -10248.382);
+        giPlayerSetPos(1, 12560.6, -1769.2, -10248.4);
         giPlayerSetAng(1, 22.0);
-        giPlayerSetPos(2, 12623.773, -1769.247, -10235.592);
+        giPlayerSetPos(2, 12623.8, -1769.2, -10235.6);
         giPlayerSetAng(2, 302.0);
-        giPlayerSetPos(3, 12553.774, -1769.2468, -10175.427);
+        giPlayerSetPos(3, 12553.8, -1769.2, -10175.4);
         giPlayerSetAng(3, 104.0);
         giPlayerSetVisible(1, true);
         giCameraRunSingle("022", true);
         giIMMEnd();
         giCameraRunSingle("023", false);
-        giWait(0.699999988079071);
+        giWait(0.7);
         giPlayerDoAction(1, "J04", 1, false);
         giSetPortrait("104A", false);
         giTalk("韩菱纱：哎～今天讲了好多平时不会讲的话，一点都不像我了～", "44115");
@@ -6647,7 +6647,7 @@ void func2020()
         giFlashOutBlack(3.0, true, true);
         giCameraRunSingle("022", true);
         giArenaLoad("Q06", "Q06Q", "", true);
-        giPlayerSetPos(0, 12278.04, -1759.26, -13195.14);
+        giPlayerSetPos(0, 12278.0, -1759.3, -13195.1);
         giPlayerSetAng(0, 180.0);
         giArenaReady();
         giCameraSetMode(0, true);
@@ -6669,9 +6669,9 @@ void func2021()
         giCameraSetCollide(false);
         giCameraAutoSeek(false);
         giPlayerCurrentSetVisible(false);
-        giPlayerSetPos(0, 12538.537, -1894.4751, -14766.922);
+        giPlayerSetPos(0, 12538.5, -1894.5, -14766.9);
         giPlayerSetAng(0, 244.0);
-        giPlayerSetPos(1, 12476.508, -1893.3849, -14774.316);
+        giPlayerSetPos(1, 12476.5, -1893.4, -14774.3);
         giPlayerSetAng(1, 300.0);
         giPlayerSetVisible(0, true);
         giPlayerSetVisible(1, true);
@@ -6681,8 +6681,8 @@ void func2021()
         giNpcSetAng("4055", 110.0);
         giCameraPrepare("MC012");
         giCameraRunSingle("001", true);
-        giPlayerWalkTo(0, 12484.058, -1831.4525, -14630.022, false);
-        giPlayerWalkTo(1, 12447.528, -1841.4746, -14677.659, false);
+        giPlayerWalkTo(0, 12484.1, -1831.5, -14630.0, false);
+        giPlayerWalkTo(1, 12447.5, -1841.5, -14677.7, false);
         giCameraRunSingle("002", false);
         giFlashInBlack(1.5, false);
         giWait(3.0);
@@ -6698,11 +6698,11 @@ void func2021()
         giNpcSetDir("4055", 90.0, true);
         giTalk("明尘：没、没什么！其实啊，我觉得师妹肯定不是那样的人，其他人也未免太疑神疑鬼了！", "44303");
         giIMMBegin();
-        giPlayerSetPos(1, 12456.018, -1841.4746, -14671.964);
+        giPlayerSetPos(1, 12456.0, -1841.5, -14672.0);
         giPlayerSetAng(1, 310.0);
-        giPlayerSetPos(0, 12471.184, -1831.4525, -14601.82);
+        giPlayerSetPos(0, 12471.2, -1831.5, -14601.8);
         giPlayerSetAng(0, 256.0);
-        giNpcSetPos("4055", 12404.323, -1831.5421, -14628.259);
+        giNpcSetPos("4055", 12404.3, -1831.5, -14628.3);
         giNpcSetAng("4055", 105.0);
         giCameraRunSingle("003", true);
         giIMMEnd();
@@ -6717,9 +6717,9 @@ void func2021()
         giTalk("韩菱纱：那现在呢？他在哪里？", "44307");
         giTalk("明尘：这个嘛，掌门突然把长老和一些弟子都召了去，好像有什么大事要说，师叔他也去了。", "44308");
         giIMMBegin();
-        giPlayerSetPos(1, 12485.018, -1831.4539, -14601.226);
+        giPlayerSetPos(1, 12485.0, -1831.5, -14601.2);
         giPlayerSetAng(1, 356.0);
-        giPlayerSetPos(0, 12485.188, -1831.4525, -14545.141);
+        giPlayerSetPos(0, 12485.2, -1831.5, -14545.1);
         giPlayerSetAng(0, 178.0);
         giNpcSetAng("4055", 60.0);
         giCameraRunSingle("005", true);
@@ -6740,7 +6740,7 @@ void func2021()
         giTalk("韩菱纱：真、讨、厌！", "44312");
         giPlayerUnHoldAct(1);
         giPlayerEndAction(1);
-        giWait(0.30000001192092896);
+        giWait(0.3);
         giTalk("明尘：…………我只是……只是……", "44313");
         giWait(0.5);
         giIMMBegin();
@@ -6748,7 +6748,7 @@ void func2021()
         giPlayerSetAng(0, 186.0);
         giCameraRunSingle("004", true);
         giIMMEnd();
-        giWait(0.30000001192092896);
+        giWait(0.3);
         giSetPortrait("104F", true);
         giTalk("韩菱纱：天河，我们走。", "44314");
         giPlayerDoAction(0, "J14", 1, false);
@@ -6766,7 +6766,7 @@ void func2021()
         giTalk("云天河：好……", "44318");
         giPlayerEndAction(0);
         giWait(0.5);
-        giPlayerWalkTo(1, 12362.856, -1831.3147, -14537.407, false);
+        giPlayerWalkTo(1, 12362.9, -1831.3, -14537.4, false);
         giWait(1.0);
         giNpcSetAng("4055", 328.0);
         giCameraRunSingle("007", true);
@@ -6774,25 +6774,25 @@ void func2021()
         giTalk("明尘：师妹！", "44319");
         giWait(0.5);
         giPlayerFaceToNpc(1, "4055", true);
-        giWait(0.30000001192092896);
+        giWait(0.3);
         giSetPortrait("104F", true);
         giTalk("韩菱纱：嗯？有事？", "44320");
         giWait(0.5);
         giTalk("明尘：师妹你别再犯错了……要是惹得掌门发怒，你真会被逐下山的！", "44321");
-        giWait(0.699999988079071);
+        giWait(0.7);
         giSetPortrait("104F", true);
         giTalk("韩菱纱：……", "44322");
         giPlayerDoAction(1, "C08", 1, false);
         giSetPortrait("104E", true);
         giTalk("韩菱纱：我知道了，谢谢你的关心～～", "44323");
         giPlayerEndAction(1);
-        giPlayerWalkTo(1, 12323.177, -1831.3147, -14466.336, true);
-        giWait(1.2000000476837158);
+        giPlayerWalkTo(1, 12323.2, -1831.3, -14466.3, true);
+        giWait(1.2);
         giTalk("明尘：师妹……", "44324");
         giFlashOutBlack(1.5, true, true);
         giPlayerSetVisible(1, false);
         giPlayerOutTeam(1, false);
-        giPlayerSetPos(0, 12157.76, -1841.32, -14195.0);
+        giPlayerSetPos(0, 12157.8, -1841.3, -14195.0);
         giPlayerSetAng(0, 290.0);
         giCameraSetMode(0, true);
         giCameraSeekToPlayer();
@@ -6815,13 +6815,13 @@ void func2022()
         giCameraSetCollide(false);
         giPlayerCurrentSetVisible(false);
         giIMMBegin();
-        giPlayerSetPos(0, 1105.0996, 78.8789, 562.3093);
+        giPlayerSetPos(0, 1105.1, 78.9, 562.3);
         giPlayerSetAng(0, 24.0);
         giPlayerSetVisible(0, true);
         giIMMEnd();
         giCameraPrepare("MC005");
         giCameraRunSingle("001", true);
-        giPlayerWalkTo(0, 1237.4829, 130.9758, 687.3568, false);
+        giPlayerWalkTo(0, 1237.5, 131.0, 687.4, false);
         giFlashInBlack(2.0, false);
         giPlayerEndMove(0);
         giPlayerSetDir(0, 32.5, true);
@@ -6833,7 +6833,7 @@ void func2022()
         giTalk("玄霄：莫非……是修炼凝冰诀，寒气侵入经络……", "44327");
         giIMMBegin();
         giCameraAutoSeek(false);
-        giPlayerSetPos(0, 1276.6742, 130.9758, 742.6307);
+        giPlayerSetPos(0, 1276.7, 131.0, 742.6);
         giPlayerSetAng(0, 46.0);
         giCameraRunSingle("002", true);
         giIMMEnd();
@@ -7023,7 +7023,7 @@ void func2022()
         giWait(0.4);
         giPlayerDoAction(0, "C08", 1, true);
         giWait(0.8);
-        giPlayerWalkTo(0, 1199.1414, 130.9758, 652.1752, true);
+        giPlayerWalkTo(0, 1199.1, 131.0, 652.2, true);
         giPlayerSetVisible(0, false);
         giCameraWait();
         giWait(1.0);
@@ -7068,7 +7068,7 @@ void func2023()
         giCameraSetCollide(false);
         giCameraAutoSeek(false);
         giPlayerCurrentSetVisible(false);
-        giPlayerSetPos(0, 69.3121, 0.6808, 4.3171);
+        giPlayerSetPos(0, 69.3, 0.7, 4.3);
         giPlayerSetAng(0, 212.0);
         giPlayerSetVisible(0, true);
         giCameraPrepare("MC004");
@@ -7084,9 +7084,9 @@ void func2023()
         giPlayerGarb1(0);
         giPlayerGarb1(2);
         giIMMBegin();
-        giPlayerSetPos(0, 85.8328, 22.6808, -54.9929);
+        giPlayerSetPos(0, 85.8, 22.7, -55.0);
         giPlayerSetAng(0, 270.0);
-        giPlayerSetPos(2, -59.4363, 0.6808, 66.0356);
+        giPlayerSetPos(2, -59.4, 0.7, 66.0);
         giPlayerSetAng(2, 118.0);
         giPlayerSetVisible(2, true);
         giCameraRunSingle("002", true);
@@ -7104,7 +7104,7 @@ void func2023()
         giTalk("云天河：……这个香气……是梦璃？", "44397");
         giWait(0.5);
         giCameraRunSingle("003", true);
-        giPlayerSetPos(0, 65.421, 0.6808, -2.7938);
+        giPlayerSetPos(0, 65.4, 0.7, -2.8);
         giPlayerSetAng(0, 302.0);
         giPlayerUnHoldAct(0);
         giPlayerEndAction(0);
@@ -7118,14 +7118,14 @@ void func2023()
         giSetPortrait("101B", false);
         giTalk("云天河：没、没什么，我睡得也不是很熟啊。", "44399");
         giPlayerEndAction(0);
-        giPlayerWalkTo(0, 24.3578, 0.6808, 21.3229, true);
+        giPlayerWalkTo(0, 24.4, 0.7, 21.3, true);
         giPlayerSetAng(0, 308.0);
         giPlayerDoAction(0, "J14", 1, false);
         giSetPortrait("101B", false);
         giTalk("云天河：咦？你这身打扮……哈哈！我们俩想到一块去了，都不肯再穿琼华派的衣服～", "44400");
         giPlayerEndAction(0);
         giCameraRunSingle("005", false);
-        giPlayerWalkTo(2, -26.0697, 0.6808, 47.7519, true);
+        giPlayerWalkTo(2, -26.1, 0.7, 47.8, true);
         giPlayerSetAng(2, 108.0);
         giSetPortrait("106F", true);
         giTalk("柳梦璃：云公子……", "44401");
@@ -7224,7 +7224,7 @@ void func2023()
         giWait(0.8);
         giCameraRunSingle("011", false);
         giWait(0.5);
-        giPlayerWalkTo(2, 8.8411, 0.6808, 31.165, true);
+        giPlayerWalkTo(2, 8.8, 0.7, 31.2, true);
         giPlayerSetAng(2, 122.0);
         giCameraRunSingle("012", false);
         giPlayerSetEmotion(2, "106_bk");
@@ -7258,7 +7258,7 @@ void func2023()
         giSetPortrait("104I", true);
         giTalk("韩菱纱：天河你在吗？我听其他弟子说，不得了了——", "44438");
         giIMMBegin();
-        giPlayerSetPos(1, -37.3787, 0.6808, 88.073);
+        giPlayerSetPos(1, -37.4, 0.7, 88.1);
         giPlayerSetAng(1, 154.0);
         giPlayerSetVisible(1, true);
         giCameraRunSingle("013", true);
@@ -7279,7 +7279,7 @@ void func2023()
         giTalk("柳梦璃：多保重，梦璃会将你永远放在心里记着……永远记着……", "44441");
         giWait(0.6);
         giPlayerSetEmotion(2, "106_yy");
-        giPlayerRunTo(2, 1.842, 0.6808, 130.43, false);
+        giPlayerRunTo(2, 1.8, 0.7, 130.4, false);
         giWait(0.6);
         giPlayerSetDir(0, 350.0, false);
         giPlayerSetDir(1, 18.0, false);
@@ -7298,7 +7298,7 @@ void func2023()
         giSetPortrait("101H", false);
         giTalk("云天河：你问我、我也不知道啊……", "44444");
         giCameraRunSingle("014", false);
-        giPlayerWalkTo(1, -6.5166, 0.6808, 57.7963, true);
+        giPlayerWalkTo(1, -6.5, 0.7, 57.8, true);
         giPlayerSetAng(1, 142.0);
         giPlayerDoAction(1, "J01", -1, false);
         giSetPortrait("104F", true);
@@ -7339,7 +7339,7 @@ void func2023()
         giSetPortrait("101H", false);
         giTalk("云天河：不对，我要赶紧出去追梦璃，万一她遇到危险怎么办！", "44454");
         giPlayerEndAction(0);
-        giPlayerWalkTo(0, 2.9155, 0.6808, 123.0462, false);
+        giPlayerWalkTo(0, 2.9, 0.7, 123.0, false);
         giWait(0.5);
         giCameraRunSingle("015", true);
         giWait(0.3);
@@ -7348,12 +7348,12 @@ void func2023()
         giPlayerEndMove(0);
         giWait(0.5);
         giPlayerSetDir(0, 186.0, true);
-        giPlayerSetPos(1, -26.8584, 0.6808, 12.0335);
+        giPlayerSetPos(1, -26.9, 0.7, 12.0);
         giPlayerSetAng(1, 142.0);
         giPlayerDoAction(1, "C11", 0, false);
         giSetPortrait("101D", true);
         giTalk("云天河：菱纱？！！", "44456");
-        giPlayerRunTo(0, -29.3785, 0.6808, 61.4517, false);
+        giPlayerRunTo(0, -29.4, 0.7, 61.5, false);
         giWait(0.2);
         giCameraRunSingle("016", true);
         giPlayerEndMove(0);
@@ -7366,7 +7366,7 @@ void func2023()
         giPlayerEndAction(1);
         giPlayerSetVisible(1, false);
         giSetNpcVisible("MN003", true);
-        giPlayerSetPos(0, 50.3941, 0.6808, 1.6398);
+        giPlayerSetPos(0, 50.4, 0.7, 1.6);
         giPlayerSetAng(0, 142.0);
         giCameraRunSingle("018", true);
         giWait(1.5);
@@ -7441,7 +7441,7 @@ void func2024()
         giCameraSetCollide(false);
         giCameraAutoSeek(false);
         giPlayerCurrentSetVisible(false);
-        giPlayerSetPos(0, 5844.0996, -1383.5507, -5731.8086);
+        giPlayerSetPos(0, 5844.1, -1383.6, -5731.8);
         giPlayerSetVisible(0, true);
         giSetNpcVisible("MN008", true);
         giSetNpcVisible("MN009", true);
@@ -7451,7 +7451,7 @@ void func2024()
         giArenaReady();
         giCameraPrepare("MC013");
         giCameraRunSingle("001", true);
-        giPlayerRunTo(0, 5886.767, -1387.8987, -5966.605, false);
+        giPlayerRunTo(0, 5886.8, -1387.9, -5966.6, false);
         giFlashInBlack(1.5, false);
         giPlayerEndMove(0);
         giPlayerSetAng(0, 176.0);
@@ -7471,7 +7471,7 @@ void func2024()
         giPlayerUnHoldAct(0);
         giPlayerEndAction(0);
         giTalk("怀砚：你、你是说柳师妹？没有啊，她——", "44477");
-        giPlayerRunTo(0, 5709.0166, -1383.5507, -6133.8325, false);
+        giPlayerRunTo(0, 5709.0, -1383.6, -6133.8, false);
         giWait(1.0);
         giNpcSetDir("MN008", 232.0, true);
         giWait(0.5);
@@ -7502,7 +7502,7 @@ void func2024()
         giTalk("怀理：我……唉…………", "44490");
         giWait(0.5);
         giIMMBegin();
-        giPlayerSetPos(0, 5441.591, -1387.8987, -6163.521);
+        giPlayerSetPos(0, 5441.6, -1387.9, -6163.5);
         giPlayerSetAng(0, 236.0);
         giCameraRunSingle("003", true);
         giIMMEnd();
@@ -7515,7 +7515,7 @@ void func2024()
         giSetNpcVisible("MN009", false);
         giSetNpcVisible("MN010", false);
         giSetNpcVisible("MN011", false);
-        giPlayerSetPos(0, 5085.027, -1387.8987, -6273.5884);
+        giPlayerSetPos(0, 5085.0, -1387.9, -6273.6);
         giPlayerSetAng(0, 270.0);
         giCameraSetMode(0, true);
         giCameraSeekToPlayer();
@@ -7538,10 +7538,10 @@ void func2025()
         giCameraAutoSeek(false);
         giPlayerCurrentSetVisible(false);
         giSetObjectVisible("entrance1", false);
-        giPlayerSetPos(0, 643.7072, -1.4165, -5.5208);
+        giPlayerSetPos(0, 643.7, -1.4, -5.5);
         giPlayerSetAng(0, 268.0);
         giPlayerSetVisible(0, true);
-        giPlayerSetPos(2, 204.8386, -0.5361, -7.1242);
+        giPlayerSetPos(2, 204.8, -0.5, -7.1);
         giPlayerSetAng(2, 286.0);
         giCameraPrepare("MC001");
         giCameraRunSingle("001", true);
@@ -7560,7 +7560,7 @@ void func2025()
         giTalk("云天河：（……这是什么……像有一种无形的气，让人连眼睛都睁不开……）", "44492");
         giPlayerUnHoldAct(0);
         giPlayerEndAction(0);
-        giPlayerRunTo(0, 369.2687, -1.4525, -10.4442, false);
+        giPlayerRunTo(0, 369.3, -1.5, -10.4, false);
         giWait(0.3);
         giCameraRunSingle("004", true);
         giPlayerEndMove(0);
@@ -7626,7 +7626,7 @@ void func2025()
         giSetPortrait("106I", true);
         giTalk("柳梦璃：梦璃真的很舍不得云公子……", "44510");
         giPlayerEndAction(2);
-        giPlayerRunTo(2, 69.2115, -2.1746, 6.9695, true);
+        giPlayerRunTo(2, 69.2, -2.2, 7.0, true);
         giPlayerDoAction(0, "C07", -1, false);
         giSetPortrait("101H", false);
         giTalk("云天河：梦璃！你、你回来！！", "44511");
@@ -7658,11 +7658,11 @@ void func2025()
         giPlayerSetVisible(0, false);
         giPlayerSetVisible(1, true);
         giPlayerSetVisible(3, true);
-        giPlayerSetPos(0, 86.0453, 22.6808, -57.0258);
+        giPlayerSetPos(0, 86.0, 22.7, -57.0);
         giPlayerSetAng(0, 324.0);
-        giPlayerSetPos(1, 62.9971, 4.6808, 9.1373);
+        giPlayerSetPos(1, 63.0, 4.7, 9.1);
         giPlayerSetAng(1, 154.0);
-        giPlayerSetPos(3, -10.676, 0.6808, 74.6225);
+        giPlayerSetPos(3, -10.7, 0.7, 74.6);
         giPlayerSetAng(3, 134.0);
         giIMMEnd();
         giArenaReady();
@@ -7699,7 +7699,7 @@ void func2025()
         giPlayerDoAction(1, "C01", 1, false);
         giWait(0.3);
         giIMMBegin();
-        giPlayerSetPos(1, 69.24, 0.6808, 21.7944);
+        giPlayerSetPos(1, 69.2, 0.7, 21.8);
         giPlayerSetAng(1, 174.0);
         giPlayerSetAng(3, 148.0);
         giCameraRunSingle("005", true);
@@ -7723,9 +7723,9 @@ void func2025()
         giTalk("云天河：……没什么……", "44521");
         giWait(0.5);
         giIMMBegin();
-        giPlayerSetPos(1, 67.5761, 0.6808, 44.858);
+        giPlayerSetPos(1, 67.6, 0.7, 44.9);
         giPlayerSetAng(1, 206.0);
-        giPlayerSetPos(0, 40.3735, 0.6808, -13.9179);
+        giPlayerSetPos(0, 40.4, 0.7, -13.9);
         giPlayerSetAng(0, 335.0);
         giPlayerSetAng(3, 112.0);
         giPlayerDoAction(0, "C01", 1, false);
@@ -7743,7 +7743,7 @@ void func2025()
         giPlayerEndAction(1);
         giWait(0.5);
         giCameraRunSingle("007", false);
-        giPlayerWalkTo(0, 11.642, 0.6808, 25.3229, true);
+        giPlayerWalkTo(0, 11.6, 0.7, 25.3, true);
         giPlayerSetAng(0, 336.0);
         giSetPortrait("101H", false);
         giTalk("云天河：……紫英，我问你，要是梦璃真的是妖，你会怎么办？", "44524");
@@ -7765,7 +7765,7 @@ void func2025()
         giSetPortrait("101H", false);
         giTalk("云天河：你让开，我要去找梦璃。", "44529");
         giIMMBegin();
-        giPlayerSetPos(1, 52.6549, 0.6808, 42.4632);
+        giPlayerSetPos(1, 52.7, 0.7, 42.5);
         giPlayerSetAng(1, 246.0);
         giPlayerSetAng(3, 164.0);
         giCameraRunSingle("008", true);
@@ -7887,9 +7887,9 @@ void func2025()
         giPlayerEndAction(0);
         giIMMBegin();
         giPlayerSetAng(0, 326.0);
-        giPlayerSetPos(0, 14.1479, 0.6808, 17.4786);
+        giPlayerSetPos(0, 14.1, 0.7, 17.5);
         giPlayerSetAng(1, 294.0);
-        giPlayerSetPos(1, 38.6015, 0.6808, 47.4952);
+        giPlayerSetPos(1, 38.6, 0.7, 47.5);
         giCameraRunSingle("016", true);
         giIMMEnd();
         giCameraRunSingle("017", false);
@@ -7967,7 +7967,7 @@ void func2025()
         giSetFullMP();
         giArenaLoad("Q06", "Q06Q", "", true);
         giSetObjectVisible("entrance2", false);
-        giPlayerCurrentSetPos(5673.268, -1383.2518, -5515.5864);
+        giPlayerCurrentSetPos(5673.3, -1383.3, -5515.6);
         giPlayerCurrentSetAng(115.0);
         giCameraSetMode(0, true);
         giArenaReady();
@@ -7994,13 +7994,13 @@ void func2027()
         giSetNpcVisible("4049", false);
         giSetNpcVisible("4020", false);
         giSetNpcVisible("4051", false);
-        giNpcCreate("MN012", "231", 6995.044, -1388.3838, -6112.0005);
+        giNpcCreate("MN012", "231", 6995.0, -1388.4, -6112.0);
         giSetNpcVisible("MN012", true);
         giNpcSetAng("MN012", 228.0);
-        giNpcCreate("MN013", "233", 7013.0713, -1388.3838, -6159.829);
+        giNpcCreate("MN013", "233", 7013.1, -1388.4, -6159.8);
         giSetNpcVisible("MN013", true);
         giNpcSetAng("MN013", 254.0);
-        giNpcCreate("MN014", "234", 6910.899, -1388.3838, -6150.548);
+        giNpcCreate("MN014", "234", 6910.9, -1388.4, -6150.5);
         giSetNpcVisible("MN014", true);
         giNpcSetAng("MN014", 74.0);
         giIMMEnd();
@@ -8023,18 +8023,18 @@ void func2027()
         giTalk("太清真人：入门之初，基本的心法最为重要，把我昨日教授你们的，练至第三重境时，再来琼华宫找我。", "45560");
         giSetPortrait("231A", true);
         giTalk("玄霄：是！", "45561");
-        giWait(0.6000000238418579);
-        giNpcWalkTo("MN014", 6839.7134, -1388.3838, -6202.743, true);
+        giWait(0.6);
+        giNpcWalkTo("MN014", 6839.7, -1388.4, -6202.7, true);
         giNpcUnHoldAct("MN012");
         giNpcEndAction("MN012", true);
         giIMMBegin();
-        giNpcSetPos("MN013", 7021.471, -1388.3838, -6167.456);
+        giNpcSetPos("MN013", 7021.5, -1388.4, -6167.5);
         giNpcSetAng("MN013", 282.0);
         giCameraRunSingle("004", true);
         giNpcDelete("MN014");
         giIMMEnd();
         giCameraRunSingle("003", false);
-        giWait(0.30000001192092896);
+        giWait(0.3);
         giSetPortrait("233C", true);
         giTalk("云天青：唉……第三重境，那要练到哪一天啊，累也累死了……", "45562");
         giSetPortrait("231C", false);
@@ -8055,14 +8055,14 @@ void func2027()
         giWait(1.5);
         giSetPortrait("231D", true);
         giTalk("玄霄：如你这般性情浮躁，说不定几天之后，便受不了练功之苦而放弃，与你说话也是多余。 ", "45567");
-        giNpcWalkTo("MN012", 6974.2207, -1388.3838, -6074.183, false);
+        giNpcWalkTo("MN012", 6974.2, -1388.4, -6074.2, false);
         giCameraRunSingle("006", false);
         giSetPortrait("233B", false);
         giTalk("云天青：哎！师兄你去哪里？", "45568");
         giNpcEndMove("MN012");
         giSetPortrait("231A", true);
         giTalk("玄霄：……练功！找个清静之地。", "45569");
-        giNpcWalkTo("MN012", 6921.6606, -1388.3838, -5937.085, true);
+        giNpcWalkTo("MN012", 6921.7, -1388.4, -5937.1, true);
         giCameraRunSingle("007", true);
         giSetPortrait("233C", true);
         giTalk("云天青：好诈……你想扔下师弟，自己一个人偷偷努力……", "45570");
@@ -8073,19 +8073,19 @@ void func2027()
         giWait(0.5);
         giFlashOutWhite(1.5, true, true);
         giIMMBegin();
-        giNpcSetPos("MN012", 7068.818, -1388.3838, -6145.5137);
-        giNpcSetPos("MN013", 7016.152, -1388.3838, -6199.9966);
+        giNpcSetPos("MN012", 7068.8, -1388.4, -6145.5);
+        giNpcSetPos("MN013", 7016.2, -1388.4, -6200.0);
         giNpcSetAng("MN012", 232.0);
         giNpcSetAng("MN013", 38.0);
-        giNpcCreate("MN015", "232", 6891.065, -1388.3838, -6015.792);
+        giNpcCreate("MN015", "232", 6891.1, -1388.4, -6015.8);
         giSetNpcVisible("MN015", true);
-        giNpcCreate("MN016", "487", 6913.691, -1388.3838, -6002.506);
+        giNpcCreate("MN016", "487", 6913.7, -1388.4, -6002.5);
         giSetNpcVisible("MN016", true);
         giIMMEnd();
         giNpcDoAction("MN012", "J01", 0, false);
         giCameraRunSingle("008", true);
         giFlashInWhite(1.5, true);
-        giWait(0.6000000238418579);
+        giWait(0.6);
         giSetPortrait("233C", true);
         giTalk("云天青：唉～～～都练了两个多月，还没到师父说的第三重境，他老人家是不是存心整我们啊……", "45573");
         giWait(0.5);
@@ -8098,12 +8098,12 @@ void func2027()
         giTalk("玄霄：我看你待在思返谷，却是很快活。", "45576");
         giSetPortrait("233A", true);
         giTalk("云天青：思返谷好哇！少了一堆训斥唠叨～不过就是没饭吃，让人有点受不了……", "45577");
-        giNpcWalkTo("MN015", 6949.9204, -1388.3838, -6117.753, false);
-        giNpcWalkTo("MN016", 7001.495, -1388.3838, -6109.054, false);
+        giNpcWalkTo("MN015", 6949.9, -1388.4, -6117.8, false);
+        giNpcWalkTo("MN016", 7001.5, -1388.4, -6109.1, false);
         giCameraRunSingle("009", true);
         giNpcSetDir("MN012", 280.0, false);
         giNpcSetDir("MN013", 318.0, false);
-        giWait(0.6000000238418579);
+        giWait(0.6);
         giNpcEndMove("MN015");
         giNpcSetAng("MN015", 148.0);
         giNpcEndMove("MN016");
@@ -8113,12 +8113,12 @@ void func2027()
         giSetPortrait("233A", true);
         giTalk("云天青：哟，是夙汐师妹啊，有何贵干？", "45579");
         giIMMBegin();
-        giNpcSetPos("MN015", 6985.2593, -1388.3838, -6094.5234);
-        giNpcSetPos("MN016", 7031.0967, -1388.3838, -6087.4033);
+        giNpcSetPos("MN015", 6985.3, -1388.4, -6094.5);
+        giNpcSetPos("MN016", 7031.1, -1388.4, -6087.4);
         giNpcSetAng("MN015", 130.0);
         giNpcSetAng("MN016", 236.0);
-        giNpcSetPos("MN013", 7037.9326, -1388.3838, -6197.8086);
-        giNpcSetPos("MN012", 7070.6997, -1388.3838, -6161.715);
+        giNpcSetPos("MN013", 7037.9, -1388.4, -6197.8);
+        giNpcSetPos("MN012", 7070.7, -1388.4, -6161.7);
         giNpcSetAng("MN013", 338.0);
         giNpcSetAng("MN012", 296.0);
         giCameraRunSingle("010", true);
@@ -8130,7 +8130,7 @@ void func2027()
         giNpcDoAction("MN015", "C08", 1, false);
         giSetPortrait("232A", false);
         giTalk("夙玉：玄霄师兄、天青师兄。", "45582");
-        giWait(0.699999988079071);
+        giWait(0.7);
         giIMMBegin();
         giCameraRunSingle("011", true);
         giNpcSetAng("MN016", 178.0);
@@ -8180,7 +8180,7 @@ void func2027()
         giCameraPrepare("MC005");
         giCameraRunSingle("001", true);
         giFlashInWhite(1.5, true);
-        giWait(0.4000000059604645);
+        giWait(0.4);
         giSetPortrait("234A", false);
         giTalk("太清真人：玄霄、夙玉，我今日命你二人前来，乃是有一件关乎本派的大事要交托！", "45593");
         giSetPortrait("231A", true);
@@ -8190,7 +8190,7 @@ void func2027()
         giTalk("太清真人：宗炼，便由你来说吧。", "45595");
         giWait(0.5);
         giWait(0.5);
-        giNpcWalkTo("MN006", -30.1854, 40.8495, -151.6932, true);
+        giNpcWalkTo("MN006", -30.2, 40.8, -151.7, true);
         giNpcSetAng("MN006", 28.0);
         giSetPortrait("235A", false);
         giTalk("宗炼：你们都已知道，昆仑诸峰之巅，有天光投下的地方，便是传说中的通仙之途，若能通过，则可白日飞升成仙，只是那里灵气充沛，彼此激荡，绝非一人之力能够靠近。", "45596");
@@ -8201,7 +8201,7 @@ void func2027()
         giWait(0.5);
         giSetPortrait("235A", false);
         giTalk("宗炼：自那之后，吾派穷三代之力，于我手中，终成羲和、望舒两剑！", "45599");
-        giWait(1.100000023841858);
+        giWait(1.1);
         giIMMBegin();
         giSetObjectVisible("MO001", true);
         giSetObjectVisible("MO002", true);
@@ -8210,7 +8210,7 @@ void func2027()
         giIMMEnd();
         giWait(1.5);
         giCameraRunSingle("003", true);
-        giWait(1.100000023841858);
+        giWait(1.1);
         giSetPortrait("231A", true);
         giTalk("玄霄：这……！确是绝世的神兵利器！", "45600");
         giWait(0.5);
@@ -8226,10 +8226,10 @@ void func2027()
         giNpcEndAction("MN004", true);
         giSetPortrait("232D", true);
         giTalk("夙玉：…………", "45604");
-        giWait(0.30000001192092896);
+        giWait(0.3);
         giSetPortrait("234A", false);
         giTalk("太清真人：夙玉，你似乎有话要说？", "45605");
-        giWait(0.699999988079071);
+        giWait(0.7);
         giNpcDoAction("MN003", "J01", 1, false);
         giSetPortrait("232D", true);
         giTalk("夙玉：弟子惶恐！若是望舒剑需要女子作为宿体，如此重任，为何不交给夙瑶师姐呢？弟子修为浅薄，只怕承担不来……", "45606");
@@ -8242,7 +8242,7 @@ void func2027()
         giWait(0.5);
         giSetPortrait("235A", false);
         giTalk("宗炼：你二人此三年中，务必刻苦修行，三年之后便是一个绝佳的机会……", "45610");
-        giWait(0.30000001192092896);
+        giWait(0.3);
         giSetPortrait("231A", true);
         giTalk("玄霄：机会？……弟子愚昧，请长老明示。", "45611");
         giCameraRunSingle("004", true);
@@ -8255,9 +8255,9 @@ void func2027()
         giTalk("太清真人：不错，道胤真人这位前辈确有惊天动地之才，他夜观星象，发现有一妖界如天轨运移一般，每隔十九年，便接近一次琼华派……", "45614");
         giSetPortrait("234A", false);
         giTalk("太清真人：只是此界形迹隐去，本派须以双剑之力冲击而上，令其现形，将其网缚，再想方设法取得其中灵力，同时亦可将妖物除去，岂不是两全之策？", "45615");
-        giWait(0.30000001192092896);
+        giWait(0.3);
         giCameraRunSingle("005", true);
-        giWait(0.4000000059604645);
+        giWait(0.4);
         giSetPortrait("231A", true);
         giTalk("玄霄：网缚妖界？请长老指教，这要如何行事？", "45616");
         giSetPortrait("235A", false);
@@ -8271,7 +8271,7 @@ void func2027()
         giTalk("太清真人：从今日起，你二人便每日去禁地修行，禁地之门须由灵光藻玉开启，你们各持一块，切不可交由其他弟子！", "45619");
         giSetPortrait("231A", true);
         giTalk("玄霄：是！", "45620");
-        giWait(0.30000001192092896);
+        giWait(0.3);
         giNpcDoAction("MN003", "J01", 1, false);
         giSetPortrait("232A", true);
         giTalk("夙玉：是！", "45621");
@@ -8317,17 +8317,17 @@ void func2028()
         giTalk("夙瑶：你！你这样让我如何向同门交代，本派禁地之中养了一只会伤人的怪物吗？！", "45651");
         giWait(0.5);
         giCameraRunSingle("005", true);
-        giWait(0.699999988079071);
+        giWait(0.7);
         giSetPortrait("216D", true);
         giTalk("玄霄：我是怪物？！", "45652");
-        giWait(0.800000011920929);
+        giWait(0.8);
         giSetPortrait("216D", true);
         giTalk("玄霄：你说的没错！我如今人不人、鬼不鬼地被囚在这里，自然比不上你做了掌门，风光无限！", "45653");
         giCameraRunSingle("006", false);
         giWait(1.7);
         giSetPortrait("213B", false);
         giTalk("夙瑶：……玄霄，你早已被阳炎噬心，神智不清了。", "45654");
-        giWait(0.30000001192092896);
+        giWait(0.3);
         giSetPortrait("216D", true);
         giTalk("玄霄：可笑！换你被关在这种暗无天日的地方，你又会多清醒！", "45655");
         giSetPortrait("213B", false);
@@ -8385,15 +8385,15 @@ void func2028()
         giTalk("玄霄：长老！青阳长老！为何连你也——！", "45668");
         giWait(0.5);
         giNpcDoAction("MN002", "J01", -1, false);
-        giWait(0.10000000149011612);
+        giWait(0.1);
         giNpcDoAction("MN005", "J01", -1, false);
-        giWait(0.10000000149011612);
+        giWait(0.1);
         giNpcDoAction("MN003", "J01", -1, false);
         giWait(1.0);
         giSetObjectVisible("Jeffect005", true);
-        giWait(0.10000000149011612);
+        giWait(0.1);
         giSetObjectVisible("Jeffect004", true);
-        giWait(0.10000000149011612);
+        giWait(0.1);
         giSetObjectVisible("Jeffect003", true);
         giNpcDoAction("MN004", "J02", 1, false);
         giWait(3.05);
@@ -8415,13 +8415,13 @@ void func2028()
         giIMMBegin();
         giSetNpcVisible("MN006", false);
         giSetObjectVisible("MO001", true);
-        giNpcSetPos("MN002", 1331.158, 130.9758, 637.7826);
+        giNpcSetPos("MN002", 1331.2, 131.0, 637.8);
         giNpcSetAng("MN002", 2.0);
-        giNpcSetPos("MN003", 1280.6587, 130.9758, 647.7675);
+        giNpcSetPos("MN003", 1280.7, 131.0, 647.8);
         giNpcSetAng("MN003", 26.0);
-        giNpcSetPos("MN004", 1294.7391, 130.9758, 721.0584);
+        giNpcSetPos("MN004", 1294.7, 131.0, 721.1);
         giNpcSetAng("MN004", 24.0);
-        giNpcSetPos("MN005", 1213.3586, 130.9758, 698.3153);
+        giNpcSetPos("MN005", 1213.4, 131.0, 698.3);
         giNpcSetAng("MN005", 48.0);
         giIMMEnd();
         giCameraRunSingle("010", true);
@@ -8434,7 +8434,7 @@ void func2028()
         giWait(0.5);
         giSetPortrait("213A", true);
         giTalk("夙瑶：师弟……我这样做也是为了你好，不然你狂性大发，出去伤人，却要如何是好？", "45671");
-        giWait(0.6000000238418579);
+        giWait(0.6);
         giSetPortrait("213A", true);
         giTalk("夙瑶：你不该恨我，要恨就恨云天青和夙玉，若不是他们出逃，你又怎会落到这样的下场！", "45672");
         giSetPortrait("216C", false);
@@ -8483,7 +8483,7 @@ void func2028()
         giSetPortrait("213A", false);
         giTalk("夙瑶：诸位长老，我们走。", "45682");
         giWait(0.8);
-        giNpcWalkTo("MN004", 1265.7521, 130.9758, 652.2479, true);
+        giNpcWalkTo("MN004", 1265.8, 131.0, 652.2, true);
         giCameraRunSingle("014", false);
         giSetPortrait("216C", false);
         giTalk("玄霄：回来！你们放我出去——！！", "45683");
@@ -8510,13 +8510,13 @@ void func2029()
         giCameraSetCollide(false);
         giCameraAutoSeek(false);
         giPlayerCurrentSetVisible(false);
-        giPlayerSetPos(0, -1446.9613, 145.436, -21.2253);
+        giPlayerSetPos(0, -1447.0, 145.4, -21.2);
         giPlayerSetAng(0, 86.0);
-        giPlayerSetPos(1, -1463.0739, 150.0508, -40.5062);
+        giPlayerSetPos(1, -1463.1, 150.1, -40.5);
         giPlayerSetAng(1, 70.0);
-        giPlayerSetPos(2, -1456.7427, 148.833, 9.7559);
+        giPlayerSetPos(2, -1456.7, 148.8, 9.8);
         giPlayerSetAng(2, 94.0);
-        giPlayerSetPos(3, -1451.9862, 147.4607, 39.1463);
+        giPlayerSetPos(3, -1452.0, 147.5, 39.1);
         giPlayerSetAng(3, 104.0);
         giPlayerSetVisible(0, true);
         giPlayerSetVisible(1, true);
@@ -8551,16 +8551,16 @@ void func2029()
         giSetPortrait("213C", false);
         giTalk("夙瑶：你…………", "45841");
         giIMMBegin();
-        giPlayerSetPos(0, -980.2652, 6.5746, -21.2101);
+        giPlayerSetPos(0, -980.3, 6.6, -21.2);
         giPlayerSetAng(0, 90.0);
-        giPlayerSetPos(1, -998.205, 5.4622, -51.6928);
+        giPlayerSetPos(1, -998.2, 5.5, -51.7);
         giPlayerSetAng(1, 68.0);
-        giPlayerSetPos(2, -973.1148, 7.8542, 13.1997);
+        giPlayerSetPos(2, -973.1, 7.9, 13.2);
         giPlayerSetAng(2, 92.0);
-        giPlayerSetPos(3, -992.4493, 12.7276, 49.3612);
+        giPlayerSetPos(3, -992.4, 12.7, 49.4);
         giPlayerSetAng(3, 100.0);
         giIMMEnd();
-        giWait(0.20000000298023224);
+        giWait(0.2);
         giCameraRunSingle("006", true);
         giSetPortrait("202E", false);
         giTalk("璇玑：……紫英师叔！你、你什么时候进去妖界的？我怎么都没看见？", "45842");
@@ -8570,14 +8570,14 @@ void func2029()
         giWait(0.5);
         giSetPortrait("105A", true);
         giTalk("慕容紫英：…………", "45843");
-        giPlayerWalkTo(0, -885.218, 13.9816, -30.1914, true);
+        giPlayerWalkTo(0, -885.2, 14.0, -30.2, true);
         giPlayerSetAng(0, 90.0);
         giWait(1.0);
         giSetPortrait("101H", true);
         giTalk("云天河：大哥……", "45844");
         giWait(0.5);
-        giNpcWalkTo("MN001", -792.8041, 21.0032, -38.1661, false);
-        giGOBMovment("Jeffect005", 1.5, -792.8041, 21.0032, -38.1661, true);
+        giNpcWalkTo("MN001", -792.8, 21.0, -38.2, false);
+        giGOBMovment("Jeffect005", 1.5, -792.8, 21.0, -38.2, true);
         giCameraRunSingle("008", true);
         giSetPortrait("216G", false);
         giTalk("玄霄：天河，有一阵子不见了，大哥很是挂念你。", "45845");
@@ -8600,14 +8600,14 @@ void func2029()
         giIMMBegin();
         giPlayerSetAng(0, 88.0);
         giNpcSetAng("MN001", 270.0);
-        giNpcSetPos("MN002", -785.9232, 25.3929, 3.9021);
+        giNpcSetPos("MN002", -785.9, 25.4, 3.9);
         giNpcSetAng("MN002", 250.0);
         giCameraRunSingle("010", true);
         giIMMEnd();
-        giWait(0.30000001192092896);
+        giWait(0.3);
         giSetPortrait("101I", false);
         giTalk("云天河：可恶！我是那么相信你！！", "45850");
-        giWait(0.30000001192092896);
+        giWait(0.3);
         giEffectAttachToPlayer(0, "H_130", false);
         giPlayerDoAction(0, "J31", 1, false);
         giNpcDoAction("MN002", "J03", 1, false);
@@ -8620,7 +8620,7 @@ void func2029()
         giTalk("夙瑶：不自量力！！", "45851");
         giPlayerSetAng(1, 118.0);
         giPlayerDoAction(1, "Z12", 0, false);
-        giPlayerSetPos(2, -985.9996, 7.8542, -17.7083);
+        giPlayerSetPos(2, -986.0, 7.9, -17.7);
         giPlayerSetAng(2, 206.0);
         giPlayerDoAction(2, "J03", -1, true);
         giSetPortrait("103L", false);
@@ -8635,7 +8635,7 @@ void func2029()
         giIMMEnd();
         giSetPortrait("101H", true);
         giTalk("云天河：怎么会……？！", "45854");
-        giPlayerRunTo(0, -956.9435, 7.7751, -46.1981, true);
+        giPlayerRunTo(0, -956.9, 7.8, -46.2, true);
         giPlayerSetAng(0, 256.0);
         giPlayerDoAction(0, "J03", -1, true);
         giWait(1.0);
@@ -8656,7 +8656,7 @@ void func2029()
         giSetObjectVisible("Jeffect009", false);
         giSetObjectVisible("Jeffect008", false);
         giIMMEnd();
-        giWait(0.699999988079071);
+        giWait(0.7);
         giSetObjectVisible("Jeffect007", true);
         giPlayerBlendOut(1, 1.0, true);
         giWait(1.5);
@@ -8666,26 +8666,26 @@ void func2029()
         giPlayerBlendOut(2, 1.0, false);
         giPlayerUnHoldAct(0);
         giPlayerEndAction(0);
-        giWait(1.7000000476837158);
+        giWait(1.7);
         giIMMBegin();
-        giPlayerSetPos(0, -885.218, 13.9816, -30.1914);
+        giPlayerSetPos(0, -885.2, 14.0, -30.2);
         giPlayerSetAng(0, 90.0);
-        giPlayerSetPos(2, -948.6313, 7.8542, -33.1749);
+        giPlayerSetPos(2, -948.6, 7.9, -33.2);
         giPlayerSetAng(2, 90.0);
-        giPlayerSetPos(3, -952.1179, 14.0286, 30.6957);
+        giPlayerSetPos(3, -952.1, 14.0, 30.7);
         giPlayerSetAng(3, 110.0);
-        giNpcSetPos("MN002", -770.736, 23.3771, 28.3931);
+        giNpcSetPos("MN002", -770.7, 23.4, 28.4);
         giNpcSetAng("MN002", 248.0);
         giCameraRunSingle("019", true);
         giIMMEnd();
         giCameraRunSingle("020", false);
-        giWait(0.6000000238418579);
+        giWait(0.6);
         giPlayerDoAction(0, "C07", -1, false);
         giSetPortrait("101H", false);
         giTalk("云天河：刚才说的什么意思？！", "45858");
         giPlayerUnHoldAct(0);
         giPlayerEndAction(0);
-        giWait(0.30000001192092896);
+        giWait(0.3);
         giSetPortrait("216G", true);
         giTalk("玄霄：……你一点也未觉察到吗？", "45859");
         giWait(0.5);
@@ -8720,7 +8720,7 @@ void func2029()
         giSetPortrait("216G", false);
         giTalk("玄霄：适才我与夙瑶合力破除结界，则又是耗去许多望舒之力，韩菱纱的身体怕是已经支撑不住了。", "45868");
         giPlayerDoAction(0, "J04", -1, false);
-        giWait(0.699999988079071);
+        giWait(0.7);
         giIMMBegin();
         giPlayerSetVisible(2, false);
         giCameraRunSingle("023", true);
@@ -8758,17 +8758,17 @@ void func2029()
         giPlayerEndAction(0);
         giSetPortrait("216G", false);
         giTalk("玄霄：如今妖界灵力衰竭，而琼华派剑柱将成，飞升指日可待，再慢也是一月之内的事。", "45876");
-        giWait(0.699999988079071);
+        giWait(0.7);
         giSetPortrait("216G", false);
         giTalk("玄霄：……天河，你体质特异，能够天生不受寒冰之气侵扰，想必是万中无一的资质，不如与我一同修行，不久即可白日飞升，从此逍遥天地间，岂不是很好？", "45877");
         giWait(1.0);
         giPlayerDoAction(0, "J04", -1, false);
         giSetPortrait("101G", true);
         giTalk("云天河：……大哥，你明明说过的，只要找到那三件至阴至寒的东西，你就不会被阳炎侵蚀！", "45878");
-        giWait(0.699999988079071);
+        giWait(0.7);
         giPlayerUnHoldAct(0);
         giPlayerEndAction(0);
-        giWait(0.30000001192092896);
+        giWait(0.3);
         giSetPortrait("101H", true);
         giTalk("云天河：是不是那些东西根本没用？没用的话，我再去帮你找，直到找到为止！", "45879");
         giWait(0.5);
@@ -8777,7 +8777,7 @@ void func2029()
         giTalk("云天河：你、你不该是这样的啊，简直就像变了一个人……", "45880");
         giScriptMusicStop(0, 2.5);
         giScriptMusicPlay("P29", 2, 0.0, 0.0);
-        giWait(0.800000011920929);
+        giWait(0.8);
         giIMMBegin();
         giSetNpcVisible("MN002", false);
         giPlayerSetVisible(0, false);
@@ -8810,7 +8810,7 @@ void func2029()
         giIMMEnd();
         giCameraRunSingle("018", false);
         giPlayerDoAction(0, "J30", -1, false);
-        giWait(0.30000001192092896);
+        giWait(0.3);
         giSetPortrait("101H", true);
         giTalk("云天河：那你还要什么呢？除了升仙……你说要给老掌门报仇，如今妖界变成这样，仇也报了！要是你还恨我爹娘，干脆把我也杀了算了！", "45887");
         giPlayerUnHoldAct(0);
@@ -8822,7 +8822,7 @@ void func2029()
         giTalk("云天河：……！", "45889");
         giSetPortrait("213C", false);
         giTalk("夙瑶：玄霄！你……！", "45890");
-        giWait(0.30000001192092896);
+        giWait(0.3);
         giSetPortrait("216H", false);
         giTalk("玄霄：我想得很清楚了，以我今时之力，杀这些小妖根本是对我的污辱！琼华雪耻也是多此一举！", "45891");
         giWait(0.5);
@@ -8850,7 +8850,7 @@ void func2029()
         giWait(0.5);
         giSetPortrait("216K", true);
         giTalk("玄霄：如何？还是与我一同升仙吧？", "45898");
-        giWait(0.30000001192092896);
+        giWait(0.3);
         giSetPortrait("213B", false);
         giTalk("夙瑶：玄霄，你莫太过份了，升仙乃是琼华派之事，云天河已被我逐出门派，于情于理都不可留下！", "45899");
         giWait(0.5);
@@ -8874,7 +8874,7 @@ void func2029()
         giCameraRunSingle("030", true);
         giCameraRunSingle("031", false);
         giNpcSetAng("MN002", 68.0);
-        giWait(3.5999999046325684);
+        giWait(3.6);
         giSetPortrait("213C", true);
         giTalk("夙瑶：你们！你们！……", "45907");
         giWait(0.5);
@@ -8891,7 +8891,7 @@ void func2029()
         giTalk("玄霄：强者为王，乃是天经地义，如今他们或臣服、或惧怕于我，又哪里还会听从你半句话！", "45909");
         giSetPortrait("213B", false);
         giTalk("夙瑶：…………", "45910");
-        giWait(0.6000000238418579);
+        giWait(0.6);
         giSetPortrait("216H", true);
         giTalk("玄霄：我竟被你这无能之辈冰封十九年，实乃此生大耻……所以你最好闭嘴！不然休怪我对你不客气！", "45911");
         giSetPortrait("216H", true);
@@ -8903,7 +8903,7 @@ void func2029()
         giNpcSetAng("MN001", 270.0);
         giCameraRunSingle("034", true);
         giIMMEnd();
-        giWait(1.2000000476837158);
+        giWait(1.2);
         giIMMBegin();
         giSetObjectVisible("MO002", true);
         giSetObjectVisible("Jeffect001", true);
@@ -8911,7 +8911,7 @@ void func2029()
         giWait(1.0);
         giSetPortrait("216G", false);
         giTalk("玄霄：天河，这便是你曾经想要的水灵珠，我如今把它取了出来，便送予你吧。", "45914");
-        giWait(0.699999988079071);
+        giWait(0.7);
         giSetPortrait("101E", true);
         giTalk("云天河：……水灵珠……你还记得？……", "45915");
         giNpcDoAction("MN001", "C08", 1, false);
@@ -8924,7 +8924,7 @@ void func2029()
         giNpcDoAction("MN002", "C07", 1, false);
         giSetPortrait("213C", false);
         giTalk("夙瑶：不可！玄霄，你疯了？本派宝物岂容你如此糟蹋？！", "45917");
-        giWait(0.30000001192092896);
+        giWait(0.3);
         giSetPortrait("216H", true);
         giTalk("玄霄：多话！给我滚！", "45918");
         giNpcSetEmotion("MN001", "216_zd");
@@ -8932,7 +8932,7 @@ void func2029()
         giNpcDoAction("MN001", "J02", 1, false);
         giNpcDoAction("MN002", "J01", -1, false);
         giIMMEnd();
-        giWait(0.30000001192092896);
+        giWait(0.3);
         gi2DSoundPlay("WJ057", 1);
         giEffectPlayWithNPC("H_TM01_4", 1, "MN002");
         giWait(1.0);
@@ -8940,7 +8940,7 @@ void func2029()
         giSetPortrait("213C", false);
         giTalk("夙瑶：啊……！", "45919");
         giWait(0.5);
-        giNpcRunTo("MN004", -724.1445, 24.2956, 39.1229, true);
+        giNpcRunTo("MN004", -724.1, 24.3, 39.1, true);
         giNpcSetAng("MN004", 258.0);
         giNpcDoAction("MN004", "J04", -1, false);
         giSetPortrait("202E", true);
@@ -8972,8 +8972,8 @@ void func2029()
         giSetPortrait("216G", true);
         giTalk("玄霄：天河，水灵珠你拿去吧。", "45927");
         giIMMBegin();
-        giGOBMovment("MO002", 3.0, -849.9393, 63.4074, -39.496, true);
-        giGOBMovment("Jeffect001", 3.0, -849.9393, 55.4074, -39.496, true);
+        giGOBMovment("MO002", 3.0, -849.9, 63.4, -39.5, true);
+        giGOBMovment("Jeffect001", 3.0, -849.9, 55.4, -39.5, true);
         giIMMEnd();
         giWait(0.5);
         giPlayerDoAction(0, "C07", -1, true);
@@ -9027,7 +9027,7 @@ void func2029()
         giCameraRunSingle("037", true);
         giIMMEnd();
         giCameraRunSingle("038", false);
-        giWait(1.100000023841858);
+        giWait(1.1);
         giPlayerDoAction(0, "C09", 1, false);
         giWait(0.5);
         giSetPortrait("101G", true);
@@ -9052,8 +9052,8 @@ void func2029()
         giTalk("玄霄：你！！", "45946");
         giWait(0.5);
         giIMMBegin();
-        giPlayerSetPos(0, -885.218, 12.9816, -30.1914);
-        giPlayerSetPos(3, -956.1704, 12.9921, 24.1579);
+        giPlayerSetPos(0, -885.2, 13.0, -30.2);
+        giPlayerSetPos(3, -956.2, 13.0, 24.2);
         giPlayerSetAng(3, 110.0);
         giCameraRunSingle("039", true);
         giIMMEnd();
@@ -9081,7 +9081,7 @@ void func2029()
         giWait(0.5);
         giSetPortrait("216I", true);
         giTalk("玄霄：哈哈哈！好、好！", "45950");
-        giWait(0.800000011920929);
+        giWait(0.8);
         giSetPortrait("216H", true);
         giTalk("玄霄：云天河，你三番两次顶撞，我本不该姑息！", "45951");
         giSetPortrait("216G", true);
@@ -9106,13 +9106,13 @@ void func2029()
         giPlayerSetVisible(3, true);
         giSetNpcVisible("MN002", true);
         giNpcSetAng("MN002", 262.0);
-        giNpcSetPos("MN004", -759.3572, 28.3922, 96.5368);
+        giNpcSetPos("MN004", -759.4, 28.4, 96.5);
         giNpcSetAng("MN004", 258.0);
-        giPlayerSetPos(3, -998.163, 12.8183, 42.6235);
+        giPlayerSetPos(3, -998.2, 12.8, 42.6);
         giPlayerSetAng(3, 110.0);
         giCameraRunSingle("042", true);
         giIMMEnd();
-        giWait(0.6000000238418579);
+        giWait(0.6);
         giSetPortrait("216G", true);
         giTalk("玄霄：紫晶石既已足够，我就再让你一次，也是最后一次！现在妖界束缚已除，妖界之主的命也送给你吧！", "45953");
         giWait(0.5);
@@ -9125,13 +9125,13 @@ void func2029()
         giTalk("柳梦璃：束缚除去，妖界入口马上就要消失了！", "45955");
         giWait(0.5);
         giIMMBegin();
-        giPlayerSetPos(3, -1085.5162, 12.8183, 36.4495);
+        giPlayerSetPos(3, -1085.5, 12.8, 36.4);
         giPlayerSetAng(3, 88.0);
-        giPlayerSetPos(2, -1088.7318, 10.3582, -5.035);
+        giPlayerSetPos(2, -1088.7, 10.4, -5.0);
         giPlayerSetAng(2, 72.0);
-        giPlayerSetPos(1, -1078.2091, 9.4622, -61.3434);
+        giPlayerSetPos(1, -1078.2, 9.5, -61.3);
         giPlayerSetAng(1, 118.0);
-        giPlayerSetPos(0, -1078.8569, 4.0905, -35.5408);
+        giPlayerSetPos(0, -1078.9, 4.1, -35.5);
         giPlayerSetAng(0, 62.0);
         giSetNpcVisible("MN002", false);
         giCameraRunSingle("044", true);
@@ -9153,10 +9153,10 @@ void func2029()
         giWait(0.5);
         giSetPortrait("202E", false);
         giTalk("璇玑：师、叔……你、说什么？能不能再说一遍？！师叔——！", "45959");
-        giWait(0.699999988079071);
+        giWait(0.7);
         giPlayerDoAction(3, "C09", 1, true);
         giWait(0.5);
-        giPlayerWalkTo(3, -1416.6252, 138.3774, 34.8853, false);
+        giPlayerWalkTo(3, -1416.6, 138.4, 34.9, false);
         giCameraRunSingle("048", false);
         giFlashOutBlack(2.0, true, true);
         giSetObjectVisible("Jeffect002", false);
@@ -9186,11 +9186,11 @@ void func2030()
         giPlayerSetVisible(0, true);
         giPlayerSetVisible(1, true);
         giPlayerSetVisible(3, true);
-        giPlayerSetPos(0, -824.0495, 16.527, -33.9567);
+        giPlayerSetPos(0, -824.0, 16.5, -34.0);
         giPlayerSetAng(0, 266.0);
-        giPlayerSetPos(1, -804.9963, 20.5447, 10.9233);
+        giPlayerSetPos(1, -805.0, 20.5, 10.9);
         giPlayerSetAng(1, 270.0);
-        giPlayerSetPos(3, -871.9268, 20.4914, 45.878);
+        giPlayerSetPos(3, -871.9, 20.5, 45.9);
         giPlayerSetAng(3, 252.0);
         giIMMEnd();
         giCameraPrepare("MC002");
@@ -9287,7 +9287,7 @@ void func2030()
         giPlayerSetVisible(1, false);
         giPlayerSetVisible(3, false);
         giPlayerCurrentSetVisible(true);
-        giPlayerCurrentSetPos(-906.7859, 12.7513, 7.2244);
+        giPlayerCurrentSetPos(-906.8, 12.8, 7.2);
         giPlayerCurrentSetAng(264.0);
         giSetObjectVisible("entrance2", true);
         giIMMEnd();
@@ -9307,7 +9307,7 @@ void func2031()
         giIMMBegin();
         giCameraSetCollide(false);
         giCameraAutoSeek(false);
-        giPlayerSetPos(0, -1710.192, 185.0636, -1.9289);
+        giPlayerSetPos(0, -1710.2, 185.1, -1.9);
         giPlayerSetAng(0, 269.0);
         giIMMEnd();
         giCameraPrepare("MC003");
@@ -9385,7 +9385,7 @@ void func2101()
     {
         giPlayerLock();
         giPlayerSetLeader(0);
-        giPlayerWalkTo(0, 6384.6997, -1382.7515, -3585.8782, true);
+        giPlayerWalkTo(0, 6384.7, -1382.8, -3585.9, true);
         giPlayerSetDir(0, 183.0, true);
         giCameraAutoSeek(true);
         giCameraSetMode(0, true);
@@ -9424,7 +9424,7 @@ void func2103()
     giPlayerFaceToNpc(0, "4001", true);
     giNpcFaceToPlayer("4001", 0, true);
     giTalk("怀守：没有掌门的命令，入夜以后，任何弟子不得下山！", "");
-    giPlayerWalkTo(0, 12453.232, -1831.3143, -14419.718, true);
+    giPlayerWalkTo(0, 12453.2, -1831.3, -14419.7, true);
     giPlayerSetDir(0, 0.0, true);
     giCameraAutoSeek(true);
     giCameraSetMode(0, true);
@@ -9436,7 +9436,7 @@ void func2104()
 {
     giPlayerLock();
     giPlayerSetLeader(0);
-    giPlayerWalkTo(0, 19951.506, -1085.2783, -1759.9033, true);
+    giPlayerWalkTo(0, 19951.5, -1085.3, -1759.9, true);
     giPlayerSetDir(0, 146.0, true);
     giCameraAutoSeek(true);
     giCameraSetMode(0, true);
@@ -9449,7 +9449,7 @@ void func2105()
 {
     giPlayerLock();
     giPlayerSetLeader(0);
-    giPlayerWalkTo(0, 4535.318, -1383.2312, -6232.9175, true);
+    giPlayerWalkTo(0, 4535.3, -1383.2, -6232.9, true);
     giPlayerSetDir(0, 91.0, true);
     giCameraAutoSeek(true);
     giCameraSetMode(0, true);
@@ -9471,7 +9471,7 @@ void func3001()
             giCameraSetCollide(false);
             giCameraAutoSeek(false);
             giPlayerCurrentSetVisible(false);
-            giPlayerSetPos(0, 1296.2766, 130.9758, 726.9409);
+            giPlayerSetPos(0, 1296.3, 131.0, 726.9);
             giPlayerSetAng(0, 34.0);
             giPlayerSetVisible(0, true);
             giIMMEnd();
@@ -9490,15 +9490,15 @@ void func3001()
             giIMMEnd();
             giPlayerUnHoldAct(0);
             giPlayerEndAction(0);
-            giWait(0.20000000298023224);
+            giWait(0.2);
             giPlayerDoAction(0, "J14", 1, false);
             giSetPortrait("102B", false);
             giTalk("云天河：……唔，这么说也不对，应该是有人送给我了……", "");
             giDelProperty(3243, 1, false);
             giPlayerEndAction(0);
             giIMMBegin();
-            giGOBMovment("feng01", 4.0, 1315.6111, 240.7777, 735.1079, false);
-            giGOBMovment("feng-01", 4.0, 1316.2667, 225.668, 733.9693, false);
+            giGOBMovment("feng01", 4.0, 1315.6, 240.8, 735.1, false);
+            giGOBMovment("feng-01", 4.0, 1316.3, 225.7, 734.0, false);
             giIMMEnd();
             giWait(2.0);
             giCameraRunSingle("003", false);
@@ -9506,7 +9506,7 @@ void func3001()
             giWait(1.0);
             giSetPortrait("102B", false);
             giTalk("云天河：我娘？她喜欢这花吗？", "");
-            giWait(0.699999988079071);
+            giWait(0.7);
             giTalk("玄霄：是啊，闲暇之时她最爱赏花……只是……人会老去、花会衰败，但花开罢一季又一季，人却再也不会归来……", "");
             giWait(1.0);
             giTalk("玄霄：…………你且出去吧，让大哥一个人静一静。", "");
@@ -9518,17 +9518,17 @@ void func3001()
             giSetPortrait("102A", false);
             giTalk("云天河：好，那我走了，等找齐所有寒器，我再来找大哥。", "");
             giPlayerEndAction(0);
-            giWait(0.30000001192092896);
-            giPlayerWalkTo(0, 1215.002, 130.9758, 589.6049, false);
+            giWait(0.3);
+            giPlayerWalkTo(0, 1215.0, 131.0, 589.6, false);
             giWait(1.5);
             giCameraRunSingle("006", true);
             giCameraRunSingle("004", true);
             giCameraRunSingle("005", false);
             giWait(1.0);
             giTalk("玄霄：……杳杳灵凤，绵绵长归。悠悠我思，永与愿违。万劫无期，何时来飞？", "");
-            giWait(0.699999988079071);
+            giWait(0.7);
             giTalk("玄霄：夙玉，如今你一缕魂魄又在何处？要是早知今日之境，你悔也不悔？……", "");
-            giWait(0.6000000238418579);
+            giWait(0.6);
             giCameraRunSingle("007", true);
             giWait(0.5);
             giIMMBegin();
@@ -9539,11 +9539,11 @@ void func3001()
             giCameraRunSingle("008", false);
             giOBJBlendOut("feng01", 0.2, false);
             giSetObjectVisible("feng-02", false);
-            giWait(0.20000000298023224);
+            giWait(0.2);
             giFlashOutBlack(1.5, true, true);
             npc_d = 3;
             giArenaLoad("Q06", "Q06Q", "", true);
-            giPlayerCurrentSetPos(15184.638, 128.21144, -3331.9087);
+            giPlayerCurrentSetPos(15184.6, 128.2, -3331.9);
             giPlayerCurrentSetAng(160.0);
             giCameraSetMode(0, true);
             giArenaReady();
@@ -9561,13 +9561,13 @@ void func3001()
         giCameraSetCollide(false);
         giCameraAutoSeek(false);
         giPlayerCurrentSetVisible(false);
-        giPlayerSetPos(0, 1215.002, 130.9758, 589.6049);
+        giPlayerSetPos(0, 1215.0, 131.0, 589.6);
         giPlayerSetAng(0, 34.0);
         giPlayerSetVisible(0, true);
         giIMMEnd();
         giCameraPrepare("feng1");
         giCameraRunSingle("003", true);
-        giPlayerWalkTo(0, 1311.6996, 130.9758, 758.8516, false);
+        giPlayerWalkTo(0, 1311.7, 131.0, 758.9, false);
         giCameraRunSingle("004", false);
         giFlashInBlack(1.5, true);
         giPlayerEndMove(0);
@@ -9614,12 +9614,12 @@ void func3001()
         giCameraRunSingle("005", true);
         giCameraRunSingle("006", false);
         giWait(0.5);
-        giPlayerWalkTo(0, 1296.2766, 130.9758, 726.9409, false);
+        giPlayerWalkTo(0, 1296.3, 131.0, 726.9, false);
         giWait(0.5);
         giTalk("玄霄：……天河。", "");
         giPlayerEndMove(0);
         giPlayerSetDir(0, 36.0, true);
-        giWait(0.30000001192092896);
+        giWait(0.3);
         giSetPortrait("102A", true);
         giTalk("云天河：大哥，怎么了？", "");
         giTalk("玄霄：你去了长老隐居的清风涧，定然经过<colour red=255 green=187 blue=0 alpha=255>醉花荫</colour><dc0>，那里的</dc0><colour red=255 green=187 blue=0 alpha=255>凤凰花</colour><dc0>……可都还在吗？</dc0>", "");
@@ -9635,7 +9635,7 @@ void func3001()
         giCameraRunSingle("005", true);
         giIMMBegin();
         npc_d = 1;
-        giPlayerSetPos(0, 1077.0, 67.033, 359.0);
+        giPlayerSetPos(0, 1077.0, 67.0, 359.0);
         giPlayerSetAng(0, 200.0);
         giCameraSetMode(5, true);
         giCameraSeekToPlayer();
@@ -9658,7 +9658,7 @@ void func3002()
         giCameraSetCollide(false);
         giCameraAutoSeek(false);
         giPlayerCurrentSetVisible(false);
-        giPlayerSetPos(0, 13347.997, -1088.2423, -5201.7817);
+        giPlayerSetPos(0, 13348.0, -1088.2, -5201.8);
         giPlayerSetAng(0, 190.0);
         giPlayerSetVisible(0, true);
         giIMMEnd();
@@ -9681,7 +9681,7 @@ void func3002()
         giCameraRunSingle("003", true);
         giNpcSetDir("SN001", 18.0, true);
         giCameraRunSingle("004", false);
-        giPlayerWalkTo(0, 13348.7, -1088.2423, -5315.722, true);
+        giPlayerWalkTo(0, 13348.7, -1088.2, -5315.7, true);
         giPlayerSetAng(0, 202.0);
         giSetPortrait("102B", false);
         giTalk("云天河：什么东西逃了？怎么你脸上都是汗？", "");
@@ -9744,11 +9744,11 @@ void func3002()
         giTalk("云天河：好了！", "");
         giWait(0.4);
         giCameraRunSingle("007", false);
-        giPlayerWalkTo(0, 13393.845, -1088.2423, -5365.4556, true);
+        giPlayerWalkTo(0, 13393.8, -1088.2, -5365.5, true);
         giPlayerSetAng(0, 156.0);
         giPlayerDoAction(0, "J03", -1, true);
         giSetObjectVisible("SO001", true);
-        giNpcWalkTo("SN001", 13367.588, -1088.2423, -5414.86, true);
+        giNpcWalkTo("SN001", 13367.6, -1088.2, -5414.9, true);
         giNpcSetDir("SN001", 80.0, true);
         giNpcDoAction("SN001", "J04", -1, false);
         giCameraRunSingle("008", true);
@@ -9758,9 +9758,9 @@ void func3002()
         giSetObjectVisible("Jeffect004", true);
         giWait(0.3);
         giSetObjectVisible("Jeffect005", true);
-        giGOBMovment("Jeffect003", 3.5, 13385.184, -1136.2423, -5400.641, false);
-        giGOBMovment("Jeffect004", 4.0, 13385.184, -1136.2423, -5400.641, false);
-        giGOBMovment("Jeffect005", 4.5, 13385.184, -1136.2423, -5400.641, true);
+        giGOBMovment("Jeffect003", 3.5, 13385.2, -1136.2, -5400.6, false);
+        giGOBMovment("Jeffect004", 4.0, 13385.2, -1136.2, -5400.6, false);
+        giGOBMovment("Jeffect005", 4.5, 13385.2, -1136.2, -5400.6, true);
         giWait(2.0);
         giSetPortrait("203C", false);
         giTalk("怀朔：这！……夏鸣虫为何会自己往里飞？！", "");
@@ -9801,7 +9801,7 @@ void func3002()
         giSetPortrait("203B", false);
         giTalk("怀朔：咳咳……你也早点回房吧，我知道你玩心重，耐不住性子，不过今日才被师叔罚去思过，还是莫要再犯错了。", "");
         giWait(0.8);
-        giNpcWalkTo("SN001", 13295.591, -1088.2423, -5214.848, false);
+        giNpcWalkTo("SN001", 13295.6, -1088.2, -5214.8, false);
         giWait(0.5);
         giPlayerDoAction(0, "J14", 1, true);
         giFlashOutBlack(1.5, true, true);
@@ -9809,7 +9809,7 @@ void func3002()
         giSetNpcVisible("SN001", false);
         giPlayerSetVisible(0, false);
         giPlayerCurrentSetVisible(true);
-        giPlayerCurrentSetPos(13393.845, -1088.2423, -5365.4556);
+        giPlayerCurrentSetPos(13393.8, -1088.2, -5365.5);
         giPlayerCurrentSetAng(194.0);
         giCameraSetMode(0, true);
         giScriptMusicStop(0, 2.5);
@@ -9830,10 +9830,10 @@ void func3003()
         giCameraSetCollide(false);
         giCameraAutoSeek(false);
         giPlayerCurrentSetVisible(false);
-        giPlayerSetPos(0, 7789.383, -1387.8987, -7879.12);
+        giPlayerSetPos(0, 7789.4, -1387.9, -7879.1);
         giPlayerSetAng(0, 202.0);
         giPlayerSetVisible(0, true);
-        giNpcSetPos("SN003", 7541.02, -1387.8984, -8007.996);
+        giNpcSetPos("SN003", 7541.0, -1387.9, -8008.0);
         giNpcSetAng("SN003", 106.0);
         giSetObjectVisible("title04", false);
         giSetNpcVisible("4017", false);
@@ -9848,7 +9848,7 @@ void func3003()
         giSetPortrait("203B", true);
         giTalk("怀朔：哪里……我本想将它们放了，但自己又有些喜欢，想留下多养几日，正在犹豫，倒让你见笑了。", "");
         gi2DSoundPlay("WB017", 1);
-        giPlayerWalkTo(0, 7725.104, -1387.8987, -8000.6562, true);
+        giPlayerWalkTo(0, 7725.1, -1387.9, -8000.7, true);
         giPlayerSetAng(0, 218.0);
         giSetPortrait("102B", false);
         giTalk("云天河：这叫声……不是上回夜里捉的那些夏鸣虫吗？你还没给璇玑啊？", "");
@@ -9874,7 +9874,7 @@ void func3003()
         giSetPortrait("202D", true);
         giTalk("璇玑：师兄，原来你在这儿，我找你好久了！", "");
         giSetNpcVisible("SN003", true);
-        giNpcWalkTo("SN003", 7636.6826, -1387.8986, -8055.5654, false);
+        giNpcWalkTo("SN003", 7636.7, -1387.9, -8055.6, false);
         giWait(1.0);
         giNpcSetDir("SN001", 300.0, false);
         giNpcSetDir("SN002", 280.0, false);
@@ -9923,7 +9923,7 @@ void func3003()
         giSetPortrait("202A", true);
         giTalk("璇玑：天河、梦璃，今天我和师兄有事，不能陪你们了～", "");
         giPlayerDoAction(0, "C08", 1, true);
-        giNpcRunTo("SN003", 7541.02, -1387.8984, -8007.996, true);
+        giNpcRunTo("SN003", 7541.0, -1387.9, -8008.0, true);
         giSetNpcVisible("SN003", false);
         giNpcSetDir("SN001", 66.0, true);
         giCameraRunSingle("004", false);
@@ -9940,7 +9940,7 @@ void func3003()
         giSetPortrait("203A", false);
         giTalk("怀朔：唉，小师妹这横冲直撞的性子，什么时候才能改一改啊……", "");
         giNpcEndAction("SN001", true);
-        giNpcWalkTo("SN001", 7581.717, -1383.5507, -7884.6846, false);
+        giNpcWalkTo("SN001", 7581.7, -1383.6, -7884.7, false);
         giWait(1.5);
         giPlayerSetDir(0, 314.0, false);
         giNpcSetDir("SN002", 324.0, false);
@@ -9993,7 +9993,7 @@ void func3003()
         giSetNpcVisible("4017", false);
         giSetNpcVisible("4049", false);
         giPlayerCurrentSetVisible(true);
-        giPlayerCurrentSetPos(7734.1895, -1387.8984, -8051.8174);
+        giPlayerCurrentSetPos(7734.2, -1387.9, -8051.8);
         giPlayerCurrentSetAng(338.0);
         giCameraSetMode(0, true);
         giScriptMusicStop(0, 2.5);
@@ -10013,11 +10013,11 @@ void func3004()
         giCameraSetCollide(false);
         giCameraAutoSeek(false);
         giPlayerCurrentSetVisible(false);
-        giPlayerSetPos(0, 5719.1816, -1383.5505, -5551.6323);
+        giPlayerSetPos(0, 5719.2, -1383.6, -5551.6);
         giPlayerSetAng(0, 284.0);
-        giPlayerSetPos(1, 5662.6123, -1387.8987, -5726.0356);
-        giPlayerSetPos(2, 5612.272, -1387.8987, -5723.6143);
-        giNpcSetPos("SN005", 5766.2847, -1313.8987, -5574.166);
+        giPlayerSetPos(1, 5662.6, -1387.9, -5726.0);
+        giPlayerSetPos(2, 5612.3, -1387.9, -5723.6);
+        giNpcSetPos("SN005", 5766.3, -1313.9, -5574.2);
         giNpcSetAng("SN005", 280.0);
         giPlayerSetVisible(0, true);
         giPlayerSetVisible(1, true);
@@ -10034,8 +10034,8 @@ void func3004()
         giWait(0.3);
         giPlayerSetDir(0, 176.0, false);
         giNpcSetDir("SN005", 202.0, true);
-        giPlayerWalkTo(1, 5701.784, -1387.8987, -5619.9727, false);
-        giPlayerWalkTo(2, 5647.2144, -1387.8987, -5625.7524, false);
+        giPlayerWalkTo(1, 5701.8, -1387.9, -5620.0, false);
+        giPlayerWalkTo(2, 5647.2, -1387.9, -5625.8, false);
         giPlayerEndMove(1);
         giPlayerSetAng(1, 14.0);
         giPlayerSetAng(2, 56.0);
@@ -10071,10 +10071,10 @@ void func3004()
         giTalk("韩菱纱：它真的好可爱哦～嘻，能让我摸摸看吗？", "");
         giPlayerUnHoldAct(1);
         giPlayerEndAction(1);
-        giPlayerWalkTo(1, 5740.2646, -1383.5505, -5603.541, false);
+        giPlayerWalkTo(1, 5740.3, -1383.6, -5603.5, false);
         giWait(0.6);
         gi2DSoundPlay("WJ092", 1);
-        giNPCFlyTo("SN005", 5708.4663, -1321.8987, -5598.3726, true);
+        giNPCFlyTo("SN005", 5708.5, -1321.9, -5598.4, true);
         giNpcSetDir("SN005", 126.0, true);
         giPlayerSetDir(1, 294.0, true);
         giPlayerSetDir(0, 188.0, true);
@@ -10087,11 +10087,11 @@ void func3004()
         giWait(1.4);
         giPlayerDoAction(2, "J14", 1, true);
         giIMMBegin();
-        giPlayerSetPos(2, 5663.7915, -1387.8987, -5613.1265);
+        giPlayerSetPos(2, 5663.8, -1387.9, -5613.1);
         giPlayerSetAng(2, 56.0);
         giPlayerSetAng(0, 200.0);
         giPlayerSetAng(1, 298.0);
-        giNpcSetPos("SN005", 5687.438, -1321.8987, -5595.1367);
+        giNpcSetPos("SN005", 5687.4, -1321.9, -5595.1);
         giCameraRunSingle("002", true);
         giIMMEnd();
         giWait(0.5);
@@ -10154,7 +10154,7 @@ void func3004()
         giNpcSetEmotion("SN005", "339_zc");
         gi2DSoundPlay("WJ093", 1);
         giWait(1.2);
-        giNPCFlyTo("SN005", 5687.438, -1307.8987, -5595.1367, true);
+        giNPCFlyTo("SN005", 5687.4, -1307.9, -5595.1, true);
         giNpcSetDir("SN005", 120.0, true);
         giNpcDoAction("SN005", "C02", 0, false);
         giNpcSetEmotion("SN005", "339_fn");
@@ -10162,7 +10162,7 @@ void func3004()
         giWait(2.0);
         giNpcSetEmotion("SN005", "339_zc");
         giWait(0.5);
-        giNPCFlyTo("SN005", 5717.4233, -1323.8987, -5613.1562, true);
+        giNPCFlyTo("SN005", 5717.4, -1323.9, -5613.2, true);
         giNpcSetDir("SN005", 286.0, true);
         giNpcSetEmotion("SN005", "339_jj");
         giNpcDoAction("SN005", "C09", 1, false);
@@ -10174,7 +10174,7 @@ void func3004()
         gi2DSoundPlay("WJ091", 1);
         giWait(1.3);
         giNpcSetEmotion("SN005", "339_zc");
-        giNPCFlyTo("SN005", 5735.0273, -1321.8987, -5556.257, true);
+        giNPCFlyTo("SN005", 5735.0, -1321.9, -5556.3, true);
         giNpcSetDir("SN005", 198.0, true);
         giPlayerSetDir(1, 352.0, false);
         giPlayerSetDir(2, 42.0, false);
@@ -10225,10 +10225,10 @@ void func3004()
         giPlayerDoAction(0, "J14", 1, true);
         giNpcSetEmotion("SN005", "339_bs");
         gi2DSoundPlay("WJ093", 1);
-        giNPCFlyTo("SN005", 5686.5225, -1309.8987, -5569.646, true);
+        giNPCFlyTo("SN005", 5686.5, -1309.9, -5569.6, true);
         giNpcDoAction("SN005", "C09", 1, true);
         gi2DSoundPlay("WJ091", 1);
-        giNPCFlyTo("SN005", 5734.4995, -1309.8987, -5744.7188, false);
+        giNPCFlyTo("SN005", 5734.5, -1309.9, -5744.7, false);
         giWait(1.3);
         giPlayerSetDir(1, 170.0, false);
         giPlayerSetDir(0, 172.0, false);
@@ -10248,7 +10248,7 @@ void func3004()
         giSetPortrait("104F", true);
         giTalk("韩菱纱：我！……不和你说了，免得被气死……", "");
         giPlayerEndAction(1);
-        giPlayerWalkTo(1, 5810.287, -1383.5505, -5598.157, true);
+        giPlayerWalkTo(1, 5810.3, -1383.6, -5598.2, true);
         giPlayerSetVisible(1, false);
         giSetNpcVisible("SN005", false);
         giSetPortrait("102A", false);
@@ -10287,7 +10287,7 @@ void func3004()
         giTalk("柳梦璃：云公子，谢谢你，你能明白……我真的很高兴。 ", "");
         giPlayerEndAction(2);
         giWait(0.7);
-        giPlayerWalkTo(2, 5601.4727, -1387.8987, -5633.9414, true);
+        giPlayerWalkTo(2, 5601.5, -1387.9, -5633.9, true);
         giPlayerSetVisible(2, false);
         giPlayerDoAction(0, "J14", 1, false);
         giSetPortrait("102G", true);
@@ -10299,7 +10299,7 @@ void func3004()
         giSetObjectVisible("title12", true);
         giPlayerSetVisible(0, false);
         giPlayerCurrentSetVisible(true);
-        giPlayerCurrentSetPos(5719.1816, -1383.5505, -5551.6323);
+        giPlayerCurrentSetPos(5719.2, -1383.6, -5551.6);
         giPlayerCurrentSetAng(302.0);
         giCameraSetMode(0, true);
         giPetShow(false);
@@ -10319,9 +10319,9 @@ void func3005()
         giCameraSetCollide(false);
         giCameraAutoSeek(false);
         giPlayerCurrentSetVisible(false);
-        giPlayerSetPos(0, 5.1998, 0.6808, 45.3843);
+        giPlayerSetPos(0, 5.2, 0.7, 45.4);
         giPlayerSetAng(0, 144.0);
-        giNpcSetPos("SN001", -49.3148, 0.6808, -32.9457);
+        giNpcSetPos("SN001", -49.3, 0.7, -32.9);
         giPlayerSetVisible(0, true);
         giSetNpcVisible("SN001", true);
         giSetObjectVisible("SO001", true);
@@ -10341,7 +10341,7 @@ void func3005()
         giWait(0.7);
         gi2DSoundPlay("WJ085", 1);
         giWait(2.0);
-        giNPCFlyTo("SN001", 18.0235, 56.6808, 10.5953, true);
+        giNPCFlyTo("SN001", 18.0, 56.7, 10.6, true);
         giNpcSetDir("SN001", 322.0, true);
         giNpcSetEmotion("SN001", "339_kx");
         gi2DSoundPlay("WJ085", 1);
@@ -10354,7 +10354,7 @@ void func3005()
         giWait(1.5);
         giSetPortrait("102C", false);
         giTalk("云天河：啥意思？这堆东西和你有关？……", "");
-        giNPCFlyTo("SN001", 17.2053, 48.6808, -12.0532, true);
+        giNPCFlyTo("SN001", 17.2, 48.7, -12.1, true);
         giNpcSetDir("SN001", 332.0, true);
         giNpcDoAction("SN001", "J03", 1, false);
         gi2DSoundPlay("WJ093", 1);
@@ -10370,13 +10370,13 @@ void func3005()
         gi2DSoundPlay("WJ086", 1);
         giWait(1.5);
         giFlashOutBlack(1.5, true, true);
-        giPlayerSetPos(0, -17.827, 0.6808, 23.6615);
+        giPlayerSetPos(0, -17.8, 0.7, 23.7);
         giPlayerSetAng(0, 122.0);
-        giPlayerSetPos(2, 29.9391, 0.6808, 48.6367);
+        giPlayerSetPos(2, 29.9, 0.7, 48.6);
         giPlayerSetAng(2, 180.0);
-        giPlayerSetPos(1, 63.9793, 0.6808, 31.7883);
+        giPlayerSetPos(1, 64.0, 0.7, 31.8);
         giPlayerSetAng(1, 250.0);
-        giNpcSetPos("SN001", 20.4428, 56.6808, 0.8924);
+        giNpcSetPos("SN001", 20.4, 56.7, 0.9);
         giNpcSetAng("SN001", 12.0);
         giPlayerSetVisible(1, true);
         giPlayerSetVisible(2, true);
@@ -10436,7 +10436,7 @@ void func3005()
         gi2DSoundPlay("WJ086", 1);
         giWait(1.9);
         giNpcSetEmotion("SN001", "339_zc");
-        giNPCFlyTo("SN001", 9.9194, 56.6808, 10.0307, true);
+        giNPCFlyTo("SN001", 9.9, 56.7, 10.0, true);
         giNpcSetDir("SN001", 306.0, true);
         gi2DSoundPlay("WJ093", 1);
         giWait(1.8);
@@ -10465,7 +10465,7 @@ void func3005()
         giNpcSetEmotion("SN001", "339_bs");
         gi2DSoundPlay("WJ091", 1);
         giWait(0.6);
-        giNPCFlyTo("SN001", -34.613, 56.6808, 110.1417, true);
+        giNPCFlyTo("SN001", -34.6, 56.7, 110.1, true);
         giPlayerFaceToNpc(0, "SN001", false);
         giPlayerFaceToNpc(1, "SN001", false);
         giPlayerFaceToNpc(2, "SN001", false);
@@ -10511,7 +10511,7 @@ void func3005()
         giIMMBegin();
         giPlayerSetAng(1, 272.0);
         giPlayerSetAng(0, 122.0);
-        giPlayerSetPos(0, -3.9905, 0.6808, 23.5908);
+        giPlayerSetPos(0, -4.0, 0.7, 23.6);
         giPlayerSetVisible(2, false);
         giCameraRunSingle("006", true);
         giIMMEnd();
@@ -10537,7 +10537,7 @@ void func3005()
         giPlayerSetVisible(1, false);
         giPlayerSetVisible(0, false);
         giPlayerCurrentSetVisible(true);
-        giPlayerCurrentSetPos(-57.745, 0.6808, 66.2462);
+        giPlayerCurrentSetPos(-57.7, 0.7, 66.2);
         giPlayerCurrentSetAng(339.0);
         giSetObjectVisible("SO001", false);
         giSetObjectVisible("SO002", false);
@@ -10567,7 +10567,7 @@ void func3006()
         giCameraAutoSeek(false);
         giPlayerCurrentSetVisible(false);
         giPlayerSetVisible(0, false);
-        giPlayerSetPos(3, 0.9343, 0.496, 20.8563);
+        giPlayerSetPos(3, 0.9, 0.5, 20.9);
         giPlayerSetAng(3, 188.0);
         giPlayerSetVisible(3, true);
         giSetNpcVisible("MN001", true);
@@ -10584,7 +10584,7 @@ void func3006()
         giTalk("慕容紫英：掌门，弟子于山下偶遇夙莘师叔，师叔不愿随弟子回来，只托付将一样东西带给您。", "");
         giPlayerUnHoldAct(3);
         giPlayerEndAction(3);
-        giWait(0.30000001192092896);
+        giWait(0.3);
         giNpcSetDir("MN001", 0.0, true);
         giWait(0.5);
         giSetPortrait("213C", false);
@@ -10592,7 +10592,7 @@ void func3006()
         giPlayerDoAction(3, "J03", -1, false);
         giSetPortrait("105A", true);
         giTalk("慕容紫英：师叔吩咐，若是掌门询问，便打开这个箱子。", "");
-        giWait(0.699999988079071);
+        giWait(0.7);
         giSetObjectVisible("SO001", true);
         giSetPortrait("213A", false);
         giTalk("夙瑶：哦？故弄玄虚，这可不似夙莘的性子。", "");
@@ -10602,9 +10602,9 @@ void func3006()
         giTalk("慕容紫英：是。", "");
         giWait(0.5);
         giObjectDoAction("SO001", "OM07", -1, true);
-        giWait(0.30000001192092896);
+        giWait(0.3);
         giSetNpcVisible("SN001", true);
-        giNPCFlyTo("SN001", 5.8243, 70.496, -32.3376, false);
+        giNPCFlyTo("SN001", 5.8, 70.5, -32.3, false);
         giWait(0.5);
         giPlayerUnHoldAct(3);
         giPlayerEndAction(3);
@@ -10615,7 +10615,7 @@ void func3006()
         giSetPortrait("105A", true);
         giTalk("慕容紫英：……", "42783; 42993; 43015; 43178; 43305; 43307; 43312; 43592; 43697; 43822; 43865; 44083; 44108; 44113; 44175; 44552; 44633; 44896; 44975; 45086; 45373; 45403; 45502; 45522; 45748; 46353; 46355; 46372; 46379");
         giCameraRunSingle("002", false);
-        giNPCFlyTo("SN001", -22.2086, 82.496, -138.3415, true);
+        giNPCFlyTo("SN001", -22.2, 82.5, -138.3, true);
         giCameraWait();
         giNpcSetAng("SN001", 146.0);
         giNpcSetDir("MO001", 346.0, true);
@@ -10635,7 +10635,7 @@ void func3006()
         giTalk("夙莘：我走遍五湖四海，才发现世间比想像的更加广大，就算不修仙道，一样可以遨游宇内、乘奔御风，在无尽的天地间，人是那样渺小，许多原本看得很重的东西，都变得不那么重要了……", "");
         giTalk("夙莘：所以……还是现在每天喝酒、行走江湖的日子更适合我，我们……相见不如不见，我但愿永远是你心目中那个横冲直撞的小师妹……", "");
         giTalk("夙莘：师姐，保重……", "");
-        giNPCFlyTo("SN001", -43.2259, 126.496, -54.4503, true);
+        giNPCFlyTo("SN001", -43.2, 126.5, -54.5, true);
         giSetNpcVisible("SN001", false);
         giWait(1.0);
         giCameraRunSingle("004", true);
@@ -10674,7 +10674,7 @@ void func3006()
         giPlayerUnHoldAct(3);
         giPlayerEndAction(3);
         giWait(0.5);
-        giPlayerWalkTo(3, 116.0228, 0.496, 153.7425, false);
+        giPlayerWalkTo(3, 116.0, 0.5, 153.7, false);
         giWait(1.0);
         giCameraRunSingle("005", true);
         giWait(0.5);
@@ -10689,7 +10689,7 @@ void func3006()
         giFlashOutBlack(2.5, true, true);
         var_zhu = 4;
         giArenaLoad("Q06", "Q06Q", "", true);
-        giPlayerCurrentSetPos(11908.707, -1669.7406, -10743.211);
+        giPlayerCurrentSetPos(11908.7, -1669.7, -10743.2);
         giPlayerCurrentSetAng(170.0);
         giCameraSetMode(0, true);
         giArenaReady();
@@ -12664,7 +12664,7 @@ void func4100()
         giCameraSetCollide(false);
         giCameraAutoSeek(false);
         giFlashOutBlack(1.0, true, true);
-        giPlayerSetPos(0, -71.9324, -5.0759, -207.7403);
+        giPlayerSetPos(0, -71.9, -5.1, -207.7);
         giPlayerSetAng(0, 278.0);
         giSetNpcVisible("4023", true);
         giCameraPrepare("NPC001");
@@ -12674,7 +12674,7 @@ void func4100()
         giTalk("元隐：璇枢！我让你在剑舞坪习剑，你怎么跑这里来偷懒？！", "");
         giCameraRunSingle("001", true);
         giCameraRunSingle("002", false);
-        giNpcWalkTo("4023", -222.7802, -7.1048, -102.2089, true);
+        giNpcWalkTo("4023", -222.8, -7.1, -102.2, true);
         giNpcSetAng("4023", 182.0);
         giTalk("璇枢：啊！师父！我……我练剑时有些地方想不通，所以找个地方静一静！", "");
         giTalk("元隐：此地灵气混乱、煞气颇重，不要长时间留在这里。跟师父下去吧，有不明白的地方，为师的教你便是。", "");
@@ -12682,8 +12682,8 @@ void func4100()
         giTalk("元隐：跟你说了不要待在卷云台上，如果一定要静思，就去思返谷！", "");
         giTalk("璇枢：啊？思返谷？！那我、我还是跟师父你下去，向师父讨教就行了……", "");
         giWait(0.5);
-        giNpcWalkTo("4023", -192.5664, -7.1048, -19.3508, false);
-        giNpcWalkTo("4022", -192.5664, -7.1048, -19.3508, false);
+        giNpcWalkTo("4023", -192.6, -7.1, -19.4, false);
+        giNpcWalkTo("4022", -192.6, -7.1, -19.4, false);
         giWait(2.0);
         giFlashOutBlack(1.0, true, true);
         var_shop024 = 1;

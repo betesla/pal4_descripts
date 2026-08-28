@@ -43,7 +43,7 @@ void EarthBall()
     {
         giArenaLoad("M02", "1", "", true);
     }
-    giPlayerCurrentSetPos(-49.54868, -131.68823, 217.37811);
+    giPlayerCurrentSetPos(-49.5, -131.7, 217.4);
     giPlayerCurrentSetAng(170.0);
     giCameraSetMode(0, true);
     giFlashInBlack(1.0, true);
@@ -54,7 +54,7 @@ void EarthBall()
 void func1001()
 {
     giArenaLoad("M02", "3", "", true);
-    giPlayerCurrentSetPos(-899.4696, 119.91731, 1167.588);
+    giPlayerCurrentSetPos(-899.5, 119.9, 1167.6);
     giPlayerCurrentSetAng(160.0);
     giCameraSetMode(0, true);
     giArenaReady();
@@ -63,7 +63,7 @@ void func1001()
 void func1002()
 {
     giArenaLoad("M02", "1", "", true);
-    giPlayerCurrentSetPos(-1331.1445, -1062.9479, -1557.8892);
+    giPlayerCurrentSetPos(-1331.1, -1062.9, -1557.9);
     giPlayerCurrentSetAng(64.0);
     giCameraSetMode(0, true);
     giArenaReady();
@@ -77,7 +77,7 @@ void func1003()
     if (global_mvar < 90100 /* 第二章 / 5-3-3.三寒器 / 前往即墨 / 三件寒器 */)
     {
         giArenaLoad("Q01", "Q01", "", true);
-        giPlayerCurrentSetPos(-3178.161, -407.63074, 349.00125);
+        giPlayerCurrentSetPos(-3178.2, -407.6, 349.0);
         giPlayerCurrentSetAng(45.0);
         giCameraSetMode(0, true);
         giArenaReady();
@@ -101,7 +101,7 @@ void func1003()
             if (select_dialog_last_select != 1)
             {
                 leader_player_id = giPlayerGetLeader();
-                giPlayerWalkTo(leader_player_id, -64.548676, -114.68823, 298.3781, true);
+                giPlayerWalkTo(leader_player_id, -64.5, -114.7, 298.4, true);
                 giPlayerSetDir(leader_player_id, 176.0, true);
                 giCameraAutoSeek(true);
                 giCameraSetMode(0, true);
@@ -115,7 +115,7 @@ void func1003()
         else
         {
             giArenaLoad("Q01", "Q01", "", true);
-            giPlayerCurrentSetPos(-3178.161, -407.63074, 349.00125);
+            giPlayerCurrentSetPos(-3178.2, -407.6, 349.0);
             giPlayerCurrentSetAng(45.0);
             giCameraSetMode(0, true);
             giArenaReady();
@@ -134,7 +134,7 @@ void func1004()
         if (global_mvar != 20200 /* 入世下山 */)
         {
             giArenaLoad("Q02", "Q02", "", true);
-            giPlayerCurrentSetPos(-411.3458, 221.3821, 1477.6482);
+            giPlayerCurrentSetPos(-411.3, 221.4, 1477.6);
             giPlayerCurrentSetAng(165.0);
             giCameraSetMode(0, true);
             giArenaReady();
@@ -159,7 +159,7 @@ void func1004()
             if (select_dialog_last_select != 1)
             {
                 leader_player_id = giPlayerGetLeader();
-                giPlayerWalkTo(leader_player_id, -289.656, -681.69806, -1322.3204, true);
+                giPlayerWalkTo(leader_player_id, -289.7, -681.7, -1322.3, true);
                 giPlayerSetDir(leader_player_id, 84.0, true);
                 giCameraAutoSeek(true);
                 giCameraSetMode(0, true);
@@ -173,7 +173,7 @@ void func1004()
         else
         {
             giArenaLoad("Q02", "Q02", "", true);
-            giPlayerCurrentSetPos(-411.3458, 221.3821, 1477.6482);
+            giPlayerCurrentSetPos(-411.3, 221.4, 1477.6);
             giPlayerCurrentSetAng(165.0);
             giCameraSetMode(0, true);
             giArenaReady();
@@ -211,6 +211,7 @@ void func9001()
             local_5 = "item" + "20" + "2";
             giSetObjectVisible("item" + "20" + "2", true);
         }
+        local_3 = local_3 + 1;
     }
     giIMMEnd();
 }

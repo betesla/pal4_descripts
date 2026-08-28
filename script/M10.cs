@@ -48,13 +48,13 @@ void EarthBall()
     {
         if (global_mvar <= 61005 && global_mvar > 61003 /* 收集宝石 */)
         {
-            giPlayerCurrentSetPos(-6.567932, 0.055222, -1293.762);
+            giPlayerCurrentSetPos(-6.6, 0.1, -1293.8);
             giPlayerCurrentSetAng(180.0);
             giCameraSetMode(5, true);
         }
         else
         {
-            giPlayerCurrentSetPos(404.6532, -1.757, 409.3541);
+            giPlayerCurrentSetPos(404.7, -1.8, 409.4);
             giPlayerCurrentSetAng(220.0);
             giCameraSetMode(5, true);
         }
@@ -238,7 +238,7 @@ void shiyi001()
     giSetObjectVisible("save1", true);
     giIMMEnd();
     global_mvar = 61003; // 0x0000EE4B, 第二章 / 4-2-3.幻境试炼 / 继续闯关
-    giPlayerCurrentSetPos(268.2812, -1.7571, 32.7826);
+    giPlayerCurrentSetPos(268.3, -1.8, 32.8);
     giPlayerCurrentSetAng(265.0);
     giCameraSetMode(5, true);
     giFlushTailYAngle();
@@ -256,11 +256,11 @@ void func2001()
     giCameraSetCollide(false);
     giCameraAutoSeek(false);
     giPlayerCurrentSetVisible(false);
-    giPlayerSetPos(0, 447.8887, -1.7571, 396.4918);
+    giPlayerSetPos(0, 447.9, -1.8, 396.5);
     giPlayerSetAng(0, 302.0);
-    giPlayerSetPos(1, 398.6532, -1.757, 331.3541);
+    giPlayerSetPos(1, 398.7, -1.8, 331.4);
     giPlayerSetAng(1, 33.0);
-    giPlayerSetPos(2, 333.3695, -1.757, 382.0242);
+    giPlayerSetPos(2, 333.4, -1.8, 382.0);
     giPlayerSetAng(2, 91.0);
     giPlayerSetVisible(0, true);
     giPlayerSetVisible(1, true);
@@ -354,7 +354,7 @@ void func2001()
     giSetObjectVisible("save1", true);
     giIMMEnd();
     global_mvar = 61001; // 0x0000EE49, 第二章 / 4-2-1.幻境试炼 / 询问老者
-    giPlayerCurrentSetPos(398.6532, -1.757, 331.3541);
+    giPlayerCurrentSetPos(398.7, -1.8, 331.4);
     giPlayerCurrentSetAng(203.0);
     giCameraSetMode(5, true);
     giFlushTailYAngle();
@@ -390,11 +390,11 @@ void func2002()
         giCameraSetCollide(false);
         giCameraAutoSeek(false);
         giPlayerCurrentSetVisible(false);
-        giPlayerSetPos(0, 268.2812, -1.7571, 32.7826);
+        giPlayerSetPos(0, 268.3, -1.8, 32.8);
         giPlayerSetAng(0, 239.0);
-        giPlayerSetPos(1, 263.3467, -1.757, -28.1301);
+        giPlayerSetPos(1, 263.3, -1.8, -28.1);
         giPlayerSetAng(1, 263.0);
-        giPlayerSetPos(2, 218.4137, -1.757, 50.9575);
+        giPlayerSetPos(2, 218.4, -1.8, 51.0);
         giPlayerSetAng(2, 228.0);
         giPlayerSetVisible(0, true);
         giPlayerSetVisible(1, true);
@@ -431,7 +431,7 @@ void func2002()
         giTalk("老人：……唔……好酒……", "42502");
         giSetPortrait("103E", false);
         giTalk("韩菱纱：…………", "42503");
-        giPlayerWalkTo(1, 231.6931, -2.7108, -31.2752, true);
+        giPlayerWalkTo(1, 231.7, -2.7, -31.3, true);
         giWait(0.5);
         giPlayerDoAction(1, "J14", -1, false);
         giSetPortrait("103I", false);
@@ -581,7 +581,7 @@ void func2002()
         giSetObjectVisible("calCtrl", true);
         giIMMEnd();
         global_mvar = 61002; // 0x0000EE4A, 第二章 / 4-2-2.幻境试炼 / 寻找美酒
-        giPlayerCurrentSetPos(268.2812, -1.7571, 32.7826);
+        giPlayerCurrentSetPos(268.3, -1.8, 32.8);
         giPlayerCurrentSetAng(48.5);
         giCameraSetMode(5, true);
         giFlushTailYAngle();
@@ -607,11 +607,11 @@ void func2003()
         giCameraSetCollide(false);
         giCameraAutoSeek(false);
         giPlayerCurrentSetVisible(false);
-        giPlayerSetPos(0, 268.2812, -1.7571, 32.7826);
+        giPlayerSetPos(0, 268.3, -1.8, 32.8);
         giPlayerSetAng(0, 239.0);
-        giPlayerSetPos(1, 231.6931, -2.7108, -31.2752);
+        giPlayerSetPos(1, 231.7, -2.7, -31.3);
         giPlayerSetAng(1, 263.0);
-        giPlayerSetPos(2, 218.4137, -1.757, 50.9575);
+        giPlayerSetPos(2, 218.4, -1.8, 51.0);
         giPlayerSetAng(2, 228.0);
         giPlayerSetVisible(0, true);
         giPlayerSetVisible(1, true);
@@ -662,11 +662,11 @@ void func2004()
         giCameraSetCollide(false);
         giCameraAutoSeek(false);
         giPlayerCurrentSetVisible(false);
-        giPlayerSetPos(0, 268.2812, -1.7571, 32.7826);
+        giPlayerSetPos(0, 268.3, -1.8, 32.8);
         giPlayerSetAng(0, 239.0);
-        giPlayerSetPos(1, 231.6931, -2.7108, -31.2752);
+        giPlayerSetPos(1, 231.7, -2.7, -31.3);
         giPlayerSetAng(1, 263.0);
-        giPlayerSetPos(2, 218.4137, -1.757, 50.9575);
+        giPlayerSetPos(2, 218.4, -1.8, 51.0);
         giPlayerSetAng(2, 228.0);
         giPlayerSetVisible(0, true);
         giPlayerSetVisible(1, true);
@@ -741,11 +741,11 @@ void func2005()
         giCameraSetCollide(false);
         giCameraAutoSeek(false);
         giPlayerCurrentSetVisible(false);
-        giPlayerSetPos(0, 214.4711, 94.7091, -1846.3544);
+        giPlayerSetPos(0, 214.5, 94.7, -1846.4);
         giPlayerSetAng(0, 285.0);
-        giPlayerSetPos(1, 165.2726, 94.7091, -1798.4966);
+        giPlayerSetPos(1, 165.3, 94.7, -1798.5);
         giPlayerSetAng(1, 276.0);
-        giPlayerSetPos(2, 226.9647, 94.7091, -1765.1788);
+        giPlayerSetPos(2, 227.0, 94.7, -1765.2);
         giPlayerSetAng(2, 258.0);
         giPlayerSetVisible(0, true);
         giPlayerSetVisible(1, true);
@@ -777,9 +777,9 @@ void func2005()
         giWait(1.2);
         giCameraRunSingle("005", false);
         giWait(1.2);
-        giPlayerWalkTo(1, 152.7725, 94.7091, -1794.8358, false);
-        giPlayerWalkTo(2, 123.6267, 94.7091, -1739.7155, false);
-        giPlayerWalkTo(0, 111.6506, 94.7091, -1844.1875, false);
+        giPlayerWalkTo(1, 152.8, 94.7, -1794.8, false);
+        giPlayerWalkTo(2, 123.6, 94.7, -1739.7, false);
+        giPlayerWalkTo(0, 111.7, 94.7, -1844.2, false);
         giPlayerEndMove(2);
         giPlayerSetDir(2, 258.0, false);
         giPlayerEndMove(0);
@@ -912,7 +912,7 @@ void func2005()
         giMonsterSetHide("m10-05-01", true);
         giIMMEnd();
         global_mvar = 61005; // 0x0000EE4D, 收集宝石
-        giPlayerCurrentSetPos(105.335, 94.7091, -1737.6846);
+        giPlayerCurrentSetPos(105.3, 94.7, -1737.7);
         giPlayerCurrentSetAng(322.0);
         giCameraSetMode(5, true);
         giFlushTailYAngle();
@@ -939,11 +939,11 @@ void func2006()
         giCameraSetCollide(false);
         giCameraAutoSeek(false);
         giPlayerCurrentSetVisible(false);
-        giPlayerSetPos(0, -40.5017, 94.7091, -1670.5986);
+        giPlayerSetPos(0, -40.5, 94.7, -1670.6);
         giPlayerSetAng(0, 160.0);
-        giPlayerSetPos(1, 23.1775, 94.709, -1638.8938);
+        giPlayerSetPos(1, 23.2, 94.7, -1638.9);
         giPlayerSetAng(1, 188.0);
-        giPlayerSetPos(2, 72.6831, 94.7091, -1676.6632);
+        giPlayerSetPos(2, 72.7, 94.7, -1676.7);
         giPlayerSetAng(2, 218.0);
         giPlayerSetVisible(0, true);
         giPlayerSetVisible(1, true);
@@ -1298,7 +1298,7 @@ void func2006()
         giSetPortrait("B09B", true);
         giTalk("财神爷：是、是、是，您慢走。", "42655");
         giWait(0.5);
-        giPlayerWalkTo(1, -117.7459, 94.7091, -1793.7587, false);
+        giPlayerWalkTo(1, -117.7, 94.7, -1793.8, false);
         giWait(1.8);
         giNpcSetDir("MN001", 281.0, false);
         giPlayerSetDir(0, 219.0, false);
@@ -1317,9 +1317,9 @@ void func2006()
         giTalk("柳梦璃：嗯，多亏了菱纱的妙计呢。", "42657");
         giPlayerEndAction(2);
         giCameraRunSingle("011", false);
-        giPlayerWalkTo(0, -117.7459, 94.7091, -1793.7587, false);
+        giPlayerWalkTo(0, -117.7, 94.7, -1793.8, false);
         giWait(0.2);
-        giPlayerWalkTo(2, -117.7459, 94.7091, -1793.7587, false);
+        giPlayerWalkTo(2, -117.7, 94.7, -1793.8, false);
         giPlayerEndMove(0);
         gi2DSoundPlay("WE061", 1);
         giPlayerBlendOut(0, 0.8, false);
@@ -1356,7 +1356,7 @@ void func2007()
     {
         giPlayerLock();
         giPlayerSetLeader(0);
-        giPlayerWalkTo(0, -428.212, -2.6609, -420.5049, true);
+        giPlayerWalkTo(0, -428.2, -2.7, -420.5, true);
         giPlayerSetDir(0, 48.0, true);
         giCameraAutoSeek(true);
         giCameraSetMode(5, true);
@@ -1372,7 +1372,7 @@ void func2008()
     {
         giPlayerLock();
         giPlayerSetLeader(0);
-        giPlayerWalkTo(0, 305.9011, -2.5104, -316.428, true);
+        giPlayerWalkTo(0, 305.9, -2.5, -316.4, true);
         giPlayerSetDir(0, 311.0, true);
         giCameraAutoSeek(true);
         giCameraSetMode(5, true);
@@ -1388,7 +1388,7 @@ void func2009()
     {
         giPlayerLock();
         giPlayerSetLeader(0);
-        giPlayerWalkTo(0, 410.1558, -1.757, 413.558, true);
+        giPlayerWalkTo(0, 410.2, -1.8, 413.6, true);
         giPlayerSetDir(0, 225.0, true);
         giCameraAutoSeek(true);
         giCameraSetMode(5, true);
@@ -1445,7 +1445,7 @@ void func7002()
         giCameraPrepare("viewContainer");
         giCameraRunSingle("viewContainer", true);
         giWait(0.5);
-        giGOBMovment("surface01", 1.5, 2.0896, (40.2362 + (40.0 * 1.0)), -0.7878, false);
+        giGOBMovment("surface01", 1.5, 2.1, (40.2 + (40.0 * 1.0)), -0.8, false);
         giGOBScale("surface01", (0.98 + (0.14 * 1.0)), 1.5, true);
         giIMMBegin();
         giCameraSetMode(5, true);
@@ -1515,6 +1515,7 @@ void func7005()
             local_5 = "wine" + "00" + "0";
             giSetObjectVisible("wine" + "00" + "0", true);
         }
+        local_3 = local_3 + 1;
     }
     giIMMEnd();
 }
@@ -1604,34 +1605,34 @@ void func7012()
 
 void func7013()
 {
-    giGOBSetPosition("JA01", -713.9085, 231.2562, -539.8408);
+    giGOBSetPosition("JA01", -713.9, 231.3, -539.8);
     giOBJBlendIn("treasure01", 1.5, true);
     giObjectDoAction("treasure01", "OM08", -1, true);
     giOBJBlendOut("treasure01", 1.0, false);
     giOBJBlendIn("JA01", 1.5, true);
-    giGOBMovment("JA01", 5.0, -713.9085, 8.2562, -539.8408, true);
+    giGOBMovment("JA01", 5.0, -713.9, 8.3, -539.8, true);
     giSetObjectVisible("JA01", false);
 }
 
 void func7014()
 {
-    giGOBSetPosition("JA02", 4.7763, 214.2562, 993.3723);
+    giGOBSetPosition("JA02", 4.8, 214.3, 993.4);
     giOBJBlendIn("treasure02", 1.5, true);
     giObjectDoAction("treasure02", "OM08", -1, true);
     giOBJBlendOut("treasure02", 1.0, false);
     giOBJBlendIn("JA02", 1.5, true);
-    giGOBMovment("JA02", 5.0, 4.7763, 8.2562, 993.3723, true);
+    giGOBMovment("JA02", 5.0, 4.8, 8.3, 993.4, true);
     giSetObjectVisible("JA02", false);
 }
 
 void func7015()
 {
-    giGOBSetPosition("JA03", 821.6183, 232.2561, -534.5714);
+    giGOBSetPosition("JA03", 821.6, 232.3, -534.6);
     giOBJBlendIn("treasure03", 1.5, true);
     giObjectDoAction("treasure03", "OM08", -1, true);
     giOBJBlendOut("treasure03", 1.0, false);
     giOBJBlendIn("JA03", 1.5, true);
-    giGOBMovment("JA03", 5.0, 821.6183, 8.2562, -534.5714, true);
+    giGOBMovment("JA03", 5.0, 821.6, 8.3, -534.6, true);
     giSetObjectVisible("JA03", false);
 }
 
@@ -1781,17 +1782,17 @@ void danger()
     gi2DSoundPlay("wc005", 1);
     leader_player_id = giPlayerGetLeader();
     giPlayerBlendOut(leader_player_id, 0.5, false);
-    giWait(0.30000001192092896);
+    giWait(0.3);
     giFlashOutBlack(1.5, true, true);
     giWait(0.5);
     giResetPlayerToJumpStart();
     giCameraSetMode(5, true);
     giFlushTailYAngle();
     giFlashInBlack(1.5, false);
-    giWait(0.15000000596046448);
+    giWait(0.15);
     giEffectPlayWithCurrentPlayer("H_122", 1);
     gi2DSoundPlay("wc006", 1);
-    giWait(0.30000001192092896);
+    giWait(0.3);
     giPlayerBlendIn(leader_player_id, 0.5, false);
     giPlayerUnLock();
 }
